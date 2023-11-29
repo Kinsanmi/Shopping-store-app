@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  /* background-color: #000; */
+  background: url(/src/Image/BFnew-bg.png);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}

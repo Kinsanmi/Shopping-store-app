@@ -1,0 +1,152 @@
+
+/* mega menu */
+/* Header main category */
+
+.header-main{
+    background-color: var(--light-white);
+    padding: 1.5em 0;
+    margin: 0.8em ;
+    padding: 0 11.2%;
+    display: flex;
+    align-items: center;
+    /* grid-template-columns: 250px 718px 300px;
+    grid-template-columns: repeat(3,1fr); */
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.flex-item .left .dpt-cat{
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.dpt-cat .dpt-head .mini-text{
+    color: #c0b5a2;
+}
+
+
+
+.mini-text{
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.dpt-menu{
+    position: relative;
+    top: 100%;
+    background-color: #ffffff;
+    border-top: 0;
+    border-bottom: 0;
+    width: 200px;
+    height: 50vh;
+    border-radius: 6px 0 0 6px;
+}
+
+.dpt-menu > ul > li > a{
+    font-weight: 500;
+    padding: 0.8em ;
+    font-size: 16px;
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dpt-menu .has-child:hover ul{
+    display: block;
+}
+
+
+.dpt-menu .has-child > ul, .dpt-menu .mega{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    padding: 1em;
+    font-size: 16px;
+    line-height: 1.5em;
+    border-left: 1px solid #c4c4c6;
+    display: none;
+    transition-delay: 2s ease;
+}
+
+.dpt-menu .has-child > ul, .dpt-menu .mega .col{
+    margin-top: 30px;
+}
+
+.dpt-menu .mega {
+    width: 750px;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    border-radius: 0 6px 6px 0;  
+}
+
+
+.dpt-menu .has-child a .mega{
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;   
+}
+
+
+
+.dpt-menu .has-child a{
+    transition: 0.5s ease;
+    color: #75757a;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.dpt-menu .has-child .kit:hover{
+    color: #ff9b06;
+}
+
+.dpt-menu .has-child:hover .mega{
+    display: flex;
+    background-color: #fff;
+}
+
+
+.dpt-menu .has-child .mega .flex-col .row h4 {
+    border-bottom: 1px solid #75757a;
+    text-transform: uppercase;
+}
+
+.dpt-menu .has-child .mega .flex-col .row h4 a{
+    font-weight: 400;
+    font-size: 14px;
+}
+.dpt-menu .has-child .mega .flex-col .row h4 a:hover {
+    cursor: pointer;
+    color: #ff9b06;
+}
+
+
+.dpt-menu .has-child  .mega .flex-col .row > ul > li > a:hover {
+    color: #ff9b06;
+    transition: 0.25s ease;
+}
+
+
+.dpt-menu .home-kit a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+
+.dpt-menu .home-kit .kit .home{
+    margin-right: 8px;
+    font-size: 20px;
+    color: initial;
+}

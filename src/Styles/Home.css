@@ -1,0 +1,28 @@
+/* SCROLL TO TOP BUTTON */
+
+
+
+.btn-Top{
+  position: fixed;
+  bottom: 45px;
+  font-size: 16px;
+  z-index: 2;
+  cursor: pointer;
+  right: 16px;
+  border-radius: 50px;
+  border: 1px solid #f68b1e;
+  height: 42px;
+  background-color: #fff;
+  width: 42px;
+  padding: 10px;
+  transition: 0.25s ease;
+}
+
+.btn-Top .arrow{
+  font-size: 18px;
+  color: #000;
+}
+
+.btn-Top:hover{
+  box-shadow: inset 0px 0px 10px #f68b1e;
+}

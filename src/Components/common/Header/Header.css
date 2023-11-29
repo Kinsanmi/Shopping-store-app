@@ -1,0 +1,197 @@
+
+
+.slide-img img{
+    width: 100%;
+    padding: 0 10%;
+    max-height: 50px;
+}
+
+
+/* brands */
+.brands{
+    padding: 0 10%;
+    text-align: center;
+    background-color: #f1f1f2;
+}
+
+.brand-logo{
+    height: 35px;
+}
+
+.brand-logo img{
+    width: 60px;
+    margin-left: 30px;
+    /* filter: grayscale(100%); */
+    opacity: 0.3;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.brand-logo img:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+
+
+.header{
+    background-color: #fff;
+    padding: 8px 0;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    z-index: 200;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    transition: 0.35s ease;
+}
+
+.container.open{
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.contain-img img{
+    width: 120px;
+}
+
+
+/* Search bar */
+form{
+    display: flex;
+}
+
+form .find{
+    display: flex;
+    border: 1px solid #a3a3a6;
+    align-items: center;
+    border-radius: 5px 0 0 5px ;
+    padding: 0 10px;
+}
+
+form .find .search-col{
+    font-size: 20px;
+    margin-right: 5px;
+    color: #a3a3a6;
+}
+
+
+form .find input{
+    padding: 14px 0;
+    width: 500px;
+    outline: none;
+    border: none;
+}
+
+form .find input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form .btn{
+    padding: 0px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-color: #f68b1e;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0px 0px 1px #000;
+    transition: 0.3s ease;
+}
+
+form .btn:hover,
+form .btn:active{
+    background-color: #db7917;
+}
+
+
+
+/* account */
+
+.account{
+    display: flex;
+    align-items: center;
+}
+
+.acct-setup a{
+    padding: 10px;
+    border-radius: 6px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: 0.1s ease-in-out;
+}
+
+
+.acct-setup a:hover,
+.acct-setup a:active{
+    color: #db7917;
+}
+
+.acct-setup a .acct{
+    font-size: 25px;
+}
+
+
+.account .sing-up a{
+    padding: 10px;
+    border-radius: 6px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: 0.1s ease-in-out;
+}
+
+.sing-up a:hover,
+.sing-up a:active{
+    color: #db7917;
+}
+
+.sing-up .login{
+    font-size: 25px;
+}
+
+
+/* shopping cart*/
+
+.account .cart-product a{
+    padding: 10px;
+    border-radius: 6px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    letter-spacing: 0.5px;
+    transition: 0.1s ease-in-out;
+}
+
+.account .cart-product a:hover{
+    color: #db7917;
+}
+
+.account .cart-product .cart {
+    font-size: 25px;
+}
