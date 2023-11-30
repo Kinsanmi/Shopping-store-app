@@ -1,0 +1,155 @@
+.card{
+    margin-top: 15px;
+    padding: 0px 12%;
+}
+
+.card .card-slid{
+    background-color: #000;
+    border-radius: 5px 5px 0 0;
+    padding: 8px 0;
+    /* padding: 0px 12%; */
+}
+
+.card .card-slid .offer{
+    font-size: 1.35em;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.card  .card-detail{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5rem;
+    padding: 6px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.hov img{
+    width: 100%;
+    border-radius: 5px;
+    transition: .10s ease;
+}
+
+.hov img:hover{
+    transform: scale(1.015);
+}
+
+
+
+
+/* official deals */
+
+.black .black-type .official-text .official{
+    color: #fff;
+    font-size: 1.25em;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.black .black-type .official-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5% 12px 2%;
+    background-color: #7B1FA2;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.official-text .sell{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Shop collection */
+
+.shop{
+    margin-top: 15px;
+    padding: 0px 12%;
+}
+
+.shop-type{
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.shop .shop-type .shop-text{
+    font-size: 1.25em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px 5px 0 0;
+    padding: 8px 0;
+}
+
+
+.shop-detail{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.5rem;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.shop-detail .shop-image img{
+    width: 100%;
+    border-radius: 5px;
+    transition: .01s ease;
+}
+
+
+.shop-detail .shop-image img:hover{
+    transform: scale(1.02);
+}
+
+
+
+/* Best price */
+
+.black .black-type .best-text .best{
+    color: #fff;
+    font-size: 1.25em;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.black .black-type .best-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5% 12px 2%;
+    background-color: #000;
+    border-radius: 5px 5px 0 0;
+}
+
+.best-text .sell{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+}
