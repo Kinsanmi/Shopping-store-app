@@ -13,6 +13,7 @@ export const Routers = () => {
             <Route path='/' element={ <Navigate to='/home' />} />
             <Route path='/home' element={ < Home />} />
             <Route path='/about' element={ <About /> } />
+            <Route path='*' element={ <h1>404 Error</h1> } />
         </Routes>
     </Router>
     </>

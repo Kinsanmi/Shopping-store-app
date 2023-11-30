@@ -1,6 +1,6 @@
 .category{
     padding: 0px 12%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
@@ -71,49 +71,302 @@
     grid-template-columns: repeat(6,1fr);
     align-items: center;
     gap: 0.5rem;
+    padding: 8px 0 0 0 ;
     margin-top: 10px;
 }
 
 
-.sale-image:hover{
+.sale-image{
     transition: 0.2s ease;
     position: relative;
+    padding: 5px 6px;
 }
 
 .sale-image:hover{
-    transform: scale(1.005);
+    transform: scale(1.01);
     box-shadow: 0px 0px 10px #ccc;
     border-radius: 4px;
 }
-
+ 
 
 .sale-image img{
     width: 100%;
     height: auto;
 }
-.sale-image h2{
-    color: #75757a;
-    font-size: 14.5px;
+.sale-image .name{
+    color: #313133;
+    font-size: 14px;
     font-weight: 300;
+    line-height: 1.2;
     text-transform: capitalize;
     margin-bottom: 7px;
 }
-.sale-image h3{
-    color: #75757a;
-    font-size: 15px;
+.sale-image .price{
+    color: #000;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
-.sale-image h3 .naira{
-    font-size: 14px;
-}
-
-.sale-image p{
+.sale-image .dst{
     text-align: left;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
     color: #75757a;
-    text-transform: capitalize;
+    text-decoration: line-through;
     /* padding: 10px 0; */
 }
+
+
+.sale-image .percent{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #f68b1eed;
+    background-color: #fef3e9;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+/* flash sale */
+
+.flash .flash-type .flash-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5%;
+    background-color: #e61601;
+    border-radius: 5px 5px 0 0;
+}
+
+.flash-text .f{
+    font-size: 1.35em;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+.flash-text .sell{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+}
+
+.flash-text .sell .left-arrow{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+
+.flash{
+    padding: 0px 12%;
+    margin-top: 15px;
+}
+
+
+.flash-type{
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+
+.flash-detail{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px ;
+    margin-top: 10px;
+}
+
+
+.sale-image{
+    transition: 0.1s ease;
+    position: relative;
+    padding: 5px 6px;
+}
+
+.sale-image:hover{
+    transform: scale(1.);
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 4px;
+}
+ 
+
+.sale-image img{
+    width: 100%;
+    height: auto;
+}
+.sale-image .name{
+    color: #313133;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.sale-image .price{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.sale-image .dst{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    color: #75757a;
+    text-decoration: line-through;
+    /* padding: 10px 0; */
+}
+
+
+.sale-image .percent{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #f68b1eed;
+    background-color: #fef3e9;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+
+.sale-image .items{
+    color: #313133;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: initial;
+    margin-top: 7px;
+}
+
+
+
+
+
+/* black friday deals */
+
+.black{
+    padding: 0px 12%;
+    margin-top: 15px;
+}
+
+
+.black-type{
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.black .black-type .black-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5% 12px 2%;
+    background-color: #000;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.black-text .f{
+    font-size: 1.25em;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+.black-text .sell{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+}
+
+
+.flash-detail{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10px;
+}
+
+
+.black-image{
+    transition: 0.1s ease;
+    position: relative;
+    padding: 10px;
+}
+
+.black-image:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 4px;
+}
+ 
+
+.black-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.black .name{
+    color: #313133;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.black .price{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.black .dst{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    color: #75757a;
+    text-decoration: line-through;
+    /* padding: 10px 0; */
+}
+
+
+.black .percent{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #f68b1eed;
+    background-color: #fef3e9;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+

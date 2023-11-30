@@ -43,8 +43,6 @@ export const Home = () => {
     
     </main>
 
-    <h1>Scroll to top</h1>
-
     {visible && <button className='btn-Top' onClick={goTop}><IoIosArrowUp className='arrow' /></button>}
     </>
   )

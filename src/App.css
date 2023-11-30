@@ -9,10 +9,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif */
+
 body{
-  /* background-color: #000; */
-  background: url(/src/Image/BFnew-bg.png);
+  /* background: #000; 
+  background: url(/src/Image/BFnew-bg.png); */
   background-size: cover;
+  width: 100%;
+  height: auto;
   /* background-position: center; */
   background-repeat: no-repeat;
 }

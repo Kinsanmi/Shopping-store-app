@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 0 12%;
     z-index: 200;
     width: 100%;
     height: 70px;
@@ -61,6 +61,7 @@
 
 .contain-img img{
     width: 120px;
+    margin-right: 80px;
 }
 
 

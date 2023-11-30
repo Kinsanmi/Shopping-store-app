@@ -1,10 +1,12 @@
 import React from 'react'
+import { Slides } from '../Swiper/Slides'
 
 export const About = () => {
   return (
     <>
-    <h1>About page</h1>
-    About</>
+    About
+    <Slides />
+    </>
   )
 }
 

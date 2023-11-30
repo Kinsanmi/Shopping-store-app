@@ -37,6 +37,10 @@ import { GiClothes } from "react-icons/gi";
 import { CgSmartHomeRefrigerator } from "react-icons/cg";
 
 
+// Appliance icon
+import { GiCookingPot } from "react-icons/gi";
+
+
 
 import { AiOutlineMessage } from "react-icons/ai";
 
@@ -233,7 +237,7 @@ export const MegaMenu = () => {
                                 <li className="has-child home-kit">
                                     <Link className="kit">
                                         <MdOutlineHealthAndSafety className='home' />
-                                        <div className="icon-large">Health</div>
+                                        <div className="icon-large">Health & Beauty</div>
                                     </Link>
                                     <div className="mega">
                                         <div className="flex-col">
@@ -368,7 +372,138 @@ export const MegaMenu = () => {
                                 <li className="has-child home-kit">
                                     <Link className="kit">
                                         <AiOutlineHome className='home' />
-                                        Home & kitchen
+                                        Home & Office
+                                    </Link>
+                                    <div className="mega">
+                                        <div className="flex-col">
+                                            <div className="row">
+                                                <h4><Link>Kitchen % Dinning</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>Kitchen</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Dinning Room</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Pantry</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Great Room</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Breakfast Nook</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>Living</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>Living Room</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Family room</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Sunroom</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div className="flex-col">
+                                            <div className="row">
+                                                <h4><Link>Bed & Bath</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>Bathroom</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Powder Room</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Bedroom</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Storage & closet Room</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Baby & Kids</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>Utility</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>Laundry</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Garage</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Mudroom</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div className="flex-col">
+                                            <div className="row">
+                                                <h4><Link>Outdoor</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>Landscape</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Patio</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Deck</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Pool</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Backyard</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Porch</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Exterior</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Outdoor Kitchen</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Front Yard</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Driveway</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Pool House</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </li>
+                                <li className="has-child home-kit">
+                                    <Link className="kit">
+                                    <GiCookingPot className='home' />
+                                        Appliances
                                     </Link>
                                     <div className="mega">
                                         <div className="flex-col">
