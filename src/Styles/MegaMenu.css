@@ -132,7 +132,8 @@
 
 
 .dpt-menu .has-child  .mega .flex-col .row > ul > li > a:hover {
-    color: #ff9b06;
+    color: #000;
+    font-size: 13.5px;
     transition: 0.25s ease;
 }
 

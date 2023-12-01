@@ -24,6 +24,9 @@ export const Slides = () => {
   return (
     <>
       <div className="slides">
+        <div className="store">
+          <h2>Official Store</h2>
+        </div>
       <Swiper
         spaceBetween={30}
         effect={'fade'}

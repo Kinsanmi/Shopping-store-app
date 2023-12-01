@@ -96,6 +96,65 @@ import Samsung from '../Image cat/Samsung Galaxy.jpg';
 
 
 
+// Appliance Deals imported image
+import AC from '../Image cat/air-conditioners_300x400.png';
+import Fridge from '../Image cat/fridges_300x400.png';
+import Fryer from '../Image cat/air-fryers_300x400.png';
+import Washing from '../Image cat/washing-machines_300x400.png';
+import Freezer from '../Image cat/freezers_300x400.png';
+import Dispenser from '../Image cat/water-dispensers_300x400.png';
+
+
+// Top Appliance Deal imported images
+import Midea from '../Image cat/Midea 173.jpg';
+import Binatone_1 from '../Image cat/Binaton 1.5.jpg';
+import Binatone_2 from '../Image cat/Binaton Table top glass.jpg';
+import Haier from '../Image cat/Thermocool 569.jpg';
+import Nexus from '../Image cat/Nexus 1HP.jpg';
+import Thermocool from '../Image cat/Thermocool 8kg.jpg';
+
+
+// Official Stores imported images
+import XIAOMI_1 from '../Image cat/xiaomi_260x144.png';
+import NIVEA_1 from '../Image cat/nivea_260x144.png';
+import Diageo from '../Image cat/diageo_260x144.png';
+import Oraimo_1 from '../Image cat/oraimo_260x144.png';
+import Adidas from '../Image cat/adidas_260x144_V2.png';
+import Reckitt from '../Image cat/reckitt_260x144.png';
+import itel from '../Image cat/itel-phones_260x144.png';
+import Thermocool_1 from '../Image cat/haier-thermocool_260x144.png';
+import Ricard from '../Image cat/Pernod_ricard.png';
+import Infinix_1 from '../Image cat/infinix_260x144v2.png';
+import Tecno_1 from '../Image cat/tecno_260x144.png';
+import bacardi from '../Image cat/bacardi-bacardi_260x144.png';
+
+
+// cont
+import Ledro from '../Image cat/ledrop.jpg';
+import Bluetti from '../Image cat/bluetti.jpg';
+import Defacto_1 from '../Image cat/defacto_260x144.png';
+import Royal_1 from '../Image cat/ROYAL.jpg';
+import Binaton_3 from '../Image cat/binatone_260x144.png';
+import Nexus_1 from '../Image cat/nexus_260x144.png';
+import Unilever from '../Image cat/unilever-hb_260x144.png';
+import Bruhm from '../Image cat/bruhm_260x144.png';
+import Nestle from '../Image cat/nestle_260x144.png';
+import Loreal from '../Image cat/loreal_freelinks_993x550.jpg';
+import Oppo from '../Image cat/oppo_260x144.png';
+import Chi from '../Image cat/chivita.jpg';
+
+
+
+// Electronics imported images
+
+import samrt from '../Image cat/smart-tvs_300x400.png';
+import Home from '../Image cat/home-theatres_300x400.png';
+import TV from '../Image cat/23-32-inch-tvs_300x400.png';
+import Bluetooth from '../Image cat/bluetooth-speakers_300x400.png';
+import TVs from '../Image cat/55-75-inch-tvs_300x400.png';
+import Condenser from '../Image cat/condenser-mic_300x400.png';
+
+
 
 // array of object of categories
 export const category = [
@@ -468,7 +527,7 @@ export const shopCollection = [
         alt: 'Electronic Deals'
     },
     {
-        id: 1,
+        id: 6,
         image: Beauty,
         alt: 'Beauty Deals'
     },
@@ -575,7 +634,7 @@ export const moreCollection = [
         alt: 'Power Deals'
     },
     {
-        id: 1,
+        id: 6,
         image: Game,
         alt: 'Gaming Deals'
     },
@@ -613,7 +672,7 @@ export const PhoneDeal = [
         alt: 'iPads'
     },
     {
-        id: 1,
+        id: 6,
         image: Fold,
         alt: 'Fold Phones'
     },
@@ -642,7 +701,7 @@ export const topDeal = [
         price: "₦ 97,335",
         discount: '₦ 120,000',
         /* link: '/about/black/friday/deals', */
-        percentage: '-19%',
+        percentage: '-22%',
         alt: `Infinix Hot 30i 6.6'" HD+, 4+4GB RAM /128GB ROM Android 12 - Black`,
     },
     {
@@ -684,5 +743,388 @@ export const topDeal = [
         link: '/about/black/friday/deals',
         percentage: '-19%',
         alt: 'Samsung Galaxy A14 6.6" 4GB RAM/64GB ROM Android 13 - Light Green'
+    },
+]
+
+
+
+
+// Appliance Deals
+export const applianceDeal = [
+    {
+        id: 1,
+        image: AC,
+        alt: 'Air Condition Deals'
+    },
+    {
+        id: 2,
+        image: Fridge,
+        alt: 'Fridge Deals'
+    },
+    {
+        id: 3,
+        image: Fryer,
+        alt: 'Air Fryer Deals'
+    },
+    {
+        id: 4,
+        image: Washing,
+        alt: 'Washing Machine Deals'
+    },
+    {
+        id: 5,
+        image: Freezer,
+        alt: 'Freezer Deals'
+    },
+    {
+        id: 6,
+        image: Dispenser,
+        alt: 'Water Dispenser Deals'
+    },
+]
+
+
+
+// Top Appliance Deals
+export const topApplianceDeal = [
+    {
+        id: 1,
+        image: Midea,
+        text: 'Midea 173 Litres Double...',
+        price: "₦ 193,320",
+        link: '/about/black/friday/deals',
+        alt: 'Midea 173 Litres Double Door Refrigerator (HD-216F) -  Jazz Black'
+    },
+    {
+        id: 2,
+        image: Binatone_1,
+        text: `Binatone 1.5 Litres (BLG-...`,
+        price: "₦ 30,000",
+        /* link: '/about/black/friday/deals', */
+        alt: `Binatone 1.5 Litres (BLG-412) Blender With Grinder`,
+    },
+    {
+        id: 3,
+        image: Binatone_2,
+        text: 'Binatone Table Top Glass...',
+        price: "₦ 39,165",
+        /* link: '/about/black/friday/deals', */
+        alt: 'Binatone Table Top Glass Finish Gas Cooker (GGC-0002)',
+    },
+    {
+        id: 4,
+        image: Haier,
+        text: 'Haier Thermocool 569 Li...',
+        price: "₦ 717,984",
+        /* link: '/about/black/friday/deals', */
+        alt: 'Haier Thermocool 569 Litres Side by Side Inverter Refrigerator with Twin Inverter technology and Food sterilizing DEO (HRF-540SG6 R6) - Grey',
+    },
+    {
+        id: 5,
+        image: Nexus,
+        text: `Nexus 1HP Split Air Cond...`,
+        price: "₦ 216,001",
+        /* link: '/about/black/friday/deals', */
+        alt: `Nexus 1HP Split Air Conditioner (NX-MSSH9000SC) - White + Full Installation Kit`,
+    },
+    {
+        id: 6,
+        image: Thermocool,
+        text: 'Haier Thermocool 8kg To...',
+        price: "₦ 169,128",
+        link: '/about/black/friday/deals',
+        alt: 'Haier Thermocool 8kg Top Load Semi Automatic Washing Machine (TLSA08AD) - White'
+    },
+]
+
+
+
+
+// Official Stores
+export const officialStores = [
+    {
+        id: 1,
+        image: XIAOMI_1,
+        alt: 'XIAOMI'
+    },
+    {
+        id: 2,
+        image: NIVEA_1,
+        alt: 'NIVEA'
+    },
+    {
+        id: 3,
+        image: Diageo,
+        alt: 'DIAGEO'
+    },
+    {
+        id: 4,
+        image: Oraimo_1,
+        alt: 'ORAIMO'
+    },
+    {
+        id: 5,
+        image: Adidas,
+        alt: 'ADIDAS'
+    },
+    {
+        id: 6,
+        image: Reckitt,
+        alt: 'RECKITT'
+    },
+    {
+        id: 7,
+        image: itel,
+        alt: 'ITEL'
+    },
+    {
+        id: 8,
+        image: Thermocool_1,
+        alt: 'HAIER THERMOCOOL'
+    },
+    {
+        id: 9,
+        image: Ricard,
+        alt: 'PERNOD RICARD'
+    },
+    {
+        id: 10,
+        image: Infinix_1,
+        alt: 'INFINIX'
+    },
+    {
+        id: 11,
+        image: Tecno_1,
+        alt: 'TECNO'
+    },
+    {
+        id: 12,
+        image: bacardi,
+        alt: 'BACARD'
+    },
+]
+
+
+
+export const officialStoresSecond = [
+    {
+        id: 1,
+        image: Ledro,
+        alt: 'LEDRO'
+    },
+    {
+        id: 2,
+        image: Bluetti,
+        alt: 'BLUETTI'
+    },
+    {
+        id: 3,
+        image: Defacto_1,
+        alt: 'DEFACTO'
+    },
+    {
+        id: 4,
+        image: Royal_1,
+        alt: 'ROYAL'
+    },
+    {
+        id: 5,
+        image: Binaton_3,
+        alt: 'BINATONE'
+    },
+    {
+        id: 6,
+        image: Nexus_1,
+        alt: 'NEXUS'
+    },
+    {
+        id: 7,
+        image: Unilever,
+        alt: 'UNILEVER'
+    },
+    {
+        id: 8,
+        image: Bruhm,
+        alt: 'BRUHM'
+    },
+    {
+        id: 9,
+        image: Nestle,
+        alt: 'NESTLE'
+    },
+    {
+        id: 10,
+        image: Loreal,
+        alt: 'LOREAL'
+    },
+    {
+        id: 11,
+        image: Oppo,
+        alt: 'OPPO'
+    },
+    {
+        id: 12,
+        image: Chi,
+        alt: 'CHI LIMITED'
+    },
+]
+
+
+// Xiaomi official store deals
+
+export const xiaomiDeals = [
+    {
+        id: 1,
+        image: NIVEAPerfect,
+        text: 'XIAOMI Redmi 12C 6.71..',
+        price: "₦ 74,000",
+        discount: '₦ 98,500',
+        link: '/about/black/friday/deals',
+        percentage: '-25%',
+        alt: 'XIAOMI Redmi 12C 6.71" 3GB RAM/64GB ROM Android 12 - Graphite Grey'
+    },
+    {
+        id: 2,
+        image: Malta,
+        text: 'XIAOMI Redmi A2+ 6.52"...',
+        price: "₦ 61,800",
+        discount: '₦ 71,000',
+        /* link: '/about/black/friday/deals', */
+        percentage: '-13%',
+        alt: `XIAOMI Redmi A2+ 6.52" 2GB RAM/32GB ROM Android 12 - Blue`,
+    },
+    {
+        id: 3,
+        image: Defacto,
+        text: 'XIAOMI Poco C40 6.71” 4..',
+        price: "₦ 88,895",
+        discount: '₦ 121,910',
+        /* link: '/about/black/friday/deals', */
+        percentage: '-27%',
+        alt: 'XIAOMI Poco C40 6.71” 4GB RAM/64GB ROM Android 11 - Black',
+    },
+    {
+        id: 4,
+        image: BinatoneSmoother,
+        text: 'XIAOMI Redmi A2+ 6.71"...',
+        price: "₦ 76,800",
+        discount: '₦ 99,000',
+        /* link: '/about/black/friday/deals', */
+        percentage: '-22%',
+        alt: 'XIAOMI Redmi A2+ 6.71" 3GB RAM/64GB ROM Android 12  - Black',
+    },
+    {
+        id: 5,
+        image: Infinix,
+        text: `XIAOMI Redmi A2+ 6.52"...`,
+        price: "₦ 61,800",
+        discount: '₦ 71,000',
+        /* link: '/about/black/friday/deals', */
+        percentage: '-13%',
+        alt: `XIAOMI Redmi A2+ 6.52" 2GB RAM/32GB ROM Android 12 - Black`,
+    },
+    {
+        id: 6,
+        image: Oraimo,
+        text: 'XIAOMI Redmi A2+ 6.71"...',
+        price: "₦ 66,800",
+        discount: '₦ 99,000',
+        link: '/about/black/friday/deals',
+        percentage: '-33%',
+        alt: 'XIAOMI Redmi A2+ 6.71" 2GB RAM/32GB ROM Android 12  - Black'
+    },
+]
+
+
+// Haier Thermocool Official store deals
+
+
+export const HaierCoolDeals = [
+    {
+        id: 1,
+        image: NIVEAPerfect,
+        text: 'Haier Thermocool 146 Lit...',
+        price: "₦ 250,000",
+        link: '/about/black/friday/deals',
+        alt: 'Haier Thermocool 146 Litres Chest Freezer (HTF-150) - Silver + 3 Years Warranty'
+    },
+    {
+        id: 2,
+        image: Malta,
+        text: 'Haier Thermocool 1.5HP...',
+        price: "₦ 280,000",
+        discount: '₦ 350,000',
+        /* link: '/about/black/friday/deals', */
+        percentage: '-20%',
+        alt: `Haier Thermocool 1.5HP GenPAL Inverter Air Conditioner (HSU-12LNEB-03) - White + 2 Years Warranty`,
+    },
+    {
+        id: 3,
+        image: Defacto,
+        text: 'Haier Thermocool 1.5HP...',
+        price: "₦ 254,665",
+        /* link: '/about/black/friday/deals', */
+        alt: 'Haier Thermocool 1.5HP Split Air Conditioner (HSU-12TESN-02) - White + Full Installation Kit + 2 Years Warranty',
+    },
+    {
+        id: 4,
+        image: BinatoneSmoother,
+        text: 'Haier Thermocool 1HP Tu...',
+        price: "₦ 290,000",
+        /* link: '/about/black/friday/deals', */
+        alt: 'Haier Thermocool 1HP Tundra Air Conditioner (HSU-09TESN-02) - White + Free Installation Kit + 2 Years Warranty',
+    },
+    {
+        id: 5,
+        image: Infinix,
+        text: `Haier Thermocool 95 Lit...`,
+        price: "₦ 171,525",
+        /* link: '/about/black/friday/deals', */
+        alt: `Haier Thermocool 95 Litres Double Door Fridge Silver (HRF-95BEX) - Silver  + 2 Years Warranty`,
+    },
+    {
+        id: 6,
+        image: Oraimo,
+        text: 'Haier Thermocool 145 Lit...',
+        price: "₦ 270,000",
+        link: '/about/black/friday/deals',
+        alt: 'Haier Thermocool 145 Litres Double Door Refrigerator (HRF-160BEX R6)- Silver  + 2 Years Warranty'
+    },
+]
+
+
+
+// Eleectronic deals
+
+export const electronicsDeal = [
+    {
+        id: 1,
+        image: samrt,
+        alt: 'Smart TVs'
+    },
+    {
+        id: 2,
+        image: Home,
+        alt: 'Home Theatres'
+    },
+    {
+        id: 3,
+        image: TV,
+        alt: '23 - 32&quot'
+    },
+    {
+        id: 4,
+        image: Bluetooth,
+        alt: 'Bluetooth Speaker'
+    },
+    {
+        id: 5,
+        image: TVs,
+        alt: '55 - 75&quot'
+    },
+    {
+        id: 6,
+        image: Condenser,
+        alt: 'Condenser Microphones'
     },
 ]

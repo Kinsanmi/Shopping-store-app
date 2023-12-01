@@ -6,18 +6,22 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto',-apple-system,'BlinkMacSystemFont,Segoe UI',Helvetica 'Neue',Arial,sans-serif;
 }
 
 /* Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif */
 
 body{
-  /* background: #000; 
-  background: url(/src/Image/BFnew-bg.png); */
-  background-size: cover;
+  background: #000 /* #ff9900 */; 
+  
+}
+
+#root{
+  background: url(/src/Image/BFnew-bg.png);
+  background-size:auto;
   width: 100%;
-  height: auto;
-  /* background-position: center; */
+  height: 220vh;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
