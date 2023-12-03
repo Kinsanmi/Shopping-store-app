@@ -184,6 +184,26 @@ import Laptop from '../Image cat/hp-laptops_300x400.png';
 import Modem from '../Image cat/mobile-accessories_300x400.png';
 
 
+// Product imported images
+import Smirnoff from '../Image cat/Smirnoff.jpg';
+import Guinness from '../Image cat/guinness.jpg';
+import Johnnie from '../Image cat/johnnie.jpg';
+import Orijin from '../Image cat/orijin.jpg';
+import Bombay from '../Image cat/bombay.jpg';
+import Gordon from '../Image cat/gordon.jpg';
+import Adidas_core from '../Image cat/adidas core.jpg';
+import Cognac from '../Image cat/cognac.jpg';
+import Bacardi from '../Image cat/Bacardi.jpg';
+import Singleton from '../Image cat/Dufftown.jpg';
+import Bacardi_oro from '../Image cat/Bacardi Carta.jpg';
+import Waste_bin from '../Image cat/industrial waste.jpg';
+import Smirnoff_ice from '../Image cat/smirnoff ice.jpg';
+import Camino from '../Image cat/camino.jpg';
+import Cognac_75 from '../Image cat/cognac (2).jpg';
+import Grey_le from '../Image cat/grey le.jpg';
+import Grey_goose from '../Image cat/grey goose.jpg';
+import Martini from '../Image cat/martini.jpg';
+import Sumec from '../Image cat/sumec 2.5kg.jpg';
 
 
 
@@ -1194,5 +1214,211 @@ export const ComputDeal = [
         id: 6,
         image: Modem,
         alt: 'MOdems'
+    },
+]
+
+
+
+// Product
+export const drinks = [
+    {
+        id: 1,
+        image: Smirnoff,
+        text: 'Smirnoff Intense Chocolate Flavored Vodka',
+        price: "₦ 2,567",
+        link: '/about/smirnoff-x1-intense-chocolate-flavoured-vodka-750ml-x1-smirnoff-mpg1640024.html',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Smirnoff Intense Chocolate Flavored Vodka 750ml'
+    },
+    {
+        id: 2,
+        image: Guinness,
+        text: 'Guinness Smooth Can 33cl x 24',
+        price: "₦ 11,770",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Guinness Smooth Can 33cl x 24'
+    },
+    {
+        id: 3,
+        image: Johnnie,
+        text: 'Johnnie Walker Red Label 70cl',
+        price: "₦ 7,935",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Johnnie Walker Red Label 70cl'
+    },
+    {
+        id: 4,
+        image: Orijin,
+        text: 'Orijin Bitters 20cl x24',
+        price: "₦ 13,200",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Orijin Bitters 20cl x24'
+    },
+    {
+        id: 5,
+        image: Bombay,
+        text: 'Bombay Sapphire Gin 75cl',
+        price: "₦ 10,755",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Bombay Sapphire Gin 75cl'
+    },
+    {
+        id: 6,
+        image: Gordon,
+        text: 'Gordon Pink Berry 750ml',
+        price: "₦ 3,208",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Gordon Pink Berry 750ml'
+    },
+    {
+        id: 7,
+        image: Adidas_core,
+        text: 'ADIDAS Core Sneakers Advantage Base',
+        price: "₦ 26,825",
+        link: '/about/black/friday/deals',
+        Black: 'Black Friday deal',
+        official: 'Official store',
+        alt: 'ADIDAS Core Sneakers Advantage Base'
+    },
+    {
+        id: 8,
+        image: Cognac,
+        text: `D'USSE VSOP Cognac 75cl`,
+        price: "₦ 48,385",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: `D'USSE VSOP Cognac 75cl`
+    },
+    {
+        id: 9,
+        image: Bacardi,
+        text: 'Bacardi 8 Years Rum 70cl',
+        price: "₦ 15,535",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Bacardi 8 Years Rum 70cl'
+    },
+    {
+        id: 10,
+        image: Singleton,
+        text: 'Singleton of Dufftown 12 Year Old 70cl',
+        price: "₦ 23,760",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Singleton of Dufftown 12 Year Old 70cl'
+    },
+    {
+        id: 11,
+        image: Bacardi_oro,
+        text: 'Bacardi Carta Oro Golden Rum 75cl',
+        price: "₦ 7,155",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Bacardi Carta Oro Golden Rum 75cl'
+    },
+    {
+        id: 12,
+        image: Waste_bin,
+        text: 'Industrial Waste Bin, Green 240L',
+        price: "₦ 39,999",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Industrial Waste Bin, Green 240L'
+    },
+    {
+        id: 13,
+        image: Adidas_core,
+        text: 'ADIDAS Advantage Lifestyle Court Lace',
+        price: "₦ 22,958",
+        link: '/about/black/friday/deals',
+        Black: 'Black Friday deal',
+        official: 'Official store',
+        alt: 'ADIDAS Advantage Lifestyle Court Lace Shoes'
+    },
+    {
+        id: 14,
+        image: Smirnoff_ice,
+        text: 'Smirnoff Ice Pineapple Punch 33cl x 24',
+        price: "₦ 12,420",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Smirnoff Ice Pineapple Punch 33cl x 24'
+    },
+    {
+        id: 15,
+        image: Camino,
+        text: 'Camino Real Tequila 75cl',
+        price: "₦ 8,065",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Camino Real Tequila 75cl'
+    },
+    {
+        id: 16,
+        image: Cognac_75,
+        text: `D'USSE XO Cognac 75cl`,
+        price: "₦ 113,795",
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: `D'USSE XO Cognac 75cl`
+    },
+    {
+        id: 17,
+        image: Grey_le,
+        text: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl',
+        price: "₦ 24,195",
+        link: '/about/black/friday/deals',
+        Black: 'Black Friday Deal',
+        official: 'Official store',
+        alt: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl'
+    },
+    {
+        id: 18,
+        image: Grey_goose,
+        text: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl',
+        price: "₦ 24,195",
+        link: '/about/black/friday/deals',
+        Black: 'Black Friday Deal',
+        official: 'Official store',
+        alt: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl'
+    },
+    {
+        id: 19,
+        image: Martini,
+        text: 'Martini Bianco Vermouth Premium Gin 100cl',
+        price: "₦ 5,645",
+        link: '/about/black/friday/deals',
+        Black: 'Black Friday Deal',
+        official: 'Official store',
+        alt: 'Martini Bianco Vermouth 100cl'
+    },
+    {
+        id: 20,
+        image: Sumec,
+        text: 'Sumec 2.5kva Key start Generator (SPG3000E2)',
+        price: "₦ 257,250",
+        link: '/about/black/friday/deals',
+        Black: 'Black Friday Deal',
+        official: 'Official store',
+        alt: 'Sumec 2.5kva Key start Generator (SPG3000E2)'
     },
 ]

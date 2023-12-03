@@ -2,7 +2,7 @@
 
 .slide-img img{
     width: 100%;
-    padding: 0 10%;
+    padding: 0 12%;
     max-height: 50px;
 }
 
@@ -127,7 +127,34 @@ form .btn:active{
     align-items: center;
 }
 
-.acct-setup a{
+.acct-setup{
+    position: relative;
+}
+
+
+.acct-setup .acct-nav{
+    position: absolute;
+    top: 100%;
+    background-color: red;
+    border-radius: 5px;
+    width: 158px;
+    padding: 25px 0;
+    display: block;
+}
+
+.acct-setup .acct-nav li a{
+    color: #000;
+}
+
+.acct-setup .acct-nav .sign-up{
+    background-color: #db7917;
+    width: 100%;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.acct-setup .active{
     padding: 10px;
     border-radius: 6px;
     color: #000;

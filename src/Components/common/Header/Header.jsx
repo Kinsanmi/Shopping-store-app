@@ -35,6 +35,13 @@ import { IoSearchSharp } from "react-icons/io5";
 export const Header = () => {
 
 
+  const [open, setOpen] = useState(false);
+
+  const openAccount = ()=>{
+    setOpen(!open);
+  }
+
+
     // adding background color when window scroll to a certain height 
 
     const [colorChange, setColorChange] = useState(false);
@@ -79,7 +86,7 @@ export const Header = () => {
       <section className={colorChange ? "container open" : "container"}  style={{position: colorChange ? 'fixed' : 'sticky'}}>
 
         <div className="contain-img">
-          <Link to='/about'><img src={Estore} alt="E-Shopping-Store" /></Link>
+          <Link to='/store'><img src={Estore} alt="E-Shopping-Store" /></Link>
         </div>
 
 
@@ -93,7 +100,16 @@ export const Header = () => {
 
         <div className="account">
             <div className="acct-setup">          
-              <Link><MdSupervisorAccount className="acct" />Account <MdOutlineKeyboardArrowDown /></Link>
+              <Link className="active" onClick={()=> {openAccount(true)}}><MdSupervisorAccount className="acct" />Account <MdOutlineKeyboardArrowDown /></Link>
+              {open && (
+                <ul className="acct-nav">
+                  <li><Link className="sign-up">Sign up</Link></li>
+                  <li><Link>My Account</Link></li>
+                  <li><Link>Orders</Link></li>
+                  <li><Link>Saved items</Link></li>
+                </ul>
+              )}
+
             </div>
 
             <div className="sing-up">
@@ -101,7 +117,7 @@ export const Header = () => {
             </div>
 
             <div className="cart-product">
-              <Link><span><MdOutlineShoppingCart className="cart" /></span>
+              <Link to='/cart'><span><MdOutlineShoppingCart className="cart" /></span>
               Cart</Link>
             </div>
           </div>
