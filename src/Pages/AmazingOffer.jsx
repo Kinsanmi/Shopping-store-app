@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import jumia from '../Components/common/logo.png';
+
 // Css styling
 import '../Styles/AmazingOffer.css';
 
@@ -12,7 +14,7 @@ import RECKIT from '../Data/Image cat/Reckitt_572_x_250.jpg';
 import { IoIosArrowForward } from "react-icons/io";
 
 // official store deals imported
-import { officialStore, officialStores, officialStoresSecond } from '../Data/Products/Product';
+import { ComputDeal, HaierCoolDeals, officialStore, officialStores, officialStoresSecond, xiaomiDeals } from '../Data/Products/Product';
 
 
 // Electronic deals imported
@@ -44,11 +46,39 @@ import { applianceDeal } from '../Data/Products/Product';
 import { topApplianceDeal } from '../Data/Products/Product';
 
 
+// Mail icon
+import { MdEmail } from "react-icons/md";
+
+
+// Facebook icon
+import { FaFacebookF } from "react-icons/fa";
+
+
+// Youtube icon
+import { FaYoutube, FaXTwitter } from "react-icons/fa6";
+
+
+// Visa icons
+import { SiVisa } from "react-icons/si";
+
+
+
+// instagram icon
+import { TiSocialInstagram } from "react-icons/ti";
+
+
+// DHL icon
+import { LiaDhl } from "react-icons/lia";
+
+
 
 // Official store imported
 import {Slides} from '../Swiper/Slides';
 
 export const AmazingOffer = () => {
+
+
+  const year = new Date().getFullYear();
   return (
     <>
     {/* AMAZING OFFER SECTION */}
@@ -360,7 +390,7 @@ export const AmazingOffer = () => {
                 </Link>
               </div> 
                 <div className="flash-detail">
-                    {officialStore.map((sale, index)=>{
+                    {xiaomiDeals.map((sale, index)=>{
                         return (
                             <Link to={sale.link} className="black-image" key={index}>
                                 <img src={sale.image} alt={sale.alt} />
@@ -396,7 +426,7 @@ export const AmazingOffer = () => {
                 </Link>
               </div> 
                 <div className="flash-detail">
-                    {officialStore.map((sale, index)=>{
+                    {HaierCoolDeals.map((sale, index)=>{
                         return (
                             <Link to={sale.link} className="black-image" key={index}>
                                 <img src={sale.image} alt={sale.alt} />
@@ -439,6 +469,198 @@ export const AmazingOffer = () => {
             </div>
         </div>
       </section>
+
+
+        {/* Computing Deals */}
+      <section>
+        <div className="shop">
+            <div className="shop-type"> 
+            <div className="shop-text">
+                Computing deals
+              </div> 
+                <div className="shop-detail">
+                    {ComputDeal.map((shop, index)=>{
+                        return (
+                            <Link to={shop.link} className="shop-image" key={index}>
+                                <img src={shop.image} alt={shop.alt} />
+                            </Link>
+                        )
+                    })}
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+
+      <footer>
+
+        {/* Jumia email section */}
+        <div className="bg-mb">
+          <div className="row_footer">
+            <div className='col4'><img src={jumia} alt="" /></div>
+              <div className="text-input">
+              <div className='subs'>
+                <div className="pbs">New to Jumia?</div>
+                Subscribe to our newsletter to get updates on our latest offers!
+              </div>
+
+
+              <form action="" method='post'>
+                <div className="input">
+                  <div className="fi">
+                    <MdEmail className='email' />
+                    <input type="email" placeholder='Enter E-mail Address' required className='fi_new' name='email' aria-label='E-mail' />
+                    
+                  </div>
+
+                  <div className="find_type">
+                    <button name='gender' value="male" className='gender'>Male</button>
+                    <button name='gender' value="female" className='gender'>Female</button>
+                  </div>
+                </div>
+              </form>
+
+              </div>
+              
+
+              <div className="col_1">
+                <div className="col-flex">
+                  <div className="svg">
+                    Svg icons
+                  </div>
+
+                  <div className="app">
+                      <div className="app-text">
+                        DOWNLOAD JUMIA FREE APP
+                      </div>
+                      <div className="app-access">
+                      Get access to exclusive offers!
+                      </div>
+                    </div>
+                  </div>
+
+                <div className="download">
+                    <Link>App store</Link>
+                    <Link>Google App</Link>
+                  </div>
+                </div>
+          </div>
+
+
+                    {/* Help section */}
+          <div className="end-section">
+            <div className="help">
+              <div className="fg need-help">
+                <h2>Need Help?</h2>
+                <div className="help-link">
+                  <Link>Chat with us</Link>
+                  <Link>Help Center</Link>
+                  <Link>Contact Us</Link>
+                </div>
+              </div>
+
+              <div className="need-help">
+              <h2>Useful links</h2>
+                <div className="help-link">
+                  <Link>Service Center</Link>
+                  <Link>How to shop on Jumia</Link>
+                  <Link>Delivery options and timelines</Link>
+                  <Link>How to return a product on jumia</Link>
+                  <Link>Corporate and bulk purchases</Link>
+                  <Link>Report a Product</Link>
+                  <Link>Ship your package anywhere in Nigeria</Link>
+                  <Link>Dispute Resolution Policy</Link>
+                  <Link>Returns & Refunds Timeline</Link>
+                  <Link>Return Policy</Link>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="need-help">
+            <h2>about jumia</h2>
+                <div className="help-link">
+                  <Link>About Us</Link>
+                  <Link>Jumia careers</Link>
+                  <Link>Jumia Express</Link>
+                  <Link>Terms and Conditions</Link>
+                  <Link>Privacy Notice</Link>
+                  <Link>Jumia Store Credit Terms & Conditions</Link>
+                  <Link>Jumia Payment Information Guidelines</Link>
+                  <Link>Cookies Notice</Link>
+                  <Link>Jumia Global</Link>
+                  <Link>Official Stores</Link>
+                  <Link>Flash Sales</Link>
+                  <Link>Black friday {year}</Link>
+                </div>
+            </div>
+
+
+            <div className="need-help">
+            <h2>Make money with jumia</h2>
+                <div className="help-link">
+                  <Link>Sell on Jumia</Link>
+                  <Link>Vendor hub</Link>
+                  <Link>Become a Sales Consultant</Link>
+                  <Link>Become a Logistics Service Partner</Link>
+                  <Link>Join the Jumia DA Academy</Link>
+                  <Link>Join the Jumia KOL Program</Link>
+                </div>
+            </div>
+
+            <div className="need-help">
+              <h2>Jumia international</h2>
+              <div className="int-country">
+                <div className="help-link">
+                  <Link>Algeria</Link>
+                  <Link>Egypt</Link>
+                  <Link>Ghana</Link>
+                  <Link>Ivory Coast</Link>
+                  <Link>Kenya</Link>
+                </div>
+
+                <div className="help-link">
+                  <Link>Morocco</Link>
+                  <Link>Senegal</Link>
+                  <Link>Tunisia</Link>
+                  <Link>Uganda</Link>
+                  <Link>Zando</Link>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          {/* Icons  */}
+
+          <div className="join">
+            <div className="join_us">
+              Join us on
+              <div className="icons">
+                <div className="fb">
+                  <Link><FaFacebookF /></Link>
+                  <Link><FaYoutube /></Link>
+                  <Link><TiSocialInstagram /></Link>
+                  <Link><FaXTwitter /></Link>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="join_now">
+              payment methods & delivery partners
+              <div className="icons">
+                <div className="fa">
+                  <Link><SiVisa /></Link>
+                  <Link><LiaDhl /></Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }

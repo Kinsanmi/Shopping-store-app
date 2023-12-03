@@ -35,7 +35,7 @@ export const Home = () => {
   return (
     <>
 
-    <main className='main-section'>
+    <main className='main-section .sec'>
 
     <MegaMenu />
 

@@ -1,6 +1,12 @@
 import '../Styles/MegaMenu.css';
 import { Link } from 'react-router-dom';
 
+// bsb image
+import bsb from '../Image/bsb.jpg';
+
+// Jforce inage
+import Jforce from '../Image/JForce.png'
+
 // Supermarket icons 
 // baby product icon
 import { LuApple, LuBaby } from "react-icons/lu";
@@ -66,36 +72,93 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>Food cupboard</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>Grains & rice</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>Pasta & Noodles</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
+                                                        <Link>Breakfast foods</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>iOS</Link>
+                                                        <Link>Herbs, Spices & Seasoning</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>FLOURS & meals </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Malt Drinks </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>coffee</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>water</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>cooking oli</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>juices</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>soft drinks </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>canned & packaged foods </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>candy & chocolate</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div className="flex-col">
+                                            <div className="row">
+                                                <h4><Link>Beverages</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>soft drinks</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>milk & cream</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Energy drink</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>bottled beverages</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>Household cleaning</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>laundry</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>air fresheners</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>toilet paper & wipes</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>bathroom cleaners</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>dish washing</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>cleaning tools</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -104,129 +167,33 @@ export const MegaMenu = () => {
 
 
 
-
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>beers, wine & spirits</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>beers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Others</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Storage & closet Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Baby & Kids</Link>
+                                                        <Link>vodka</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
+                                                <h4><Link>baby products</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>disposable diapers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>bottle feeding</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>wipes & refills</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
-
-
-
-
-                                        <div className="flex-col">
-                                            <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Landscape</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Patio</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Deck</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className="flex-col">
-                                            <div className="row">
-                                                <h4><Link>Indoor</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Landscape</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Patio</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Deck</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-
                                     </div>
                                 </li>
 
@@ -242,37 +209,47 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>makeup</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>concealers & color correctors</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>foundation</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
+                                                        <Link>powder</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>iOS</Link>
+                                                        <Link>lipstick</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>eyeliner & kajal</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>mascara</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>personal care</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>skin care</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>bath & bathing accessories</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>sunscreens & tanning products</Link>
                                                     </li>
+                                                    <li>
+                                                        <Link>contraceptive & lubricants</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>piercing & tattoo supplies</Link>
+                                                    </li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -283,36 +260,44 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>fragrance</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>women's</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Others</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Storage & closet Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Baby & Kids</Link>
+                                                        <Link>men's</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
+                                                <h4><Link>hair care</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>hair accessories</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>hair cutting tools</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>shampoo & conditioner</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>wigs & accessories</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>oral care</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>teeth whitening</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>toothbrushes </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>toothpaste</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -323,46 +308,42 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                                <h4><Link>health care</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>first adi</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>medical supplies & equipment</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
+                                                        <Link>alternative medicine</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool</Link>
+                                                        <Link>feminine care</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
+                                                        <Link>diabetes care</Link>
                                                     </li>
                                                 </ul>
                                             </div>
+                                            <div className="row col">
+                                                <h4><Link>vitamins & dietary supplements</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>herbal supplements</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>vitamins & minerals</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>supplements</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>multi & prenatal vitamins</Link>
+                                                    </li>                                                </ul>
+                                            </div>
                                         </div>
-
-
                                     </div>
                                 </li>
 
@@ -377,39 +358,41 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Kitchen % Dinning</Link></h4>
+                                                <h4><Link>home & kitchen</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Kitchen</Link>
+                                                        <Link>bath</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Dinning Room</Link>
+                                                        <Link>bedding</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pantry</Link>
+                                                        <Link>home decor</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Great Room</Link>
+                                                        <Link>home furniture</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Breakfast Nook</Link>
+                                                        <Link>vacuums & floor care</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>wall art</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>cookware</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>bakeware</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>small appliances</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>cutlery & knife accessories</Link>
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div className="row col">
-                                                <h4><Link>Living</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Living Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Family room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Sunroom</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            
                                         </div>
 
 
@@ -418,36 +401,16 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Bed & Bath</Link></h4>
+                                                <h4><Link>office products</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Bathroom</Link>
+                                                        <Link>office & school supplies</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Powder Room</Link>
+                                                        <Link>office furniture & lighting</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Bedroom</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Storage & closet Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Baby & Kids</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Laundry</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Garage</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>packaging materials</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -458,40 +421,19 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                                <h4><Link>Home & office furniture</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>kitchen & dinning</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>lighting</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
+                                                        <Link>stationery</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
+                                                        <Link>storage & organization</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -508,36 +450,43 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Kitchen % Dinning</Link></h4>
+                                                <h4><Link>small appliances</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Kitchen</Link>
+                                                        <Link>blenders</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Dinning Room</Link>
+                                                        <Link>deep fryers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pantry</Link>
+                                                        <Link>juicers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Great Room</Link>
+                                                        <Link>air fryers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Breakfast Nook</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="row col">
-                                                <h4><Link>Living</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Living Room</Link>
+                                                        <Link>rice cookers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Family room</Link>
+                                                        <Link>toaster & ovens</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Sunroom</Link>
+                                                        <Link>microwaves</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>bundles</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>vacuum cleaners</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>kettles</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>yam pounders</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>irons</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -548,37 +497,35 @@ export const MegaMenu = () => {
 
 
                                         <div className="flex-col">
-                                            <div className="row">
-                                                <h4><Link>Bed & Bath</Link></h4>
+                                        <div className="row">
+                                                <h4><Link>large appliances</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Bathroom</Link>
+                                                        <Link>washing machine</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Powder Room</Link>
+                                                        <Link>fridges</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Bedroom</Link>
+                                                        <Link>freezers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
+                                                        <Link>air conditioners</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Baby & Kids</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>heaters</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>fans</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>air purifiers</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>water dispensers</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>generators & inverters</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -588,44 +535,8 @@ export const MegaMenu = () => {
 
 
                                         <div className="flex-col">
-                                            <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Landscape</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Patio</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Deck</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            <div className="row col"></div>
+                        
                                         </div>
 
 
@@ -650,30 +561,27 @@ export const MegaMenu = () => {
                                                         <Link>Smart phones</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>basic phones</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>iOS</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>refurbished phones</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>tablets</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>ipads</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>android tablets</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>education tablets</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>tablets accessories</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -685,36 +593,46 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>Mobile accessories</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>accessories kits</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>adapters</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
+                                                        <Link>batteries</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
+                                                        <Link>battery chargers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Baby & Kids</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>bluetooth headsets</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>cables</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>car accessories</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>chargers</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>earphones & headsets </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>Micro SD cards</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>screen protectors</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>selfie sticks & tripods</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>smart watches</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -725,41 +643,47 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                                <h4><Link>Top smartphones</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>iphones 11 pro max</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>samsung galaxy s10</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
+                                                        <Link>iphone 11</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool</Link>
+                                                        <Link>nokia 7.2</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Backyard</Link>
+                                                        <Link>huawei Y9 S</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Porch</Link>
+                                                        <Link>iphone XS Max</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>Top phone brands</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>samsung</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Exterior</Link>
+                                                        <Link>apple </Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Outdoor Kitchen</Link>
+                                                        <Link>huawei</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Front Yard</Link>
+                                                        <Link>nokia</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Driveway</Link>
+                                                        <Link>xiaomi</Link>
                                                     </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
-                                                    </li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -777,36 +701,27 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>computer</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>desktops</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Android</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>iOS</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>laptops</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>data storages</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>external hard drives</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>USB flash drives</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>external solid state</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -818,36 +733,39 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>printers</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>inkjet printers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>laser printer</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Storage & closet Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Baby & Kids</Link>
+                                                        <Link>printer link & toner</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
+                                                <h4><Link>computer accessories</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>keyboards & mice</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>uninterrupted power supply</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>memory cards</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>batteries</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>scanners</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>video projectors</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -858,40 +776,40 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                                <h4><Link>top brands</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>hp</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>lenovo</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
+                                                        <Link>apple</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool</Link>
+                                                        <Link>ASUS</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Backyard</Link>
+                                                        <Link>huawei</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Porch</Link>
+                                                        <Link>microsoft</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Exterior</Link>
+                                                        <Link>kingston</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Outdoor Kitchen</Link>
+                                                        <Link>seagate</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Front Yard</Link>
+                                                        <Link>samsung</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Driveway</Link>
+                                                        <Link>sandisk</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool House</Link>
+                                                        <Link>toshiba</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -908,36 +826,36 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>television</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>televisions</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>smart TVs</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
+                                                        <Link>LED & LCD TVs</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>iOS</Link>
+                                                        <Link>QLED & OLED TVs</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>DVD players & recorders </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>home audio</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>home theater system</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>receivers & amplifiers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>sound bars</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -949,36 +867,33 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>cameras & photos</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>digital cameras</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>projectors</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
+                                                        <Link>video surveillance</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Baby & Kids</Link>
+                                                        <Link>camcorders</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
+                                                <h4><Link>generators & portable power</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>generators</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>power inverters</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>solar & wind power</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -988,44 +903,7 @@ export const MegaMenu = () => {
 
 
                                         <div className="flex-col">
-                                            <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Landscape</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Patio</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Deck</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            
                                         </div>
 
 
@@ -1039,36 +917,48 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>women's fashion</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>clothing</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>shoes</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
+                                                        <Link>accessories</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>iOS</Link>
+                                                        <Link>jewelry</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>handbags & wallets </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>underwear & sleepwear </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>maternity </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>dresses </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>traditional </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>beach & swimwear </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>kid's fashion</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>boy's fashion</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>girl's fashion</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1080,37 +970,47 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>men's fashion</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>clothing</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>shoes</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
+                                                        <Link>accessories</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
+                                                        <Link>underwear & sleepwear</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Baby & Kids</Link>
+                                                        <Link>traditional & cultural wear</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>t-shirt</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>polo shirts</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>trousers & chinos</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>sneakers</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>jewelry</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>jerseys</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
+                                                <h4><Link>All fashion</Link></h4>
                                                 <ul>
-                                                    <li>
-                                                        <Link>Laundry</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Garage</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Mudroom</Link>
-                                                    </li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -1120,48 +1020,45 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                                <h4><Link>watches</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>men's watches</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>women's watches</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>sunglasses</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>men's sunglasses</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
+                                                        <Link>women's sunglasses</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>top brands</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>adidas</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool</Link>
+                                                        <Link>defacto</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
+                                                        <Link>nike</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
-
-
                                     </div>
                                 </li>
+
                                 <li className="has-child home-kit">
                                     <Link className="kit">
                                         <LuBaby className="home" />
@@ -1170,36 +1067,41 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>apparel & accessories</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>baby boys</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Android</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>iOS</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>baby girls</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>diapering</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>disposable diapers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>diaper bags </Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>wipes & holders</Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>baby & toddler toys</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>activity play centers</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>music & sound</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>bath toys</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1211,37 +1113,47 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>bathing & skin care</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>washcloths & towels</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>grooming & healthcare kits</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
+                                                        <Link>skin care</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
+                                                        <Link>bathing tubs & seats</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Baby & Kids</Link>
+                                                        <Link>Bathroom safety</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
+                                                <h4><Link>feeding</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>bibs & burp cloths</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>breastfeeding</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>bottle-feeding</Link>
                                                     </li>
+                                                    <li>
+                                                        <Link>pacifiers & accessories</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>food storage</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>highchairs & booster seats</Link>
+                                                    </li>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -1251,40 +1163,16 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                                <h4><Link>gear</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>backpacks & carriers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>swings, jumpers & bouncers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
+                                                        <Link>walkers</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1301,36 +1189,36 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>playstation</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>playstation 5</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>playstation 4</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
+                                                        <Link>playstation 3</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>iOS</Link>
+                                                        <Link>playstation</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>playstation Vita</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>xbox</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>XBOX one</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>XBOX 360</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>XBOX</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1342,36 +1230,19 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>Nintendo</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>nintendo 3DS</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>nintendo DS</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
+                                                        <Link>nintendo switch</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Baby & Kids</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Laundry</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Garage</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>nintendo wii</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1382,40 +1253,43 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                                <h4><Link>top games</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>FIFA '23 PS5</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>PES '23 PS4</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
+                                                        <Link>god of war</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool</Link>
+                                                        <Link>spiderman</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Backyard</Link>
+                                                        <Link>call of duty</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Porch</Link>
+                                                        <Link>assassin's creed valhalla</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Exterior</Link>
+                                                        <Link>the last of us</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Outdoor Kitchen</Link>
+                                                        <Link>the witcher 3</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Front Yard</Link>
+                                                        <Link>metal gear solid</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Driveway</Link>
+                                                        <Link>madden NFL</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool House</Link>
+                                                        <Link>far cry</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>grand theft auto</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1432,37 +1306,46 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>cardio training</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>exercise bikes</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>treadmills</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>iOS</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>elliptical trainers</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>strength training equipment</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cables</Link>
+                                                        <Link>core & abdominal trainers</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Cases & covers</Link>
+                                                        <Link>dumbbells</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Screen protector</Link>
+                                                        <Link>bars</Link>
                                                     </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>accessories</Link></h4>
+                                                <ul>
+                                                    <li>
+                                                        <Link>exercise bands</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>exercise mats</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>jump ropes</Link>
+                                                    </li>
+                                                   
                                                 </ul>
                                             </div>
                                         </div>
@@ -1473,36 +1356,30 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>team sports</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>basketball</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>team sport accessories</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
+                                                        <Link>tennis & racquet sports</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Baby & Kids</Link>
+                                                        <Link>swimming</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
+                                                <h4><Link>outdoor & adventure</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>cycling</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>running</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1512,43 +1389,8 @@ export const MegaMenu = () => {
 
 
                                         <div className="flex-col">
-                                            <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Landscape</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Patio</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Deck</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Backyard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Porch</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
-                                                    </li>
-                                                </ul>
+                                            <div className="row col">
+                                                
                                             </div>
                                         </div>
 
@@ -1564,37 +1406,40 @@ export const MegaMenu = () => {
                                     <div className="mega">
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Mobile Phones</Link></h4>
+                                                <h4><Link>toys & games</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Smart phones</Link>
+                                                        <Link>games</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Feature phone</Link>
+                                                        <Link>dress uo & pretend paly</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Android</Link>
+                                                        <Link>sports & outdoor play</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>iOS</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Windows </Link>
+                                                        <Link>top toys & games</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="row col">
-                                                <h4><Link>Accessories</Link></h4>
+                                                <h4><Link>miscellaneous</Link></h4>
                                                 <ul>
-                                                    <li>
-                                                        <Link>Cables</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Cases & covers</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Screen protector</Link>
-                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>books, movies and music</Link></h4>
+                                                <ul>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>musical instrument</Link></h4>
+                                                <ul>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>pet supplies</Link></h4>
+                                                <ul>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1605,36 +1450,34 @@ export const MegaMenu = () => {
 
                                         <div className="flex-col">
                                             <div className="row">
-                                                <h4><Link>Tablet Accessories</Link></h4>
+                                                <h4><Link>official stores</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Cases & cover</Link>
+                                                        <Link>adidas</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Holder & stands</Link>
+                                                        <Link>nestle</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Others</Link>
+                                                        <Link>xiaomi</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Storage & closet Room</Link>
+                                                        <Link>huawei</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Baby & Kids</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="row col">
-                                                <h4><Link>Utility</Link></h4>
-                                                <ul>
-                                                    <li>
-                                                        <Link>Laundry</Link>
+                                                        <Link>apple</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Garage</Link>
+                                                        <Link>intel</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Mudroom</Link>
+                                                        <Link>reckitt benckiser</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>binatone</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link>nexus</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1644,44 +1487,49 @@ export const MegaMenu = () => {
 
 
                                         <div className="flex-col">
-                                            <div className="row">
-                                                <h4><Link>Outdoor</Link></h4>
+                                            <div className="row ">
+                                                <h4><Link>grocery</Link></h4>
                                                 <ul>
                                                     <li>
-                                                        <Link>Landscape</Link>
+                                                        <Link>food cupboards</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Patio</Link>
+                                                        <Link>baby products</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Deck</Link>
+                                                        <Link>plastic & paper products</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Pool</Link>
+                                                        <Link>drinks</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Backyard</Link>
+                                                        <Link>hygiene</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Porch</Link>
+                                                        <Link>household clothing</Link>
                                                     </li>
                                                     <li>
-                                                        <Link>Exterior</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Outdoor Kitchen</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Front Yard</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Driveway</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>Pool House</Link>
+                                                        <Link>beer, wine & spirits</Link>
                                                     </li>
                                                 </ul>
                                             </div>
+
+                                            <div className="row col">
+                                                <h4><Link>garden & outdoor</Link></h4>
+                                                <ul>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>industrial & scientific</Link></h4>
+                                                <ul>
+                                                </ul>
+                                            </div>
+                                            <div className="row col">
+                                                <h4><Link>services</Link></h4>
+                                                <ul>
+                                                </ul>
+                                            </div>
+                                            
                                         </div>
 
 
@@ -1699,17 +1547,17 @@ export const MegaMenu = () => {
 
 
             {/* swiper */}
-        <div className="slide">
+        <div className="slide-show">
             <div className="img">Swiper slide</div>
         </div>
 
 
-        <div>
-            <div>
-                <img src="" alt="" />
+        <div className='store-shop'>
+            <div className='store-img'>
+                <img src={bsb} alt="OFFICIAL STORE" />
             </div>
-            <div>
-                <img src="" alt="" />
+            <div className='store-img'>
+                <img src={Jforce} alt="JFORCE" />
             </div>
          </div>
 

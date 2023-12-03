@@ -1,0 +1,23 @@
+
+.clear-page{
+    background-color: #f1f1f2;
+}
+
+.link_page{
+    padding: 15px 12%;
+    display: flex;
+    align-items: center;
+ }
+
+.link_page a{
+    display: flex;
+    align-items: center;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.link_page span{
+    color: #828282;
+    text-transform: capitalize;
+}

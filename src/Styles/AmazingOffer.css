@@ -166,3 +166,221 @@
     display: flex;
     align-items: center;
 }
+
+
+/* footer  */
+
+
+.bg-mb{
+    background-color: #535357;
+    height: 92vh;
+    width: 100%;
+}
+
+.row_footer{
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px 17% 20px 12%;
+    background-color: #313133;
+    margin-bottom: 25px;
+}
+
+.row_footer .col4 img{
+    width: 140px;
+}
+
+
+
+.text-input .subs{
+    color: #f1f1f2;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+
+}
+
+.pbs{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+
+.input{
+    display: flex;
+    align-items: center;
+}
+
+.input .fi{
+    background-color: #fff;
+    border: 1px solid #a3a3a6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.input .fi:link{
+    border: 1px solid #f68b1e;
+}
+
+
+.input .fi:link .email{
+    color: #f68b1e; 
+}
+
+.input .fi .email{
+    font-size: 24px;
+    margin: 0 5px;
+    color: #a3a3a6;
+}
+
+
+.input .fi .fi_new{
+    padding:  16px 0;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    width: 250px;
+    border: none;  
+}
+
+
+.input .fi .fi_new::placeholder{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+
+.find_type .gender{
+    margin-left: 8px;
+    padding: 15.5px 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.find_type .gender:active,
+.find_type .gender:hover{
+    border: 1px solid #f68b1e;
+    color: #f68b1e;
+}
+
+
+
+
+/* Help section */
+
+.end-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0 17% 0 12%;
+    margin-bottom: 30px;
+}
+
+
+.end-section .help{
+    display: flex;
+    flex-direction: column;
+}
+.fg{
+    margin-bottom: 20px;
+}
+
+.need-help .help-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.need-help h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.need-help .help-link a{
+    color: #d0d0d0;
+    font-size: 14px;
+    text-transform: normal;
+    padding: 3px 0;
+    transition: 0.1s ease-in-out;
+}
+
+.need-help .help-link a:active,
+.need-help .help-link a:hover{
+    text-decoration: underline;
+}
+
+
+.need-help .int-country{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+
+/* icons */
+.join{
+    display: flex;
+    padding: 0px 12%;
+    align-items: center;
+}
+
+
+.join .join_us{
+    width: 23.5%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons .fb a{
+    margin: 6px;
+    font-size: 24px;
+    color: #fff;
+    transition: 0.1s ease-in-out;
+}
+
+
+.icons .fb a:hover{
+    color: #f68b1e;
+}
+
+.join .join_now{
+    width: 76.5%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+
+.icons .fa a{
+    margin: 6px;
+    font-size: 24px;
+    color: #fff;
+    transition: 0.1s ease-in-out;
+}
+
+.icons .fa a:hover{
+    color: #f68b1e;
+}

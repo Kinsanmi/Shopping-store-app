@@ -155,6 +155,39 @@ import TVs from '../Image cat/55-75-inch-tvs_300x400.png';
 import Condenser from '../Image cat/condenser-mic_300x400.png';
 
 
+// Xiaomi official store deals imported images
+import H1 from '../Image cat/H1.jpg';
+import H2 from '../Image cat/H2.jpg';
+import H3 from '../Image cat/H3.jpg';
+import H4 from '../Image cat/H4.jpg';
+import H5 from '../Image cat/H5.jpg';
+import H6 from '../Image cat/H6.jpg';
+
+
+// Haier Thermocool Official store deals imported images
+
+import XIAOMI1 from '../Image cat/XIAOMI 1.jpg';
+import XIAOMI2 from '../Image cat/XIAOMI 2.jpg';
+import XIAOMI3 from '../Image cat/XIAOMI 3.jpg';
+import XIAOMI4 from '../Image cat/XIAOMI 4.jpg';
+import XIAOMI5 from '../Image cat/XIAOMI 5.jpg';
+import XIAOMI6 from '../Image cat/XIAOMI 6.jpg';
+
+
+
+// Computing Deals imported images
+import Mac from '../Image cat/lifestyle-images_300x400.jpg';
+import Accessories from '../Image cat/accessories_300x400.png';
+import Game_LP from '../Image cat/gaming-laptop_300x400.png';
+import Device from '../Image cat/storage-devices_300x400.png';
+import Laptop from '../Image cat/hp-laptops_300x400.png';
+import Modem from '../Image cat/mobile-accessories_300x400.png';
+
+
+
+
+
+
 
 // array of object of categories
 export const category = [
@@ -162,7 +195,7 @@ export const category = [
         id: 1,
         image: Countdown,
         text: 'Black friday',
-        link: '/about/black/friday/deals'
+        link: '/about/mpl-clearance-sale/',
     },
     {
         id: 2,
@@ -975,7 +1008,7 @@ export const officialStoresSecond = [
 export const xiaomiDeals = [
     {
         id: 1,
-        image: NIVEAPerfect,
+        image: XIAOMI1,
         text: 'XIAOMI Redmi 12C 6.71..',
         price: "₦ 74,000",
         discount: '₦ 98,500',
@@ -985,7 +1018,7 @@ export const xiaomiDeals = [
     },
     {
         id: 2,
-        image: Malta,
+        image: XIAOMI2,
         text: 'XIAOMI Redmi A2+ 6.52"...',
         price: "₦ 61,800",
         discount: '₦ 71,000',
@@ -995,7 +1028,7 @@ export const xiaomiDeals = [
     },
     {
         id: 3,
-        image: Defacto,
+        image: XIAOMI3,
         text: 'XIAOMI Poco C40 6.71” 4..',
         price: "₦ 88,895",
         discount: '₦ 121,910',
@@ -1005,7 +1038,7 @@ export const xiaomiDeals = [
     },
     {
         id: 4,
-        image: BinatoneSmoother,
+        image: XIAOMI4,
         text: 'XIAOMI Redmi A2+ 6.71"...',
         price: "₦ 76,800",
         discount: '₦ 99,000',
@@ -1015,7 +1048,7 @@ export const xiaomiDeals = [
     },
     {
         id: 5,
-        image: Infinix,
+        image: XIAOMI5,
         text: `XIAOMI Redmi A2+ 6.52"...`,
         price: "₦ 61,800",
         discount: '₦ 71,000',
@@ -1025,7 +1058,7 @@ export const xiaomiDeals = [
     },
     {
         id: 6,
-        image: Oraimo,
+        image: XIAOMI6,
         text: 'XIAOMI Redmi A2+ 6.71"...',
         price: "₦ 66,800",
         discount: '₦ 99,000',
@@ -1042,7 +1075,7 @@ export const xiaomiDeals = [
 export const HaierCoolDeals = [
     {
         id: 1,
-        image: NIVEAPerfect,
+        image: H1,
         text: 'Haier Thermocool 146 Lit...',
         price: "₦ 250,000",
         link: '/about/black/friday/deals',
@@ -1050,7 +1083,7 @@ export const HaierCoolDeals = [
     },
     {
         id: 2,
-        image: Malta,
+        image: H2,
         text: 'Haier Thermocool 1.5HP...',
         price: "₦ 280,000",
         discount: '₦ 350,000',
@@ -1060,7 +1093,7 @@ export const HaierCoolDeals = [
     },
     {
         id: 3,
-        image: Defacto,
+        image: H3,
         text: 'Haier Thermocool 1.5HP...',
         price: "₦ 254,665",
         /* link: '/about/black/friday/deals', */
@@ -1068,7 +1101,7 @@ export const HaierCoolDeals = [
     },
     {
         id: 4,
-        image: BinatoneSmoother,
+        image: H4,
         text: 'Haier Thermocool 1HP Tu...',
         price: "₦ 290,000",
         /* link: '/about/black/friday/deals', */
@@ -1076,7 +1109,7 @@ export const HaierCoolDeals = [
     },
     {
         id: 5,
-        image: Infinix,
+        image: H5,
         text: `Haier Thermocool 95 Lit...`,
         price: "₦ 171,525",
         /* link: '/about/black/friday/deals', */
@@ -1084,7 +1117,7 @@ export const HaierCoolDeals = [
     },
     {
         id: 6,
-        image: Oraimo,
+        image: H6,
         text: 'Haier Thermocool 145 Lit...',
         price: "₦ 270,000",
         link: '/about/black/friday/deals',
@@ -1126,5 +1159,40 @@ export const electronicsDeal = [
         id: 6,
         image: Condenser,
         alt: 'Condenser Microphones'
+    },
+]
+
+
+// Computing deals
+export const ComputDeal = [
+    {
+        id: 1,
+        image: Mac,
+        alt: 'MacBooks'
+    },
+    {
+        id: 2,
+        image: Accessories,
+        alt: 'Accessories'
+    },
+    {
+        id: 3,
+        image: Game_LP,
+        alt: 'Gaming Laptops'
+    },
+    {
+        id: 4,
+        image: Device,
+        alt: 'Flash Drives'
+    },
+    {
+        id: 5,
+        image: Laptop,
+        alt: 'HP Laptops'
+    },
+    {
+        id: 6,
+        image: Modem,
+        alt: 'MOdems'
     },
 ]

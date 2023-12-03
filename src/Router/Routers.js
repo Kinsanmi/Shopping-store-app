@@ -12,7 +12,7 @@ export const Routers = () => {
         <Routes>
             <Route path='/' element={ <Navigate to='/store' />} />
             <Route path='/store' element={ < Home />} />
-            <Route path='/about' element={ <About /> } />
+            <Route path='/about/mpl-clearance-sale/' element={ <About /> } />
             <Route path='*' element={ <h1>404 Error</h1> } />
         </Routes>
     </Router>
