@@ -50,6 +50,7 @@
     height: 70px;
     background-color: #fff;
     transition: 0.35s ease;
+    transition: 5s ease;
 }
 
 .container.open{
@@ -214,6 +215,7 @@ form .btn:active{
     gap: 0.3rem;
     letter-spacing: 0.5px;
     transition: 0.1s ease-in-out;
+    position: relative;
 }
 
 .account .cart-product a:hover{
@@ -222,4 +224,19 @@ form .btn:active{
 
 .account .cart-product .cart {
     font-size: 25px;
+}
+
+
+
+.account .cart-product p.cart-length{
+    position: absolute;
+    top: 6px;
+    left: 23px;
+    color: #fff;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    font-size: 13.5px;
+    background-color: #f68b1e;
 }

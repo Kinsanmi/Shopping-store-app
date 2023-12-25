@@ -25,7 +25,42 @@ import '../Styles/Category.css';
 import { AmazingOffer } from "./AmazingOffer";
 
 
-export const Categories = () => {
+export const Categories = ({handleClick}) => {
+
+
+  /* const newTimer = ()=>{
+    const date = new Date().getTime();
+    const nextDay = new Date('September 12, 2023, 00:30:48').getTime();
+    const total = nextDay - date;
+
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const days1 = Math.round(total / day);
+    const hours1 = Math.floor((total % day)/hour);
+    const mins1 = Math.floor((total % hour)/minute);
+    const seconds1 = Math.floor((total % minute)/second);
+
+    const days = document.querySelector('.day').textContent = days1 + 'D';
+    const mins = document.querySelector('.minute').textContent = mins1 + 'hr';
+    const hours = document.querySelector('.hour').textContent = hours1 + 'Mins';
+    const seconds = document.querySelector('.second').textContent = seconds1 + 'Secs';
+
+    if(total <= 0){
+      clearInterval(date);
+  }
+
+}
+
+useEffect(()=>{
+setInterval( newTimer, 1000);
+},[]); */
+ 
+
+
   return (
     <>
     {/* category section */}
@@ -35,7 +70,7 @@ export const Categories = () => {
                 <div className="cat-detail">
                     {category.map((categories, index)=>{
                         return (
-                            <Link to={categories.link} className="cat-image" key={index}>
+                            <Link onClick={handleClick} to={categories.link} className="cat-image" key={index}>
                                 <img src={categories.image} alt="Categories" />
                                 <p>{categories.text}</p>
                             </Link>
@@ -54,7 +89,7 @@ export const Categories = () => {
                 <div className="sale-detail">
                     {Sales.map((sale, index)=>{
                         return (
-                            <Link to={sale.link} className="sale-image" key={index}>
+                            <Link onClick={handleClick} to={sale.link} className="sale-image" key={index}>
                                 <img src={sale.image} alt={sale.alt} />
                                 <div className="name">
                                   {sale.text}
@@ -86,6 +121,10 @@ export const Categories = () => {
                 <div className="f">Flash sales</div>
                 <div className="timer">
                   Countdown timer
+                  <div className="day"></div>
+                  <div className="minute"></div>
+                  <div className="hour"></div>
+                  <div className="second"></div>
                 </div>
                 <Link to='/about/sellAll' className="sell">
                   See All <IoIosArrowForward className="left-arrow" />
@@ -111,6 +150,7 @@ export const Categories = () => {
                                 <div className="items">
                                   {sale.items}
                                 </div>
+                                <div className="progress"></div>
                             </Link>
                         )
                     })}

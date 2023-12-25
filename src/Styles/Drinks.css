@@ -1,0 +1,218 @@
+.vodka{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 0px 12%;
+}
+
+
+.brand{
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.vodka_drink{
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    height: 650px;
+}
+
+.delivery{
+    background-color: blue;
+}
+
+
+.brand-type img{
+    width: 300px;
+    height: auto;
+}
+
+.add-to-cart{
+    flex: 1;
+    height: auto;
+}
+
+.can{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.can .store_can{
+    background-color: #276076;
+    color: #fff;
+    padding: 3px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+
+.can .call{
+    background-color: #03BE03;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-transform: normal;
+    font-size: 14px;
+}
+
+
+.drink{
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+}
+
+.drink-can{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #000;
+}
+
+
+.product{
+    color: #313133;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin: 5px 0;
+    text-transform: normal;
+    font-size: 16px;
+}
+
+.product a{
+    color: #4159ae;
+    font-size: 16px;
+    transition: 0.1s ease;
+}
+
+.product a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 10px;
+    color: #313133;
+}
+
+
+.item{
+    color: #cda245;
+    font-size: 13.5px;
+    font-weight: 200;
+    line-height: 1.3;
+    margin: 10px 5px 0 0 ;
+}
+
+
+.add_item{
+    position: relative;
+}
+
+
+.add_item .cart_item{
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    left: 15px;
+}
+
+.btn-add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_item .btn-add{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background-color: #f68b1e;
+    text-transform: uppercase;
+    font-size: 14.5px;
+    font-weight: 500;
+    border: none;
+    padding: 16px 0;
+    border-radius: 4px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+.add_item .btn-add:hover{
+    color: #fff;
+    background-color: #dd7f21;
+}
+
+.rating{
+    color: #f68b1e;
+    margin-top: 10px;
+}
+
+
+
+
+.img-type{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-type img{
+    width: 50px;
+    height: auto;
+}
+
+.promote{
+    color: #363536;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+}
+
+.shield{
+    display: flex;
+    align-items: center;
+    color: #4159ae;
+    /* display: flex;
+    align-items: center;
+    color: #264996;
+    font-size: 1px;
+    font-weight: 200;
+    letter-spacing: 0.5px; */
+    transition: 0.2s ease;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.shield .extra{
+    color: #4159ae;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.shield:hover .extra,
+.shield:active .extra{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    
+}
+
+.report{
+    position: absolute;
+    bottom: 0;
+    color: #4159ae;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+}

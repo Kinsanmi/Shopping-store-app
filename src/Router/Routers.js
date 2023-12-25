@@ -6,18 +6,18 @@ import { Home } from '../Pages/Home';
 import { Cart } from '../Pages/Cart';
 import {Smirnoff} from '../Smirnoff/Smirnoff';
 
-export const Routers = () => {
+
+export const Routers = ({ productItems, cartItems, handleAddProduct, handleRemoveProduct, removeItem, notificationMessage, handleClick, handlePage, deleteNotificationMessage, showConfirmation }) => {
   return (
     <>
     <Router>
-      <Header />
+      <Header cartItems={cartItems.length} />
         <Routes>
             <Route path='/' element={ <Navigate to='/store' />} />
-            <Route path='/store' element={ < Home />} />
-            <Route path='/about/mpl-clearance-sale/' element={ <About /> } />
-            <Route path='/about/smirnoff-x1-intense-chocolate-flavoured-vodka-750ml-x1-smirnoff-mpg1640024.html' element={ <Smirnoff /> } />
-            <Route path='/cart' element={ <Cart /> } />
-            <Route path='*' element={ <h1>404 Error</h1> } />
+            <Route path='/store' element={ < Home handleClick={handleClick} />} />
+            <Route path='/about/mpl-clearance-sale/' element={ <About productItems={productItems}  handleAddProduct={handleAddProduct}  notificationMessage={notificationMessage} /> } /> 
+            <Route path='/about/smirnoff-x1-intense-chocolate-flavoured-vodka-750ml-x1-smirnoff-mpg1640024.html' element={ <Smirnoff handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
+            <Route path='/cart' element={ <Cart cartItems={cartItems} removeItem={removeItem} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handlePage={handlePage} /> } />      
         </Routes>
     </Router>
     </>

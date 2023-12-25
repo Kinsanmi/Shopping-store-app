@@ -32,7 +32,7 @@ import { IoSearchSharp } from "react-icons/io5";
 
 
 
-export const Header = () => {
+export const Header = ({cartItems}) => {
 
 
   const [open, setOpen] = useState(false);
@@ -118,7 +118,10 @@ export const Header = () => {
 
             <div className="cart-product">
               <Link to='/cart'><span><MdOutlineShoppingCart className="cart" /></span>
-              Cart</Link>
+              Cart {/* If cart length is greater than zero, show the number of items in cart*/}
+              {/* <span className='cart-length'>{cartItems.length === 0 ? "" : cartItems.length}</span> */}
+              {cartItems ? <p className="cart-length">{cartItems}</p> : "" }
+              </Link>
             </div>
           </div>
       </section>

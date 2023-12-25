@@ -8,7 +8,7 @@ import '../Styles/Home.css';
 // back to top icon
 import { IoIosArrowUp } from "react-icons/io";
 
-export const Home = () => {
+export const Home = ({handleClick}) => {
 
 
   const [visible, setVisible] = useState(false);
@@ -39,7 +39,7 @@ export const Home = () => {
 
     <MegaMenu />
 
-    <Categories />
+    <Categories handleClick={handleClick} />
     
     </main>
 

@@ -258,7 +258,25 @@
     margin-top: 7px;
 }
 
+/* progress bar */
 
+.sale-image .progress{
+    background: #e61601;
+    height: 8px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sale-image .progress::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ccc;
+    left: 8%;
+}
 
 
 

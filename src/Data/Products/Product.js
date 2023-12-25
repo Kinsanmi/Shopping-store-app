@@ -12,8 +12,6 @@ import Generator from '../Image cat/generator.gif';
 import Fashion from '../Image cat/fashion_300x240.png';
 import Watches from '../Image cat/watches_300x240.png';
 
-
-
 // Top Sells items imported images
 import Malta from '../Image cat/1 (1).jpg';
 import PowerBank from '../Image cat/1.jpg';
@@ -185,7 +183,7 @@ import Modem from '../Image cat/mobile-accessories_300x400.png';
 
 
 // Product imported images
-import Smirnoff from '../Image cat/Smirnoff.jpg';
+import Goose from '../Image cat/Grey Goose Vodka.jpg';
 import Guinness from '../Image cat/guinness.jpg';
 import Johnnie from '../Image cat/johnnie.jpg';
 import Orijin from '../Image cat/orijin.jpg';
@@ -207,6 +205,9 @@ import Sumec from '../Image cat/sumec 2.5kg.jpg';
 
 
 
+
+    let num = 11770;
+    let value = num.toLocaleString();
 
 
 // array of object of categories
@@ -1220,12 +1221,15 @@ export const ComputDeal = [
 
 
 // Product
-export const drinks = [
+const drinks = [
     {
         id: 1,
-        image: Smirnoff,
+        image: Goose,
         text: 'Smirnoff Intense Chocolate Flavored Vodka',
-        price: "₦ 2,567",
+        price: 2567,
+        items: '100 items left',
+        discount: '₦ 5,000',
+        percent: '-28%',
         link: '/about/smirnoff-x1-intense-chocolate-flavoured-vodka-750ml-x1-smirnoff-mpg1640024.html',
         percentage: '✆07006000000 to Order',
         official: 'Official store',
@@ -1235,8 +1239,11 @@ export const drinks = [
         id: 2,
         image: Guinness,
         text: 'Guinness Smooth Can 33cl x 24',
-        price: "₦ 11,770",
+        price: 11770,
         link: '/about/black/friday/deals',
+        items: '100 items left',
+        discount: '₦ 5,000',
+        percent: '-28%',
         percentage: '✆07006000000 to Order',
         official: 'Official store',
         alt: 'Guinness Smooth Can 33cl x 24'
@@ -1421,4 +1428,24 @@ export const drinks = [
         official: 'Official store',
         alt: 'Sumec 2.5kva Key start Generator (SPG3000E2)'
     },
+]
+
+
+export default drinks;
+
+
+export const guinness = [
+    {
+        id: 1,
+        image: Goose,
+        text: 'Guinness Smooth Can 33cl x 24',
+        price: `₦ 11,770`,
+        items: '100 items left',
+        discount: '₦ 5,000',
+        percent: '-28%',
+        link: '/about/black/friday/deals',
+        percentage: '✆07006000000 to Order',
+        official: 'Official store',
+        alt: 'Guinness Smooth Can 33cl x 24'
+    }
 ]
