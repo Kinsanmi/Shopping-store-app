@@ -30,10 +30,7 @@ function App() {
   const handleAddProduct = (product) =>{
     const ProductExist = cartItems.find((item)=> item.id === product.id)
 
-
     if(ProductExist){
-      /* cartItems.splice(ProductExist, 1, {...cartItems[ProductExist], quantity: cartItems[ProductExist].quantity + 1})
- */
       const newCartItem = cartItems.map((item)=> item.id === product.id ? {...ProductExist, quantity: ProductExist.quantity + 1} : item);
       setCartItems(newCartItem);
       localStorage.setItem('cartItems', JSON.stringify(newCartItem));
@@ -63,7 +60,7 @@ function App() {
 
   const handleRemoveProduct = (product)=>{
 
-    const ProductExist = cartItems.find((item)=> item.id === product.id)
+    const ProductExist = cartItems.find((item)=> item.id === product.id);
 
 
 
@@ -82,7 +79,7 @@ function App() {
   useEffect(()=>{
     startTransition(()=>{
       setCartItems(localStorage.getItem('cartItems') ? JSON.parse(localStorage.getItem('cartItems')) : []);
-    })
+    });
   
   },[]);
 
@@ -119,12 +116,13 @@ function App() {
   const handleClick = () =>{
     window.addEventListener('load', ()=>{
       setIsLoading(true);
-    })
-
-    // Once the window is loaded
+      // Once the window is loaded
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 3500);
+    })
+
+    
   }
 
   useEffect(()=>{
@@ -140,7 +138,7 @@ function App() {
     // Once the window is loaded
     setTimeout(() => {
       setIsLoading(false);
-    }, 4000);
+    }, 2000);
   }
 
   

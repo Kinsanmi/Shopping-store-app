@@ -1,5 +1,7 @@
 
 import { Link } from "react-router-dom";
+
+import { useState, useEffect } from "react";
 // category imported
 import { category } from "../Data/Products/Product";
 
@@ -28,36 +30,54 @@ import { AmazingOffer } from "./AmazingOffer";
 export const Categories = ({handleClick}) => {
 
 
-  /* const newTimer = ()=>{
-    const date = new Date().getTime();
-    const nextDay = new Date('September 12, 2023, 00:30:48').getTime();
-    const total = nextDay - date;
+   // Countdown timer
+
+   const [timerDays, setTimerDays] = useState();
+   const [timerHours, setTimerHours] = useState();
+   const [timerMinutes, setTimerMinutes] = useState();
+   const [timerSeconds, setTimerSeconds] = useState();
 
 
-    const second = 1000;
-    const minute = second * 60;
-    const hour = minute * 60;
-    const day = hour * 24;
 
-    const days1 = Math.round(total / day);
-    const hours1 = Math.floor((total % day)/hour);
-    const mins1 = Math.floor((total % hour)/minute);
-    const seconds1 = Math.floor((total % minute)/second);
+   let interval;
 
-    const days = document.querySelector('.day').textContent = days1 + 'D';
-    const mins = document.querySelector('.minute').textContent = mins1 + 'hr';
-    const hours = document.querySelector('.hour').textContent = hours1 + 'Mins';
-    const seconds = document.querySelector('.second').textContent = seconds1 + 'Secs';
+   const Timer = ()=>{
+       const nextDay = new Date('December 28, 2023, 10:00:48').getTime();
+       
 
-    if(total <= 0){
-      clearInterval(date);
-  }
+       interval = setInterval(() => {
+           const date = new Date().getTime();
+           const timeRemaining = nextDay - date;
 
-}
 
-useEffect(()=>{
-setInterval( newTimer, 1000);
-},[]); */
+           const second = 1000;
+           const minute = second * 60;
+           const hour = minute * 60;
+           const day = hour * 24;
+
+
+           const days = Math.floor(timeRemaining / day);
+           const hours = Math.floor((timeRemaining % day)/hour);
+           const minutes = Math.floor((timeRemaining % hour)/minute);
+           const seconds = Math.floor((timeRemaining % minute)/second);
+
+
+           if(timeRemaining <=0){
+               clearInterval(interval.current);
+           }else{
+               setTimerDays(days) 
+               setTimerHours(hours) 
+               setTimerMinutes(minutes) 
+               setTimerSeconds(seconds) 
+           }
+       });
+   }
+
+
+   useEffect(()=>{
+       Timer()
+   });
+
  
 
 
@@ -119,12 +139,17 @@ setInterval( newTimer, 1000);
             <div className="flash-type"> 
             <div className="flash-text">
                 <div className="f">Flash sales</div>
-                <div className="timer">
-                  Countdown timer
-                  <div className="day"></div>
-                  <div className="minute"></div>
-                  <div className="hour"></div>
-                  <div className="second"></div>
+                <div className="timer-start">
+                  Time Left:
+                  <div className="countdown">
+                    <p>{timerHours}h:</p>
+                  </div>
+                  <div className="countdown">
+                    <p>{timerMinutes}m:</p>
+                  </div>
+                  <div className="countdown">
+                    <p>{timerSeconds}s</p>
+                  </div>
                 </div>
                 <Link to='/about/sellAll' className="sell">
                   See All <IoIosArrowForward className="left-arrow" />

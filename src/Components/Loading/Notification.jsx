@@ -3,6 +3,9 @@ import '../Loading/Notification.css';
 import { useState } from 'react';
 
 
+import { IoCloseCircleSharp } from "react-icons/io5";
+
+
 export const Notification = () => {
 
     const [show , setShow] = useState(true);
@@ -14,7 +17,7 @@ export const Notification = () => {
             <div className="good">+</div>
             <div className="notification" >Product added successfully </div>
           </div>
-          <div className='close' onClick={()=>{setShow(false)}}>X</div>
+          <div onClick={()=>{setShow(false)}}><IoCloseCircleSharp className='close' /></div>
         </div>
       </div>
 

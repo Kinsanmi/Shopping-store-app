@@ -1,11 +1,14 @@
 import React from 'react'
-import Logo from './kongaLogo.png';
+
+
+// Md star icon
+import { MdStars } from "react-icons/md";
 
 export const Loading = () => {
   return (
     <>
       <div className="preloader">
-        <img src={Logo} alt="" />
+        <MdStars className='star-icon' />
       </div> 
     </>
   )

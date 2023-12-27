@@ -9,17 +9,17 @@ import { MdOutlineKeyboardArrowRight, MdOutlineShoppingCart } from "react-icons/
 // Ration icon
 import { FaStar,FaStarHalfAlt } from "react-icons/fa";
 
-import Guinness from '../Data/Image cat/guinness.jpg';
 import { guinness } from '../Data/Products/Product';
 
 
+// Shield icon
+import { FaShieldAlt } from "react-icons/fa";
 
-// Grey goose image
-import Goose1 from '../Data/Image cat/Grey Goose Vodka 1.jpg';
-import Goose2 from '../Data/Image cat/Grey Goose Vodka 2.jpg';
-import Goose3 from '../Data/Image cat/Grey Goose Vodka 3.jpg';
-import Goose4 from '../Data/Image cat/Grey Goose Vodka 4.jpg';
-import Goose5 from '../Data/Image cat/Grey Goose Vodka 5.jpg';
+
+// Mdstar icon
+import { MdStars } from "react-icons/md";
+
+
 
 
 
@@ -95,15 +95,15 @@ export const Smirnoff = ({handleAddProduct}) => {
                   </div>
                   <div className="promote">PROMOTIONS</div>
                   <div className="shield">
-                    <div>logo</div>
+                    <div><FaShieldAlt /></div>
                     <Link className='extra'>Need extra money? Loan up to N500,000 on the jumiaPay Android app.</Link>
                   </div>
                   <div className="shield">
-                    <div>logo</div>
+                    <div><MdStars /></div>
                     <Link className='extra'>Enjoy cheaper shipping fees when you select a PickUp Station at checkout.</Link>
                   </div>
                   <div className="shield">
-                    <div>logo</div>
+                    <div><FaShieldAlt /></div>
                     <Link className='extra'>Transfer up to N20,000 to any bank in Nigeria for FREE!</Link>
                   </div>
               </div>

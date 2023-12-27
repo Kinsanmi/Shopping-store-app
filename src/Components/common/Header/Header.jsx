@@ -32,7 +32,7 @@ import { IoSearchSharp } from "react-icons/io5";
 
 
 
-export const Header = ({cartItems}) => {
+export const Header = ({cartItems, handlePage}) => {
 
 
   const [open, setOpen] = useState(false);
@@ -86,7 +86,7 @@ export const Header = ({cartItems}) => {
       <section className={colorChange ? "container open" : "container"}  style={{position: colorChange ? 'fixed' : 'sticky'}}>
 
         <div className="contain-img">
-          <Link to='/store'><img src={Estore} alt="E-Shopping-Store" /></Link>
+          <Link onClick={handlePage} to='/store'><img src={Estore} alt="E-Shopping-Store" /></Link>
         </div>
 
 

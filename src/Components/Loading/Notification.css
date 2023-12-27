@@ -1,34 +1,33 @@
 
 .notify{
     position: fixed;
-    top: 70px;
+    top: 0px;
     right: 0px;
     font-size: 16px;
     color: #000;
     background-color: rgb(58, 141, 58);
     padding: 10px;
-    border-radius: 4px;
-    width: 50%;
+    width: 100%;
     z-index: 210;
 }
 
 .notify .added{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
 }
 
 .notify .added .check-added{
     display: flex;
     color: #fff;
+    text-align: center;
+    flex: 1;
+    margin-left: 650px;
 }
 
 
 .notify .close{
     cursor: pointer;
-    color: #fff;
-    padding: 3px 5px;
-    background-color: #000;
-    border-radius: 50px;
-    font-size: 10px;
+    color: #313133;
+    font-size: 25px;
 }

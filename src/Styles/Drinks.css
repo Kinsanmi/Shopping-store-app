@@ -15,7 +15,7 @@
 
 .vodka_drink{
     background-color: #fff;
-    padding: 12px;
+    padding: 10px;
     border-radius: 5px;
     height: 650px;
 }
@@ -69,16 +69,42 @@
 }
 
 .drink-can{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.2;
     color: #000;
 }
 
+.drink-can .drink-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+
+.drink-can .heart{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.drink-can .heart-icon{
+    color: #f68b1e;
+    font-size: 20px;
+}
+
+.drink-can .heart:hover{
+    background: #dd7f2157;
+}
+
 
 .product{
     color: #313133;
-    padding: 2px 4px;
+    padding: 2px 0px;
     border-radius: 2px;
     margin: 5px 0;
     text-transform: normal;
@@ -89,6 +115,7 @@
     color: #4159ae;
     font-size: 16px;
     transition: 0.1s ease;
+    cursor: pointer;
 }
 
 .product a:hover{
@@ -143,9 +170,10 @@
     border: none;
     padding: 16px 0;
     border-radius: 4px;
-    margin: 20px 0;
+    margin: 15px 0;
     cursor: pointer;
     transition: 0.15s ease;
+    box-shadow: 0px 3px 5px #ccc;
 }
 .add_item .btn-add:hover{
     color: #fff;
@@ -175,15 +203,18 @@
     color: #363536;
     text-transform: uppercase;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.3px;
     line-height: 1.2;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
 }
 
 .shield{
     display: flex;
-    align-items: center;
     color: #4159ae;
+    align-items: center;
     /* display: flex;
     align-items: center;
     color: #264996;
@@ -197,16 +228,29 @@
 
 .shield .extra{
     color: #4159ae;
-    font-size: 16px;
-    margin-left: 5px;
+    font-size: 14px;
+    margin-left: 10px;
 }
 
 .shield:hover .extra,
 .shield:active .extra{
     text-decoration: underline;
-    text-decoration-thickness: 0.5px;
-    
+    text-decoration-thickness: 0.5px;   
 }
+
+
+
+.shield .shield-icon{
+    font-size: 20px;
+    color: #378ef9;
+}
+
+
+.shield .star{
+    color: #f68b1e;
+    font-size: 20px;
+}
+
 
 .report{
     position: absolute;

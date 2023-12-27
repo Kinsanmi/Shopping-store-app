@@ -5,6 +5,9 @@ import '../Styles/Cart.css';
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
+// Delete icon
+import { MdOutlineDelete } from "react-icons/md";
+
 
 export const Cart = ({cartItems, removeItem, handleAddProduct, handleRemoveProduct, handlePage}) => {
 
@@ -12,7 +15,7 @@ export const Cart = ({cartItems, removeItem, handleAddProduct, handleRemoveProdu
 
   const itemPrice = cartItems.reduce(
     (price, item)=> price + item.quantity * item.price, 0
-  )
+  );
   
 
   const taxPrice = itemPrice * 0.14;
@@ -53,16 +56,16 @@ export const Cart = ({cartItems, removeItem, handleAddProduct, handleRemoveProdu
                   <div className="cart-detail">
                     <div className="cart-img">
                       <img src={item.image} alt={item.alt} />
-                      <button onClick={()=>{removeItem(item.id)}}>remove</button>
+                      <div className='button' onClick={()=>{removeItem(item.id)}}><MdOutlineDelete className='delete' />Remove</div>
                     </div>
                     <div className="cart-items">
                       <p>{item.text}</p>
-                      <p>{item.items}</p>
+                      <h5>{item.items}</h5>
                     </div>
                   </div>
 
                   <div className="buttons">
-                    <div className="btn-price">₦{item.price}</div>
+                    <div className="btn-price">₦ {item.price}</div>
                     <div className="discount">
                       <h4>{item.discount}</h4>
                       <h3>{item.percent}</h3>
@@ -87,10 +90,10 @@ export const Cart = ({cartItems, removeItem, handleAddProduct, handleRemoveProdu
 
                   <div className="sub-total">
                     <div className="total-price">Subtotal</div>
-                    <div className="amount">₦{itemPrice}</div>
+                    <div className="amount">₦ {itemPrice}</div>
                     
                   </div>
-                  <button className='check'>Checkout (₦{itemPrice.toFixed(0)})</button>
+                  <button className='check'>Checkout (₦ {itemPrice.toFixed(0)})</button>
                 </div>
                 </>
               )}

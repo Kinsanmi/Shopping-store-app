@@ -37,7 +37,7 @@
 .cat-image p{
     text-align: center;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 500;
     color: #75757a;
     text-transform: capitalize;
     padding: 10px 0;
@@ -97,7 +97,7 @@
 .sale-image .name{
     color: #313133;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.2;
     text-transform: capitalize;
     margin-bottom: 7px;
@@ -214,8 +214,8 @@
 }
 .sale-image .name{
     color: #313133;
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 1.2;
     text-transform: capitalize;
     margin-bottom: 7px;
@@ -261,7 +261,7 @@
 /* progress bar */
 
 .sale-image .progress{
-    background: #e61601;
+    background: linear-gradient(to right,#f68b1e 36%,#c7c7cd 36%);
     height: 8px;
     width: 100%;
     border-radius: 5px;
@@ -274,8 +274,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #ccc;
-    left: 8%;
+    background: linear-gradient(to right,#f68b1e 46%,#c7c7cd 46%);
 }
 
 
@@ -354,7 +353,7 @@
 .black .name{
     color: #313133;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.2;
     text-transform: capitalize;
     margin-bottom: 7px;
@@ -387,3 +386,19 @@
     border-radius: 2px;
 }
 
+
+
+.timer-start{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.timer-start .countdown p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 3px;
+}

@@ -24,11 +24,12 @@ import F9 from '../Image cat/1 (4).jpg';
 
 
 // Flash sales imported images
-import Binatone from '../Image cat/Binatone.jpg';
-import NIVEA from '../Image cat/NIVEA.jpg';
-import XIAOMI from '../Image cat/XIAOMI.jpg';
-import Aqua from '../Image cat/Aqua water.jpg';
-import Cway from '../Image cat/Cway water.jpg';
+import Binatone from '../Image cat/Portable Digital.jpg';
+import Recharge from '../Image cat/BlueTooth selfie.jpg';
+import NIVEA from '../Image cat/Nova.jpg';
+import Malta1 from '../Image cat/Malta.jpg';
+import Aqua from '../Image cat/Mens Fashion.jpg';
+import Cway from '../Image cat/300kg Portable.jpg';
 
 
 
@@ -206,8 +207,29 @@ import Sumec from '../Image cat/sumec 2.5kg.jpg';
 
 
 
-    let num = 11770;
-    let value = num.toLocaleString();
+import port from '../Image Product/product_image1.jpg';
+import port1 from '../Image Product/2 (2).jpg';
+import port2 from '../Image Product/46ab434800d48949c4a51f0540bd8de3.jpg';
+import port3 from '../Image Product/8.jpg';
+import port4 from '../Image Product/7e886b9d1970df49bebc90417691de87.jpg';
+
+
+
+import blue from '../Image Product/1 (6).jpg';
+import blue1 from '../Image Product/6.jpg';
+import blue2 from '../Image Product/stick.jpg';
+import blue3 from '../Image Product/2 (1).jpg';
+import blue4 from '../Image Product/1 (8).jpg';
+
+
+import malta from '../Image Product/Malta1.jpg';
+import malta_1 from '../Image Product/Malta2.jpg';
+
+
+
+    // string to number
+    let num = 5199;
+    num.toLocaleString();
 
 
 // array of object of categories
@@ -237,7 +259,7 @@ export const category = [
     {
         id: 5,
         image: Store,
-        text: '#5,000 store',
+        text: 'store',
     },
     {
         id: 6,
@@ -322,7 +344,7 @@ export const Sales = [
     {
         id: 5,
         image: RollOn,
-        text: 'NIVEA dry comfort roll-o...',
+        text: 'NIVEA dry comfort roll-...',
         price: "₦ 2,745",
         discount: '₦ 4,200',
         link: '/about/black/friday/deals',
@@ -349,71 +371,190 @@ export const flashSales = [
     {
         id: 1,
         image: Binatone,
-        text: 'Binatone 1.5 Litre Blender...',
-        price: "₦ 28,515",
-        discount: '₦ 32,000',
-        items: '48 items left',
-        link: '/about/black/friday/deals',
-        percentage: '-11%',
-        alt: 'Binatone 1.5 Litre Blender (BLG 450) -white'
+        text: 'Portable Digital  Travel Lu...',
+        price: "₦ 5,199",
+        discount: '₦ 12,950',
+        items: '35 items left',
+        link: '/fashion-portable-digital-travel-luggage-weighing-scale',
+        percentage: '-60%',
+        alt: 'Portable Digital  Travel Luggage Weighing Scale'
     },
     {
         id: 2,
-        image: Malta,
-        text: 'Malta Guinness Can 330ml...',
-        price: "₦ 5,999",
-        discount: '₦ 6,650',
-        items: '100 items left',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-10%',
-        alt: 'Malta Guinness Can 330ml x24',
+        image: Recharge,
+        text: 'Bluetooth Selfie Stick Tri...',
+        price: "₦ 4,550",
+        discount: '₦ 6.807',
+        items: '78 items left',
+        link: '/generic-bluetooth-selfie-stick-tripod-fill-light-shutter-remote',
+        percentage: '-33%',
+        alt: 'Bluetooth Selfie Stick Tripod + Fill Light +Shutter Remote',
     },
     {
         id: 3,
         image: NIVEA,
-        text: 'NIVEA Rich Nourishing Bo...',
-        price: "₦ 4,070",
-        discount: '₦ 5,000',
-        items: '100 items left',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-30%',
-        alt: 'NIVEA Rich Nourishing Body Lotion For Women - 400ml (Pack of 2)',
+        text: 'Nova 2 IN 1 HAIR STRAI...',
+        price: "₦ 2,950",
+        discount: '₦ 3,348',
+        items: '80 items left',
+        link: '/nova-2in-1-hair-straightener-and-curler',
+        percentage: '-12%',
+        alt: 'Nova 2 IN 1 HAIR STRAIGHTENER AND CURLER.',
     },
     {
         id: 4,
-        image: XIAOMI,
-        text: 'XIAOMI Redmi 12C 6.71&...',
-        price: "₦ 74,000",
-        discount: '₦ 90,500',
-        items: '99 items left',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-25%',
-        alt: 'XIAOMI Redmi 12C 6.71&quot 3GB RAM/64GB ROM Android 12 - Graphite Grey',
+        image: Malta1,
+        text: 'Malta Guinness Can 330...',
+        price: "₦ 5,999",
+        discount: '₦ 6,650',
+        items: '100 items left',
+        link: '/malta-guinness-can-330mlx24',
+        percentage: '-10%',
+        alt: 'Malta Guinness Can 330ml x24',
     },
     {
         id: 5,
         image: Aqua,
-        text: 'Biore UV Aqua Rich Watery...',
-        price: "₦ 2,900",
-        discount: '₦ 5,000',
-        items: '100 items left',
+        text: `Men's Fashion Casual Cl...`,
+        price: "₦ 5,950",
+        discount: '₦ 9,000',
+        items: '4 items left',
         /* link: '/about/black/friday/deals', */
-        percentage: '-41%',
-        alt: 'Biore UV Aqua Rich Watery Essence Sunscreen SPF 50 (50ml)',
+        percentage: '-39%',
+        alt: `Men's Fashion Casual Classic Briefs 4-Piece Set - Multicolor`,
     },
     {
         id: 6,
         image: Cway,
-        text: 'Cway Drinking Water 75cl...',
-        price: "₦ 799",
-        discount: '₦ 850',
-        items: '6 items left',
+        text: '300kg Portable Mini Hook...',
+        price: "₦ 19,999",
+        discount: '₦ 31,499',
+        items: '45 items left',
         /* link: '/about/black/friday/deals', */
-        percentage: '-6%',
-        alt: 'Cway Drinking Water 75cl x12',
+        percentage: '-37%',
+        alt: '300kg Portable Mini Hook Hanging Weight LCD Digital Electronic Stainless Steel Scale',
     },
 ]
 
+
+// Flash sales cart 
+export const PortableSales = [
+    {
+        id: 1,
+        image: Binatone,
+        text: 'Portable Digital Travel Luggage Weighing Scale',
+        price: (5199),
+        discount: '₦ 12,950',
+        items: '29 items left',
+        link: '/fashion-portable-digital-travel-luggage-weighing-scale',
+        percent: '-60%',
+        alt: 'Portable Digital  Travel Luggage Weighing Scale'
+    },
+]
+
+export const BluetoothSelfie = [
+    {
+        id: 2,
+        image: Recharge,
+        text: 'Bluetooth Selfie Stick Tripod + Fill Light +Shutter Remote',
+        price: (4550),
+        discount: '₦ 6.807',
+        items: '77 items left',
+        link: '/generic-bluetooth-selfie-stick-tripod-fill-light-shutter-remote',
+        percent: '-33%',
+        alt: 'Bluetooth Selfie Stick Tripod + Fill Light +Shutter Remote'
+    },
+]
+
+export const NovaImg = [
+    {
+        id: 3,
+        image: NIVEA,
+        text: 'Nova 2 IN 1 HAIR STRAIGHTENER AND CURLER',
+        price: (2950),
+        discount: '₦ 3,348',
+        items: '78 items left',
+        link: '/nova-2in-1-hair-straightener-and-curler',
+        percent: '-12%',
+        alt: 'Nova 2 IN 1 HAIR STRAIGHTENER AND CURLER.'
+    },
+]
+
+export const MaltaGuinness = [
+    {
+        id: 4,
+        image: Malta1,
+        text: 'Malta Guinness Can 330ml x24',
+        price:  (5999),
+        discount: '₦ 6,650',
+        items: '100 items left',
+        link: '/malta-guinness-can-330mlx24',
+        percent: '-10%',
+        alt: 'Malta Guinness Can 330ml x24',
+    },
+]
+
+
+
+
+export const PortableImg = [
+    {
+        id:0,
+        value: port,
+    },
+    {
+        id:1,
+        value: port1,
+    },
+    {
+        id:2,
+        value: port2,
+    },
+    {
+        id:3,
+        value: port3,
+    },
+    {
+        id:4,
+        value: port4,
+    },
+]
+
+
+export const BluetoothImg = [
+    {
+        id:0,
+        value: blue,
+    },
+    {
+        id:1,
+        value: blue1,
+    },
+    {
+        id:2,
+        value: blue2,
+    },
+    {
+        id:3,
+        value: blue3,
+    },
+    {
+        id:4,
+        value: blue4,
+    },
+]
+
+
+export const MaltaImg = [
+    {
+        id:0,
+        value: malta,
+    },
+    {
+        id:1,
+        value: malta_1,
+    },
+]
 
 
 
@@ -442,7 +583,7 @@ export const blackFriday = [
     },
     {
         id: 3,
-        image: XIAOMI,
+        image: Malta1,
         text: 'XIAOMI Redmi 12C 6.71..',
         price: "₦ 74,000",
         discount: '₦ 90,500',
