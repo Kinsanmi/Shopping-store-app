@@ -81,8 +81,11 @@ import { RiTwitterXLine } from "react-icons/ri";
 import { BiMessageError } from "react-icons/bi";
 
 
+import { Notification } from '../Components/Loading/Notification';
 
-export const Bluetooth = ({handleAddProduct, to,label}) => {
+
+
+export const Bluetooth = ({handleAddProduct, to,label, notificationMessage}) => {
 
     const year = new Date().getFullYear();
 
@@ -760,6 +763,7 @@ export const Bluetooth = ({handleAddProduct, to,label}) => {
         </div>
         </footer>
     </main>
+    {notificationMessage && <Notification />}
     </>
   )
 }

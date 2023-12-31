@@ -66,7 +66,7 @@ export const MegaMenu = () => {
                             <ul className="second-links">
                             <li className="has-child home-kit">
                                     <Link className="kit">
-                                        <LuApple className="home" />
+                                        <LuApple className='home' />
                                         <div className="icon-large"> Supermarket</div>
                                     </Link>
                                     <div className="mega">
@@ -956,9 +956,6 @@ export const MegaMenu = () => {
                                                 <ul>
                                                     <li>
                                                         <Link>boy's fashion</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link>girl's fashion</Link>
                                                     </li>
                                                 </ul>
                                             </div>

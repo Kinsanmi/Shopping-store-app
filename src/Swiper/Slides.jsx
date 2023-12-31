@@ -14,11 +14,12 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 
 // import Swiper images
-import Brand1 from '../Data/Image cat/BRAND-DAY-CALENDER-SLIDER.jpg';
-import Brand2 from '../Data/Image cat/xiaomi1168x384.jpg';
-import Brand3 from '../Data/Image cat/Brand_calendar_MLP_Slider.jpg';
-import Brand4 from '../Data/Image cat/Diageo_1168x384.jpg';
-import Brand5 from '../Data/Image cat/Brand_calendar_MLP_Slider (1).jpg';
+import Brand1 from '../Data/Image cat/Desktop_MLP_slider__1168x384_(Show_Now) (1).jpg';
+import Brand2 from '../Data/Image cat/Desktop_MLP_slider__1168x384_(Show_Now) (2).jpg';
+import Brand3 from '../Data/Image cat/Desktop_MLP_slider__1168x384_(Show_Now).jpg';
+import Brand4 from '../Data/Image cat/Desktop_MLP_Slider__1168x384.png';
+import Brand5 from '../Data/Image cat/mlp.jpg';
+import Brand6 from '../Data/Image cat/Desktop-MLP-slider_-1168x384-(Show-Now).jpg';
 
 export const Slides = () => {
   return (
@@ -38,19 +39,22 @@ export const Slides = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={Brand1} alt='' />
+          <img src={Brand1} alt='RECKITT STORE' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Brand2} alt='' />
+          <img src={Brand2} alt='RECKITT STORE' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Brand3} alt='' />
+          <img src={Brand3} alt='RECKITT STORE' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Brand4} alt='' />
+          <img src={Brand4} alt='RECKITT STORE' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Brand5} alt='' />
+          <img src={Brand5} alt='RECKITT STORE' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Brand6} alt='RECKITT STORE' />
         </SwiperSlide>
       </Swiper>
       </div>

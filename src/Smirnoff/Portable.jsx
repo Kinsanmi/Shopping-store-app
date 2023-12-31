@@ -88,9 +88,12 @@ import max3 from '../Data/Image Product/46ab434800d48949c4a51f0540bd8de3.jpg';
 import max4 from '../Data/Image Product/7e886b9d1970df49bebc90417691de87.jpg';
 
 
+import { Notification } from '../Components/Loading/Notification';
 
 
-export const Portable = ({handleAddProduct, to,label}) => {
+
+
+export const Portable = ({handleAddProduct, to,label, notificationMessage}) => {
     const year = new Date().getFullYear();
 
 
@@ -700,6 +703,7 @@ export const Portable = ({handleAddProduct, to,label}) => {
         </div>
         </footer>
     </main>
+    {notificationMessage && <Notification />}
     </>
   )
 }

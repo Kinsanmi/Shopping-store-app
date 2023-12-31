@@ -484,9 +484,9 @@ export const Malta = ({handleAddProduct, to,label ,notificationMessage}) => {
                         <div className="delivery-text">
                             <h2>Seller information</h2>
                             <div className="free-delivery">
-                                <h3>Favix Mall</h3>
-                                <h4><span>74%</span> seller Score</h4>
-                                <h4><span>343</span> Followers</h4>
+                                <h3>Guinness</h3>
+                                <h4><span>86%</span> seller Score</h4>
+                                <h4><span>587</span> Followers</h4>
                             </div>
 
                             <div className="seller-perform">
@@ -497,7 +497,7 @@ export const Malta = ({handleAddProduct, to,label ,notificationMessage}) => {
                                 <h4> <MdStars className='star-rate' />Order fulfillment rate: <span>Good</span></h4>
                             </div>
                             <div className="sell-order">
-                                <h4> <MdStars className='star-rate' />Quality Score: <span>Good</span></h4>
+                                <h4> <IoIosCheckmarkCircle className='mark' />Quality Score: <span>Average</span></h4>
                             </div>
                             <div className="sell-order">
                                 <h4> <IoIosCheckmarkCircle className='mark' />Customer Rating: <span>Average</span></h4>

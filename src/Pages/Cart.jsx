@@ -66,7 +66,7 @@ export const Cart = ({cartItems, removeItem, handleAddProduct, handleRemoveProdu
 
                   <div className="buttons">
                     <div className="btn-price">₦ {item.price}</div>
-                    <div className="discount">
+                    <div className="discount-amt">
                       <h4>{item.discount}</h4>
                       <h3>{item.percent}</h3>
                     </div>

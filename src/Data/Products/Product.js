@@ -13,7 +13,7 @@ import Fashion from '../Image cat/fashion_300x240.png';
 import Watches from '../Image cat/watches_300x240.png';
 
 // Top Sells items imported images
-import Malta from '../Image cat/1 (1).jpg';
+import Malta from '../Image cat/Malta.jpg';
 import PowerBank from '../Image cat/1.jpg';
 import Itel from '../Image cat/1 (2).jpg';
 import PowerBank1 from '../Image cat/1 (3).jpg';
@@ -28,23 +28,26 @@ import Binatone from '../Image cat/Portable Digital.jpg';
 import Recharge from '../Image cat/BlueTooth selfie.jpg';
 import NIVEA from '../Image cat/Nova.jpg';
 import Malta1 from '../Image cat/Malta.jpg';
-import Aqua from '../Image cat/Mens Fashion.jpg';
-import Cway from '../Image cat/300kg Portable.jpg';
+import Aqua from '../Image cat/1 (3).jpg';
+import Cway from '../Image cat/Kids Leather.jpg';
 
 
 
 // Black Friday Deals imported images
-import Milo from '../Image cat/Milo.jpg';
+import Knorr from '../Image cat/Knorr Chicken.jpg';
 import Royal from '../Image cat/Royal inches.jpg';
-import Maggi from '../Image cat/Nestle.jpg';
+import Sony from '../Image cat/Sony.jpg';
+import Eaget from '../Image cat/Eaget.jpg'
+import Ps5 from '../Image cat/EA Sport.jpg'
+import EAPs5 from '../Image Product/EA Sport FC.jpg'
 
 
 // Official Store Deals imported images
 import NIVEAPerfect from '../Image cat/NIVEA Perfect.jpg';
-import Defacto from '../Image cat/Girl slipper.jpg';
-import BinatoneSmoother from '../Image cat/Binatone Smoother.jpg';
-import Infinix from '../Image cat/Infinix Hot.jpg';
-import Oraimo from '../Image cat/Oriaimo.jpg';
+import Vera from '../Image cat/Vera.jpg';
+import Thermocool146 from '../Image cat/Thermocool.jpg';
+import Fanta from '../Image cat/Fanta.jpg';
+import Fanta1 from '../Image Product/Fanta1.jpg';
 
 
 // SHOP collection imported images
@@ -222,8 +225,97 @@ import blue3 from '../Image Product/2 (1).jpg';
 import blue4 from '../Image Product/1 (8).jpg';
 
 
+import kid from '../Image Product/kid1.jpg';
+import kid1 from '../Image Product/kid2.jpg';
+import kid2 from '../Image Product/kid3.jpg';
+import kid3 from '../Image Product/kid4.jpg';
+import kid4 from '../Image Product/kid5.jpg';
+
+
+import Haier1 from '../Image Product/HaierThermocool1.jpg';
+import Haier2 from '../Image Product/HaierThermocool2.jpg';
+import Haier3 from '../Image Product/HaierThermocool3.jpg';
+import Haier4 from '../Image Product/HaierThermocool4.jpg';
+import Haier5 from '../Image Product/HaierThermocool5.jpg';
+
+
+
+import power from '../Image Product/p1.jpg';
+import power1 from '../Image Product/p2.jpg';
+import power2 from '../Image Product/p3.jpg';
+import power3 from '../Image Product/p4.jpg';
+
+
+import Ace1 from '../Image Product/elec1.jpg';
+import Ace2 from '../Image Product/elec2.jpg';
+import Ace3 from '../Image Product/elec3.jpg';
+import Ace4 from '../Image Product/elec4.jpg';
+import Ace5 from '../Image Product/elec5.jpg';
+
+
+import itel1 from '../Image Product/itel1.jpg';
+import itel2 from '../Image Product/itel2.jpg';
+import itel3 from '../Image Product/itel3.jpg';
+import itel4 from '../Image Product/itel4.jpg';
+import itel5 from '../Image Product/itel5.jpg';
+
+
+import Nivea1 from '../Image Product/nivea1.jpg';
+import Nivea2 from '../Image Product/nivea2.jpg';
+import Nivea3 from '../Image Product/nivea3.jpg';
+import Nivea4 from '../Image Product/nivea4.jpg';
+import Nivea5 from '../Image Product/nivea5.jpg';
+
+
+import Niveaperfect1 from '../Image Product/Nivea1Perfect.jpg';
+import Niveaperfect2 from '../Image Product/Nivea2Perfect.jpg';
+import Niveaperfect3 from '../Image Product/Nivea3Perfect.jpg';
+import Niveaperfect4 from '../Image Product/Nivea4Perfect.jpg';
+import Niveaperfect5 from '../Image Product/Nivea5Perfect.jpg';
+
+
+import eaget1 from '../Image Product/eaget1.jpg';
+import eaget2 from '../Image Product/eaget2.jpg';
+import eaget3 from '../Image Product/eaget3.jpg';
+import eaget4 from '../Image Product/eaget4.jpg';
+import eaget5 from '../Image Product/eaget5.jpg';
+
+
+
 import malta from '../Image Product/Malta1.jpg';
 import malta_1 from '../Image Product/Malta2.jpg';
+
+
+
+import sony1 from '../Image Product/Sony1.jpg';
+import sony2 from '../Image Product/sony2.jpg';
+
+
+import royal1 from '../Image Product/Royal.jpg';
+import royal2 from '../Image Product/Royal1.jpg';
+import royal3 from '../Image Product/Royal2.jpg';
+
+
+import adidas1 from '../Image Product/Adidas1.jpg';
+import adidas2 from '../Image Product/Adidas2.jpg';
+import adidas3 from '../Image Product/Adidas3.jpg';
+import adidas4 from '../Image Product/Adidas4.jpg';
+import adidas5 from '../Image Product/Adidas5.jpg';
+
+
+
+
+
+
+
+
+
+
+
+
+// Appliance
+import scanfrost from '../Image cat/Scanfrost burner.jpg';
+import Double from '../Image cat/2L Double.jpg';
 
 
 
@@ -307,7 +399,7 @@ export const Sales = [
         text: 'Malta Guinness Can 330ml...',
         price: "₦ 5999",
         discount: '₦ 6,650',
-        /* link: '/about/black/friday/deals', */
+        link: '/malta-guinness-can-330mlx24',
         percentage: '-10%',
         alt: 'Malta Guinness Can 330ml x24',
     },
@@ -317,7 +409,7 @@ export const Sales = [
         text: 'Ace elec power bank 2000...',
         price: "₦ 7,100",
         discount: '₦ 9,000',
-        link: '/about/black/friday/deals',
+        link: '/ace-elec-power-banks-2000-mah-utra-slim-portable-fast-charger-ace-elec',
         percentage: '-21%',
         alt: 'Ace Elec Power Bank 2000 MAh Ultra Slim Portable Fat Charger (ACE ELEC)'
     },
@@ -325,10 +417,10 @@ export const Sales = [
         id: 3,
         image: Itel,
         text: 'itel 20000mAh mobile pow...',
-        price: "₦ 10,800",
+        price: "₦ 11,500",
         discount: '₦ 15,000',
-        link: '/about/black/friday/deals',
-        percentage: '-28%',
+        link: '/20000mah-mobile-power-charger-bank-itel',
+        percentage: '-23%',
         alt: 'itel 20000mAh Mobile Power Charge Bank'
     },
     {
@@ -337,7 +429,7 @@ export const Sales = [
         text: 'power banks 20000mAh ul...',
         price: "₦ 7,100",
         discount: '₦ 9,000',
-        link: '/about/black/friday/deals',
+        link: '/ace-elec-power-banks-2000-mah-utra-slim-portable-fast-charger-ace-elec',
         percentage: '-21%',
         alt: 'Power Banks 20000 MAh Ultra Slim Portable Fast Charge (Ace ELEC)'
     },
@@ -345,9 +437,9 @@ export const Sales = [
         id: 5,
         image: RollOn,
         text: 'NIVEA dry comfort roll-...',
-        price: "₦ 2,745",
+        price: "₦ 3,155",
         discount: '₦ 4,200',
-        link: '/about/black/friday/deals',
+        link: '/dry-comfort-roll-on-for-women-48h-50ml-pack-of-3-nivea',
         percentage: '-25%',
         alt: 'NIVEA Dry Comfort Roll-on For Women, 72h- 50ml (Pack of 3)'
     },
@@ -355,14 +447,177 @@ export const Sales = [
         id: 6,
         image: F9,
         text: 'Ace Elec F9 wireless fing...',
-        price: "₦ 3,450",
-        discount: '₦ 6,059',
-        link: '/about/black/friday/deals',
-        percentage: '-43%',
+        price: "₦ 3,990",
+        discount: '₦ 9,990',
+        link: '/ace-elec-f9-wireless-fingerprint-touch-bluetooth-headset',
+        percentage: '-60%',
         alt: 'Ace Elec F9 Wireless Fingerprint Touch Bluetooth Headset'
     },
 
 ]
+
+
+// top sales cart
+
+export const PowerBankAce = [
+    {
+        id: 5,
+        image: PowerBank,
+        text: 'Ace Elec Power Bank 2000 MAh Ultra Slim Portable Fat Charger (ACE ELEC)',
+        price: (7100),
+        discount: '₦ 9,000',
+        items: '316 items left',
+        link: '/ace-elec-power-banks-2000-mah-utra-slim-portable-fast-charger-ace-elec',
+        percent: '-21%',
+        alt: 'Ace Elec Power Bank 2000 MAh Ultra Slim Portable Fat Charger (ACE ELEC)'
+    },
+]
+
+
+export const ItelMobile = [
+    {
+        id: 7,
+        image: Itel,
+        text: 'itel 20000mAh Mobile Power Charge Bank',
+        price: (11500),
+        discount: '₦ 15,000',
+        items: '7 items left',
+        link: '/20000mah-mobile-power-charger-bank-itel',
+        percent: '-23%',
+        alt: 'itel 20000mAh Mobile Power Charge Bank'
+    },
+]
+
+
+export const NiveaDry = [
+    {
+        id: 8,
+        image: RollOn,
+        text: 'NIVEA Dry Comfort Roll-on For Women, 72h- 50ml (Pack of 3)',
+        price: (3155),
+        discount: '₦ 4,200',
+        items: 'In Stock',
+        link: '/dry-comfort-roll-on-for-women-48h-50ml-pack-of-3-nivea',
+        percent: '-25%',
+        alt: 'NIVEA Dry Comfort Roll-on For Women, 72h- 50ml (Pack of 3)'
+    },
+]
+
+
+export const AceHeadSet = [
+    {
+        id: 9,
+        image: F9,
+        text: 'Ace Elec F9 Wireless Fingerprint Touch Bluetooth Headset',
+        price: (3990),
+        discount: '₦ 9,990',
+        items: 'Few units left',
+        link: '/ace-elec-f9-wireless-fingerprint-touch-bluetooth-headset',
+        percent: '-60%',
+        alt: 'Ace Elec F9 Wireless Fingerprint Touch Bluetooth Headset'
+    },
+]
+
+
+
+export const PowerImg = [
+    {
+        id:0,
+        value: power,
+    },
+    {
+        id:1,
+        value: power1,
+    },
+    {
+        id:2,
+        value: power2,
+    },
+    {
+        id:3,
+        value: power3,
+    },
+]
+
+
+export const ItelImg = [
+    {
+        id:0,
+        value: itel1,
+    },
+    {
+        id:1,
+        value: itel2,
+    },
+    {
+        id:2,
+        value: itel3,
+    },
+    {
+        id:3,
+        value: itel4,
+    },
+    {
+        id:4,
+        value: itel5,
+    },
+]
+
+
+export const NiveaImg = [
+    {
+        id:0,
+        value: Nivea1,
+    },
+    {
+        id:1,
+        value: Nivea2,
+    },
+    {
+        id:2,
+        value: Nivea3,
+    },
+    {
+        id:3,
+        value: Nivea4,
+    },
+    {
+        id:4,
+        value:  Nivea5,
+    },
+]
+
+
+export const AceImg = [
+    {
+        id:0,
+        value: Ace1,
+    },
+    {
+        id:1,
+        value: Ace2,
+    },
+    {
+        id:2,
+        value: Ace3,
+    },
+    {
+        id:3,
+        value: Ace4,
+    },
+    {
+        id:4,
+        value:  Ace5,
+    },
+]
+
+
+
+
+
+
+
+
 
 
 
@@ -415,24 +670,24 @@ export const flashSales = [
     {
         id: 5,
         image: Aqua,
-        text: `Men's Fashion Casual Cl...`,
-        price: "₦ 5,950",
+        text: `Ace Elec Power Bank 20...`,
+        price: "₦ 7,100",
         discount: '₦ 9,000',
-        items: '4 items left',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-39%',
-        alt: `Men's Fashion Casual Classic Briefs 4-Piece Set - Multicolor`,
+        items: '316 items left',
+        link: '/ace-elec-power-banks-2000-mah-utra-slim-portable-fast-charger-ace-elec',
+        percentage: '-21%',
+        alt: `Ace Elec Power Bank 2000 MAh Ultra Slim Portable Fat Charger (ACE ELEC)`,
     },
     {
         id: 6,
         image: Cway,
-        text: '300kg Portable Mini Hook...',
-        price: "₦ 19,999",
-        discount: '₦ 31,499',
-        items: '45 items left',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-37%',
-        alt: '300kg Portable Mini Hook Hanging Weight LCD Digital Electronic Stainless Steel Scale',
+        text: 'Kids Leather Martin Bo...',
+        price: "₦ 7,900",
+        discount: '₦ 12,998',
+        items: '1 items left',
+        link: '/fashion-kids-leather-martin-boots-girls-boys-sneaker-shoes-brown',
+        percentage: '-38%',
+        alt: 'Kids Leather Martin Boots Girls Boys Sneaker Shoes - Brown',
     },
 ]
 
@@ -495,6 +750,21 @@ export const MaltaGuinness = [
 ]
 
 
+export const KidLeather1 = [
+    {
+        id: 6,
+        image: Cway,
+        text: 'Kids Leather Martin Boots Girls Boys Sneaker Shoes - Brown',
+        price:  (7900),
+        discount: '₦ 12,998',
+        items: '1 items left',
+        link: '/fashion-kids-leather-martin-boots-girls-boys-sneaker-shoes-brown',
+        percent: '-39%',
+        alt: 'Kids Leather Martin Boots Girls Boys Sneaker Shoes - Brown',
+    },
+]
+
+
 
 
 export const PortableImg = [
@@ -545,6 +815,31 @@ export const BluetoothImg = [
 ]
 
 
+
+export const KidImg = [
+    {
+        id:0,
+        value: kid,
+    },
+    {
+        id:1,
+        value: kid1,
+    },
+    {
+        id:2,
+        value: kid2,
+    },
+    {
+        id:3,
+        value: kid3,
+    },
+    {
+        id:4,
+        value: kid4,
+    },
+]
+
+
 export const MaltaImg = [
     {
         id:0,
@@ -564,64 +859,199 @@ export const MaltaImg = [
 export const blackFriday = [
     {
         id: 1,
-        image: Milo,
-        text: 'Milo 3 in 1 30g x8 (Milo)',
-        price: "₦ 959",
-        discount: '₦ 1,130',
-        link: '/about/black/friday/deals',
-        alt: 'Milo 3 in 1 30g x8 (Milo)'
+        image: Knorr,
+        text: 'Knorr Chicken Seasoning...',
+        price: "₦ 1,160",
+        link: '/knorr-chicken-seasoning-cubes-8g-x-45',
+        alt: 'Knorr Chicken Seasoning Cubes 8g x 45'
     },
     {
         id: 2,
-        image: Malta,
-        text: 'Malta Guinness Can 330..',
-        price: "₦ 5,999",
-        discount: '₦ 6,650',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-10%',
-        alt: 'Malta Guinness Can 330ml x24',
+        image: Eaget,
+        text: 'Eaget Pen Flash Drive 3.0...',
+        price: '₦ 5,499',
+        discount: '₦ 5,999',
+        items: 'in stock',
+        link: '/eaget-pen-flash-drive-3.0-128gb-metal-otg-micro-usb-type-c',
+        percentage: '-8%',
+        alt: 'Eaget Pen Flash Drive 3.0 128GB - Metal OTG Micro USB Type-C'
     },
     {
         id: 3,
         image: Malta1,
-        text: 'XIAOMI Redmi 12C 6.71..',
-        price: "₦ 74,000",
-        discount: '₦ 90,500',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-25%',
-        alt: 'XIAOMI Redmi 12C 6.71&quot 3GB RAM/64GB ROM Android 12 - Graphite Grey',
+        text: 'Malta Guinness Can 330ml..',
+        price:  '₦ 5,999',
+        discount: '₦ 6,650',
+        items: '100 items left',
+        link: '/malta-guinness-can-330mlx24',
+        percentage: '-10%',
+        alt: 'Malta Guinness Can 330ml x24',
     },
     {
         id: 4,
         image: Royal,
-        text: 'Royal 32 Inches LED TV (R.',
-        price: "₦ 58,800",
-        discount: '₦ 60,480',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-3%',
+        text: 'Royal 32 Inches LED TV (RT...',
+        price: '₦ 62,100',
+        discount: '₦ 72,000',
+        items: '75 units left',
+        link: '/royal-32-inches-led-tv-rtv32f7j-1-year-warranty',
+        percentage: '-14%',
         alt: 'Royal 32 Inches LED TV (RTV 32F7J) + 1 year Warranty',
     },
     {
         id: 5,
-        image: Maggi,
-        text: 'Nestle Maggi Cubes Chic.',
-        price: "₦ 2,900",
-        discount: '₦ 5,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-15%',
-        alt: 'Nestle Maggi Cubes Chicken Flavour 4g X 100',
+        image: Sony,
+        text: 'Sony PS4 Slim 500GB Cons...',
+        price: "₦ 185,500",
+        discount: '₦ 185,550',
+        link: '/ea-sports-fc-24-playstation',
+        percentage: '-1%',
+        alt: 'Sony PS4 Slim 500GB Console - Black',
     },
     {
         id: 6,
-        image: PowerBank1,
-        text: 'power banks 20000mAh..',
-        price: "₦ 7,100",
-        discount: '₦ 9,000',
-        link: '/about/black/friday/deals',
-        percentage: '-21%',
-        alt: 'Power Banks 20000 MAh Ultra Slim Portable Fast Charge (Ace ELEC)'
+        image: Ps5,
+        text: 'EA Sports FC 24 Playstatio..',
+        price: '₦ 49,680',
+        discount: '₦ 49,630',
+        items: 'Few unites left',
+        percentage: '-1%',
+        link: '/ea-sports-fc-24-playstation-5-270428944',
+        alt: 'EA Sports FC 24 Playstation 5',
     },
 ]
+
+
+
+// black friday cart
+
+export const EagetPen = [
+    {
+        id: 9,
+        image: Eaget,
+        text: 'Eaget Pen Flash Drive 3.0 128GB - Metal OTG Micro USB Type-C',
+        price: (5499),
+        discount: '₦ 5,999',
+        items: 'in stock',
+        link: '/eaget-pen-flash-drive-3.0-128gb-metal-otg-micro-usb-type-c',
+        percent: '-8%',
+        alt: 'Eaget Pen Flash Drive 3.0 128GB - Metal OTG Micro USB Type-C'
+    },
+]
+
+
+export const KnorrCube = [
+    {
+        id: 10,
+        image: Knorr,
+        text: 'Knorr Chicken Seasoning Cubes 8g x 45',
+        price: (1160),
+        discount: '₦ 1,068',
+        items: '9 units left',
+        link: '/knorr-chicken-seasoning-cubes-8g-x-45',
+        percent: '-8%',
+        alt: 'Knorr Chicken Seasoning Cubes 8g x 45'
+    },
+]
+
+
+export const RoyalTv = [
+    {
+        id: 12,
+        image: Royal,
+        text: 'Royal 32 Inches LED TV (RTV 32F7J) + 1 year Warranty',
+        price: (62100),
+        discount: '₦ 72,000',
+        items: '75 units left',
+        link: '/royal-32-inches-led-tv-rtv32f7j-1-year-warranty',
+        percent: '-14%',
+        alt: 'Royal 32 Inches LED TV (RTV 32F7J) + 1 year Warranty',
+    },
+]
+
+
+export const SonyPs4 = [
+    {
+        id: 13,
+        image: Sony,
+        text: 'Sony PS4 Slim 500GB Console - Black',
+        price: (185500),
+        discount: '₦ 185,550',
+        items: 'In stock',
+        link: '/ea-sports-fc-24-playstation',
+        percent: '-1%',
+        alt: 'Sony PS4 Slim 500GB Console - Black',
+    },
+]
+
+
+export const EaSport = [
+    {
+        id: 14,
+        image: EAPs5,
+        text: 'EA Sports FC 24 Playstation 5',
+        price: (49680),
+        discount: '₦ 49,630',
+        items: 'Few unites left',
+        percent: '-1%',
+        link: '/ea-sports-fc-24-playstation-5-270428944',
+        alt: 'EA Sports FC 24 Playstation 5',
+    },
+]
+
+
+
+export const EagetImg = [
+    {
+        id:0,
+        value: eaget1,
+    },
+    {
+        id:1,
+        value: eaget2,
+    },
+    {
+        id:2,
+        value: eaget3,
+    },
+    {
+        id:3,
+        value: eaget4,
+    },
+    {
+        id:4,
+        value: eaget5,
+    },
+]
+
+
+export const RoyalImg = [
+    {
+        id:0,
+        value: royal1,
+    },
+    {
+        id:1,
+        value: royal2,
+    },
+    {
+        id:2,
+        value: royal3,
+    },
+]
+
+export const SonyImg = [
+    {
+        id:0,
+        value: sony1,
+    },
+    {
+        id:1,
+        value: sony2,
+    },
+]
+
+
 
 
 
@@ -631,64 +1061,231 @@ export const officialStore = [
     {
         id: 1,
         image: NIVEAPerfect,
-        text: 'NIVEA Perfect & Radiant L..',
-        price: "₦ 11,600",
+        text: 'NIVEA Perfect & Radiant Luminou...',
+        price: "₦ 15,345",
         discount: '₦ 19,200',
-        link: '/about/black/friday/deals',
-        percentage: '-40%',
-        alt: 'NIVEA Perfect & Radiant Luminous630 Anti Dark Marks Serum 30ml & Anti Dark Marks Day Cream SPF50 (bundle Pack)'
+        link: '/nivea-perfect-radiant-luminous630-anti-marks-day-cream-spf50-40ml',
+        percentage: '-20%',
+        alt: 'NIVEA Perfect & Radiant Luminous630 Anti Dark Marks Day Cream SPF50 - 40ml (Pack of 2)'
     },
     {
         id: 2,
-        image: Malta,
-        text: 'Malta Guinness Can 330m..',
-        price: "₦ 5,999",
-        discount: '₦ 6,650',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-10%',
-        alt: 'Malta Guinness Can 330ml x24',
+        image: Vera,
+        text: 'Vera Wang For Women E...',
+        price: '₦ 34,900',
+        discount: '₦ 36,500',
+        link: '/vera-wang-for-women-dep-100ml',
+        percentage: '-4%',
+        alt: 'Vera Wang For Women EDP 100ml',
     },
     {
         id: 3,
-        image: Defacto,
-        text: 'Defacto Girl Slipper Flipflo..',
-        price: "₦ 5,775",
-        discount: '₦ 8,492',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-32%',
-        alt: 'Defacto Girl Slipper Flipflop - Orange',
+        image: Adidas_core,
+        text: 'ADIDAS Advantage Lif..',
+        price: "₦ 22,958",
+        discount: '₦ 51,017',
+        link: '/adidas-advantage-lifestyle-court-lace-shoes',
+        percentage: '-55%',
+        alt: 'ADIDAS Advantage Lifestyle Court Lace Shoes',
     },
     {
         id: 4,
-        image: BinatoneSmoother,
-        text: 'Binatone Smoother Glidin...',
-        price: "₦ 7,670",
-        discount: '₦ 7,790',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-2%',
-        alt: 'Binatone Smoother Gliding Steam Iron (SI-1605) - Blue',
+        image: Guinness,
+        text: 'Guinness Smooth Can 3...',
+        price: "₦ 9,999",
+        discount: '₦ 11,770',
+        link: '/guinness-smooth-can-33cl-x-24',
+        percentage: '-15%',
+        alt: 'Guinness Smooth Can 33cl x 24',
     },
     {
         id: 5,
-        image: Infinix,
-        text: `Infinix Hot 30i 6.6'" HD+,...`,
-        price: "₦ 97,335",
-        discount: '₦ 120,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-19%',
-        alt: `Infinix Hot 30i 6.6'" HD+, 4+4GB RAM /128GB ROM Android 12 - Black`,
+        image: Thermocool146,
+        text: `Haier Thermocool 146 Li...`,
+        price: "₦ 193,380",
+        discount: '₦ 198,300',
+        link: '/haier-thermocool-146-liters-chest-freezer-htf-150-siver-3-years-warranty',
+        percentage: '-3%',
+        alt: `Haier Thermocool 146 Litres Chest Freezer (HTF-150) - Silver + 3 Years Warranty`,
     },
     {
         id: 6,
-        image: Oraimo,
-        text: 'Oraimo FreePods 4 True...',
-        price: "₦ 26,900",
-        discount: '₦ 33,000',
-        link: '/about/black/friday/deals',
-        percentage: '-18%',
-        alt: 'Oraimo FreePods 4 True Wireless Stereo Earbuds + Free OCW-U65S Charger'
+        image: Fanta,
+        text: 'Fanta Drink 50cl Pet x 12',
+        price: "₦ 2,585",
+        discount: '₦ 2,379',
+        link: '/fanta-drink-50cl-pet-x-12-81076434',
+        percentage: '-8%',
+        alt: 'Fanta Drink 50cl Pet x 12'
     },
 ]
+
+
+export const VeraWang = [
+    {
+        id: 15,
+        image: Vera,
+        text: 'Vera Wang For Women EDP 100ml',
+        price: (34900),
+        discount: '₦ 36,500',
+        items: '3 units left',
+        link: '/vera-wang-for-women-dep-100ml',
+        percent: '-4%',
+        alt: 'Vera Wang For Women EDP 100ml',
+    },
+]
+
+
+export const AdidasLace = [
+    {
+        id: 16,
+        image: Adidas_core,
+        text: 'ADIDAS Advantage Lifestyle Court Lace Shoes',
+        price: (22958),
+        discount: '₦ 51,017',
+        items: 'some variations with low stock',
+        link: '/adidas-advantage-lifestyle-court-lace-shoes',
+        percent: '-55%',
+        alt: 'ADIDAS Advantage Lifestyle Court Lace Shoes',
+    },
+]
+
+
+export const GuinnessSmooth = [
+    {
+        id: 17,
+        image: Guinness,
+        text: 'Guinness Smooth Can 33cl x 24',
+        price: (9999),
+        discount: '₦ 11,770',
+        items: '3 units lefts',
+        link: '/guinness-smooth-can-33cl-x-24',
+        percent: '-15%',
+        alt: 'Guinness Smooth Can 33cl x 24',
+    },
+]
+
+
+export const NiveaRadiant = [
+    {
+        id: 18,
+        image: NIVEAPerfect,
+        text: 'NIVEA Perfect & Radiant Luminous630 Anti Dark Marks Day Cream SPF50 - 40ml (Pack of 2)',
+        price: (15345),
+        discount: '₦ 19,200',
+        items: 'In stock',
+        link: '/nivea-perfect-radiant-luminous630-anti-marks-day-cream-spf50-40ml',
+        percent: '-20%',
+        alt: 'NIVEA Perfect & Radiant Luminous630 Anti Dark Marks Day Cream SPF50 - 40ml (Pack of 2)'
+    },
+]
+
+
+export const HaierThermocool = [
+    {
+        id: 19,
+        image: Thermocool146,
+        text: `Haier Thermocool 146 Litres Chest Freezer (HTF-150) - Silver + 3 Years Warranty`,
+        price: (193380),
+        discount: '₦ 198,300',
+        items: 'Few units left',
+        link: '/haier-thermocool-146-liters-chest-freezer-htf-150-siver-3-years-warranty',
+        percent: '-3%',
+        alt: `Haier Thermocool 146 Litres Chest Freezer (HTF-150) - Silver + 3 Years Warranty`,
+    },
+]
+
+
+export const FantaDrink = [
+    {
+        id: 20,
+        image: Fanta1,
+        text: 'Fanta Drink 50cl Pet x 12',
+        price: (2585),
+        discount: '₦ 2,379',
+        items: '1 units left',
+        link: '/fanta-drink-50cl-pet-x-12-81076434',
+        percent: '-8%',
+        alt: 'Fanta Drink 50cl Pet x 12'
+    },
+]
+
+
+export const AdidasImg = [
+    {
+        id:0,
+        value: adidas1,
+    },
+    {
+        id:1,
+        value: adidas2,
+    },
+    {
+        id:2,
+        value: adidas3,
+    },
+    {
+        id:3,
+        value: adidas4,
+    },
+    {
+        id:4,
+        value: adidas5,
+    },
+
+]
+
+
+export const NiveaRadiantImg = [
+    {
+        id:0,
+        value: Niveaperfect1,
+    },
+    {
+        id:1,
+        value: Niveaperfect2,
+    },
+    {
+        id:2,
+        value: Niveaperfect3,
+    },
+    {
+        id:3,
+        value: Niveaperfect4,
+    },
+    {
+        id:4,
+        value: Niveaperfect5,
+    },
+
+]
+
+
+export const HaierThermocoolImg = [
+    {
+        id:0,
+        value: Haier1,
+    },
+    {
+        id:1,
+        value: Haier2,
+    },
+    {
+        id:2,
+        value: Haier3,
+    },
+    {
+        id:3,
+        value: Haier4,
+    },
+    {
+        id:4,
+        value: Haier5,
+    },
+
+]
+
+
 
 
 
@@ -699,7 +1296,8 @@ export const shopCollection = [
     {
         id: 1,
         image: Appliance,
-        alt: 'Appliance Deals'
+        alt: 'Appliance Deals',
+        link: '/mlp-apploiances',
     },
     {
         id: 2,
@@ -1364,7 +1962,7 @@ export const ComputDeal = [
 // Product
 const drinks = [
     {
-        id: 1,
+        id: 21,
         image: Goose,
         text: 'Smirnoff Intense Chocolate Flavored Vodka',
         price: 2567,
@@ -1377,7 +1975,7 @@ const drinks = [
         alt: 'Smirnoff Intense Chocolate Flavored Vodka 750ml'
     },
     {
-        id: 2,
+        id: 22,
         image: Guinness,
         text: 'Guinness Smooth Can 33cl x 24',
         price: 11770,
@@ -1390,7 +1988,7 @@ const drinks = [
         alt: 'Guinness Smooth Can 33cl x 24'
     },
     {
-        id: 3,
+        id: 23,
         image: Johnnie,
         text: 'Johnnie Walker Red Label 70cl',
         price: "₦ 7,935",
@@ -1400,7 +1998,7 @@ const drinks = [
         alt: 'Johnnie Walker Red Label 70cl'
     },
     {
-        id: 4,
+        id: 24,
         image: Orijin,
         text: 'Orijin Bitters 20cl x24',
         price: "₦ 13,200",
@@ -1410,7 +2008,7 @@ const drinks = [
         alt: 'Orijin Bitters 20cl x24'
     },
     {
-        id: 5,
+        id: 25,
         image: Bombay,
         text: 'Bombay Sapphire Gin 75cl',
         price: "₦ 10,755",
@@ -1420,7 +2018,7 @@ const drinks = [
         alt: 'Bombay Sapphire Gin 75cl'
     },
     {
-        id: 6,
+        id: 26,
         image: Gordon,
         text: 'Gordon Pink Berry 750ml',
         price: "₦ 3,208",
@@ -1430,7 +2028,7 @@ const drinks = [
         alt: 'Gordon Pink Berry 750ml'
     },
     {
-        id: 7,
+        id: 27,
         image: Adidas_core,
         text: 'ADIDAS Core Sneakers Advantage Base',
         price: "₦ 26,825",
@@ -1440,7 +2038,7 @@ const drinks = [
         alt: 'ADIDAS Core Sneakers Advantage Base'
     },
     {
-        id: 8,
+        id: 28,
         image: Cognac,
         text: `D'USSE VSOP Cognac 75cl`,
         price: "₦ 48,385",
@@ -1450,7 +2048,7 @@ const drinks = [
         alt: `D'USSE VSOP Cognac 75cl`
     },
     {
-        id: 9,
+        id: 29,
         image: Bacardi,
         text: 'Bacardi 8 Years Rum 70cl',
         price: "₦ 15,535",
@@ -1460,7 +2058,7 @@ const drinks = [
         alt: 'Bacardi 8 Years Rum 70cl'
     },
     {
-        id: 10,
+        id: 30,
         image: Singleton,
         text: 'Singleton of Dufftown 12 Year Old 70cl',
         price: "₦ 23,760",
@@ -1470,7 +2068,7 @@ const drinks = [
         alt: 'Singleton of Dufftown 12 Year Old 70cl'
     },
     {
-        id: 11,
+        id: 31,
         image: Bacardi_oro,
         text: 'Bacardi Carta Oro Golden Rum 75cl',
         price: "₦ 7,155",
@@ -1480,7 +2078,7 @@ const drinks = [
         alt: 'Bacardi Carta Oro Golden Rum 75cl'
     },
     {
-        id: 12,
+        id: 32,
         image: Waste_bin,
         text: 'Industrial Waste Bin, Green 240L',
         price: "₦ 39,999",
@@ -1490,7 +2088,7 @@ const drinks = [
         alt: 'Industrial Waste Bin, Green 240L'
     },
     {
-        id: 13,
+        id: 33,
         image: Adidas_core,
         text: 'ADIDAS Advantage Lifestyle Court Lace',
         price: "₦ 22,958",
@@ -1500,7 +2098,7 @@ const drinks = [
         alt: 'ADIDAS Advantage Lifestyle Court Lace Shoes'
     },
     {
-        id: 14,
+        id: 34,
         image: Smirnoff_ice,
         text: 'Smirnoff Ice Pineapple Punch 33cl x 24',
         price: "₦ 12,420",
@@ -1510,7 +2108,7 @@ const drinks = [
         alt: 'Smirnoff Ice Pineapple Punch 33cl x 24'
     },
     {
-        id: 15,
+        id: 35,
         image: Camino,
         text: 'Camino Real Tequila 75cl',
         price: "₦ 8,065",
@@ -1520,7 +2118,7 @@ const drinks = [
         alt: 'Camino Real Tequila 75cl'
     },
     {
-        id: 16,
+        id: 36,
         image: Cognac_75,
         text: `D'USSE XO Cognac 75cl`,
         price: "₦ 113,795",
@@ -1530,7 +2128,7 @@ const drinks = [
         alt: `D'USSE XO Cognac 75cl`
     },
     {
-        id: 17,
+        id: 37,
         image: Grey_le,
         text: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl',
         price: "₦ 24,195",
@@ -1540,7 +2138,7 @@ const drinks = [
         alt: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl'
     },
     {
-        id: 18,
+        id: 38,
         image: Grey_goose,
         text: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl',
         price: "₦ 24,195",
@@ -1550,7 +2148,7 @@ const drinks = [
         alt: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl'
     },
     {
-        id: 19,
+        id: 39,
         image: Martini,
         text: 'Martini Bianco Vermouth Premium Gin 100cl',
         price: "₦ 5,645",
@@ -1560,7 +2158,7 @@ const drinks = [
         alt: 'Martini Bianco Vermouth 100cl'
     },
     {
-        id: 20,
+        id: 40,
         image: Sumec,
         text: 'Sumec 2.5kva Key start Generator (SPG3000E2)',
         price: "₦ 257,250",
@@ -1589,4 +2187,56 @@ export const guinness = [
         official: 'Official store',
         alt: 'Guinness Smooth Can 33cl x 24'
     }
+]
+
+
+
+
+
+export const LargeAppliance = [
+    {
+        id: 41,
+        image: scanfrost,
+        text: 'Scanfrost 4-Burner Gas Cooker 50 X 50cm (CK-5400B) + 2 Years Warranty',
+        price: '₦ 99,360',
+        link: '/about/black/friday/deals',
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Scanfrost 4-Burner Gas Cooker 50 X 50cm (CK-5400B) + 2 Years Warranty',
+    },
+
+    {
+        id: 42,
+        image: Goose,
+        text: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty',
+        price: `₦ 89,640`,
+        link: '/about/black/friday/deals',
+        delivery: 'Pay on Delivery',
+        alt: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty'
+    },
+
+    {
+        id: 43,
+        image: Goose,
+        text: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty',
+        price: `₦ 11,770`,
+        discount: '₦ 5,000',
+        percent: '-28%',
+        link: '/about/black/friday/deals',
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty'
+    },
+    {
+        id: 44,
+        image: Double,
+        text: '2L Double Spray Humidifier',
+        price: `₦ 9,690`,
+        discount: '₦ 15,510',
+        percent: '-28%',
+        link: '/about/black/friday/deals',
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: '2L Double Spray Humidifier'
+    },
 ]

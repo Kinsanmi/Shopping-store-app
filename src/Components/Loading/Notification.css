@@ -25,6 +25,10 @@
     margin-left: 650px;
 }
 
+.notify .added .check-added .good{
+    margin-right: 10px;
+}
+
 
 .notify .close{
     cursor: pointer;

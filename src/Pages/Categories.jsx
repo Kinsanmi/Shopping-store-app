@@ -42,7 +42,7 @@ export const Categories = ({handleClick}) => {
    let interval;
 
    const Timer = ()=>{
-       const nextDay = new Date('December 28, 2023, 10:00:48').getTime();
+       const nextDay = new Date('January 1, 2024, 10:00:48').getTime();
        
 
        interval = setInterval(() => {
@@ -142,6 +142,9 @@ export const Categories = ({handleClick}) => {
                 <div className="timer-start">
                   Time Left:
                   <div className="countdown">
+                    <p>{timerDays}d:</p>
+                  </div>
+                  <div className="countdown">
                     <p>{timerHours}h:</p>
                   </div>
                   <div className="countdown">
@@ -175,7 +178,7 @@ export const Categories = ({handleClick}) => {
                                 <div className="items">
                                   {sale.items}
                                 </div>
-                                <div className="progress"></div>
+                                <div className="progress-flash"></div>
                             </Link>
                         )
                     })}
@@ -191,7 +194,7 @@ export const Categories = ({handleClick}) => {
         <div className="black">
             <div className="black-type"> 
             <div className="black-text">
-                <div className="f">Black friday deals</div>
+                <div className="f">Limited Stock deals</div>
                 <Link to='/about/sellAll' className="sell">
                   See All <IoIosArrowForward className="left-arrow" />
                 </Link>

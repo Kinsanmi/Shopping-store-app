@@ -26,7 +26,7 @@
 
 
 .portable .portable-content .portable-img .port-context .port-img img{
-    width: 340px;  
+    width: 380px;  
     transition: 0.2s ease; 
 }
 
@@ -122,25 +122,61 @@
 
 
 .portable-detail .detail{
-    font-size: 14px;
+    font-size: 15px;
     color: rgb(49, 49, 51);
     letter-spacing: 0.4px;
-    line-height: 1.1;
+    line-height: 1.5;
     font-weight: 200;
+}
+
+.portable-detail .detail .kid-img{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.portable-detail .detail .kid-img img{
+    border: 1px solid #ccc;
+    width: 180px;
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 .portable-detail .detail .more-detail{
     margin-top: 12px;
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 15px;
+    line-height: 1.5;
     color: rgb(49, 49, 51);
     font-weight: 200;
     letter-spacing: 0.3px;
 }
+
+.portable-detail .detail .more-detail-pen{
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(49, 49, 51);
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
+
+
+.portable-detail .detail .more-detail-eaget{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+
+.portable-detail .detail .more-detail .kid-img img{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
 .portable-detail .detail .more-detail ul li{
     list-style: disc;
     margin-left: 15px;
-    line-height: 1.5;
+    line-height: 1.8;
     color: #313133;
 }
 
@@ -206,6 +242,19 @@
     font-size: 17px;
     color: rgb(49, 49, 51);
 }
+
+
+
+
+.portable-spec .spec-info .spec-features .features .markup-power ul li{
+    list-style: disc;
+    margin-left: 30px;
+    line-height: 1.1;
+    padding: 3px;
+    font-size: 17px;
+    color: rgb(49, 49, 51);
+}
+
 
 .portable-spec .spec-info .spec-features .features .markup ul li{
     list-style: disc;
@@ -277,6 +326,63 @@
 .flash-sales .sales-amount{
     padding: 7px;
 }
+
+
+.flash-sales-item .sales-amount{
+    margin-top: 10px;
+}
+
+
+
+
+.flash-sales-item .sales-amount .discount h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.flash-sales-item .sales-amount .discount h4{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    color: #75757a;
+    text-decoration: line-through;
+}
+
+
+.flash-sales-item .sales-amount .discount h3{
+    color: #f68b1eed;
+    background-color: #fef3e9;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+
+.flash-sales .sales-amount .discount h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.flash-sales .sales-amount .discount h4{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    color: #75757a;
+    text-decoration: line-through;
+}
+
+
+.flash-sales .sales-amount .discount h3{
+    color: #f68b1eed;
+    background-color: #fef3e9;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+
 .flash-sales .sales-amount .progress-icon{
     display: flex;
     align-items: center;
@@ -292,6 +398,15 @@
     letter-spacing: 0.4px;
     line-height: 1.1;
     width: 24%;
+}
+
+.flash-sales-item .sales-amount .progress-icon .sales-item{
+    color: #b81a0a;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    line-height: 1.1;
+    width: 100%;
+    margin-top: 10px;
 }
 
 
@@ -314,6 +429,27 @@
     overflow: hidden;
     margin-right: 10px;
     background: linear-gradient(to right,#f68b1e 86%,#c7c7cd 86%);
+}
+
+.flash-sales .sales-amount .progress-icon .progress-bar-power {
+    height: 8px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+    background: linear-gradient(to right,#f68b1e 54%,#c7c7cd 54%);
+}
+
+
+.flash-sales .sales-amount .progress-icon .progress-bar-kid{
+    height: 8px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+    background: linear-gradient(to right,#b81a0a 2%,#c7c7cd 2%);
 }
 
 
@@ -371,7 +507,7 @@
 }
 
 .shipping .ship-fee{
-    font-size: 15px;
+    font-size: 13px;
     color: #313133;
     letter-spacing: 0.3px;
     line-height: 1.1;
@@ -394,6 +530,10 @@
     margin-top: 0;
     margin-right: 8px;
 }
+.shipping .rating-star .rating .star-rating{
+    color: #75757a8b;
+}
+
 .shipping .rating-star .verify{
     color: #4159ae;
     font-size: 16px;
@@ -421,6 +561,25 @@
     text-transform: capitalize;
     font-size: 14px;
     border-radius: 3px;
+    cursor: pointer;
+    margin-left: 3px;
+    transition: 0.2s ease;
+}
+
+.size-adidas{
+    color: #313133;
+    border: 1px solid #75757a4b;
+    padding: 8px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 3px;
+    transition: 0.2s ease;
+}
+
+.size-adidas:hover{
+    border: 1px solid #75757a;
 }
 
 .report {
@@ -431,6 +590,7 @@
 .report a{
     color: #4159ae;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .report a:hover{
@@ -519,7 +679,7 @@
 .door-delivery{
     display: flex;
     gap: 0.8rem;
-    padding: 8px 8px 0 8px;
+    padding: 8px 8px;
 }
 .door-delivery:nth-child(2){
     display: flex;
@@ -571,7 +731,7 @@
 
 
 .door-delivery .door-detail .delivery-amount .amt{
-    font-size: 14px;
+    font-size: 13.5px;
     color: #313133;
     font-weight: 300;
     text-transform: capitalize;
@@ -582,12 +742,12 @@
 
 
 .door-delivery .door-detail .delivery-amount .amt span{
-    font-weight: 500;
+    font-weight: 550;
 }
 
 
 .door-delivery .door-detail .delivery-amount .amt-ready{
-    font-size: 14px;
+    font-size: 13.5px;
     color: #313133;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -595,7 +755,7 @@
 }
 
 .door-delivery .door-detail .delivery-amount .amt-ready span{
-    font-weight: 500;
+    font-weight: 550;
 }
 
 
@@ -613,11 +773,11 @@
     font-weight: 600;
     color: #313133;
     letter-spacing: 0.4px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .sell-info .delivery-text .free-delivery h4{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: #313133;
     letter-spacing: 0.4px;

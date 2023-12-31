@@ -4,15 +4,14 @@ import { Link } from 'react-router-dom'
 // Styling
 import '../Styles/About.css';
 
-import {Sales} from '../Data/Products/Product';
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-import { shopCollection } from '../Data/Products/Product';
+
 
 // Drinks imported
-import drinks  from '../Data/Products/Product';
+
 import { useState } from 'react';
 
 // back to top icon
@@ -48,17 +47,6 @@ export const About = ({productItems, handleAddProduct, notificationMessage}) => 
 
 
 
-  /* useEffect(()=>{
-    fetch('https://catfact.ninja/fact')
-    .then(res => res.json())
-    .then(data =>{
-      console.log(data);
-    }).catch(error => {
-      console.log(error);
-    })
-  }) */
-
-
   return (
 
 
@@ -69,102 +57,8 @@ export const About = ({productItems, handleAddProduct, notificationMessage}) => 
       </div>
 
 
-
-        {/* Umidigi official store */}
-      <section>
-        <div className="sales">
-            <div className="sale-type"> 
-            <div className="sale-text">Umidigi official store</div> 
-                <div className="sale-detail">
-                    {Sales.map((sale, index)=>{
-                        return (
-                            <Link to={sale.link} className="sale-image" key={index}>
-                                <img src={sale.image} alt={sale.alt} />
-                                <div className="name">
-                                  {sale.text}
-                                </div>
-                                <div className="price">
-                                  {sale.price}
-                                </div>
-                                <div className="dst">
-                                  {sale.discount}
-                                </div>
-                                <div className="percent">
-                                  {sale.percentage}
-                                </div>
-                            </Link>
-                        )
-                    })}
-                </div>
-            </div>
-        </div>
-      </section>
-
-
-
-        {/* Defacto store*/}
-      <section>
-        <div className="sales">
-            <div className="sale-type"> 
-            <div className="sale-text">Defacto official store</div> 
-                <div className="sale-detail">
-                    {Sales.map((sale, index)=>{
-                        return (
-                            <Link to={sale.link} className="sale-image" key={index}>
-                                <img src={sale.image} alt={sale.alt} />
-                                <div className="name">
-                                  {sale.text}
-                                </div>
-                                <div className="price">
-                                  {sale.price}
-                                </div>
-                                <div className="dst">
-                                  {sale.discount}
-                                </div>
-                                <div className="percent">
-                                  {sale.percentage}
-                                </div>
-                            </Link>
-                        )
-                    })}
-                </div>
-            </div>
-        </div>
-      </section>
-
-
-        {/* freeyond store*/}
-      <section>
-        <div className="sales">
-            <div className="sale-type"> 
-            <div className="sale-text">Freeyond store</div> 
-                <div className="sale-detail">
-                    {Sales.map((sale, index)=>{
-                        return (
-                            <Link to={sale.link} className="sale-image" key={index}>
-                                <img src={sale.image} alt={sale.alt} />
-                                <div className="name">
-                                  {sale.text}
-                                </div>
-                                <div className="price">
-                                  {sale.price}
-                                </div>
-                                <div className="dst">
-                                  {sale.discount}
-                                </div>
-                                <div className="percent">
-                                  {sale.percentage}
-                                </div>
-                            </Link>
-                        )
-                    })}
-                </div>
-            </div>
-        </div>
-      </section>
-
-
-      <div className="clearance_sale">
+      <div className="appliance">
+        <div className="clearance_sale">
         <div className="list">
           <div className="list-text">
             Clearance sales
@@ -183,7 +77,7 @@ export const About = ({productItems, handleAddProduct, notificationMessage}) => 
                       {sales.text}
                     </div>
                     <div className="price">
-                    ₦ {sales.price}
+                     {sales.price}
                     </div>
                     <div className="order">
                       {sales.percentage}
@@ -199,6 +93,7 @@ export const About = ({productItems, handleAddProduct, notificationMessage}) => 
             })}
           </div>
         </div>
+      </div>
       </div>
 
       {notificationMessage && <Notification />}
