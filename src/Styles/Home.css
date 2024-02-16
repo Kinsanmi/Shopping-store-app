@@ -135,3 +135,50 @@
 }
 
 
+
+
+@media screen and (max-width:480px) {
+  .slides {
+    padding: 0px 2%;
+    margin-top: 5px;
+  }
+
+  .store {
+    padding: 5px 0;
+  }
+
+  .store h2 {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+
+  .swiper-button-prev, .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: 20px;
+    height: 20px;
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  }
+
+
+  .swiper-button-next:after {
+    font-size: 8px;
+  }
+
+
+  .btn-Top {
+    display: none;
+  }
+
+  .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+}
+
+.swiper-button-prev:after {
+  font-size: 8px;
+}
+
+
+
+}

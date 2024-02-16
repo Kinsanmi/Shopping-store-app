@@ -35,3 +35,12 @@
     color: #313133;
     font-size: 25px;
 }
+
+
+@media screen and (max-width:480px) {
+    .notify .added .check-added {
+        flex: 1;
+        margin-left: 0px;
+    }
+    
+}

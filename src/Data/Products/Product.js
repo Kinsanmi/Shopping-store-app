@@ -1,16 +1,16 @@
 // category imported images
-import Countdown from '../Image cat/ezgif.com-optimize.gif';
-import Phones from '../Image cat/phones-tablets_300x240.png';
-import Groceries from '../Image cat/grocies-freelinks.jpg'
-import Computer from '../Image cat/computing.jpg';
-import Clearance from '../Image cat/clearance.gif';
-import Television from '../Image cat/TELEVISION.jpg';
-import Store from '../Image cat/5k-store.gif';
-import Refrigerators from '../Image cat/refrigerators_300x240.png';
-import Earphones from '../Image cat/earphones_300x240.png';
-import Generator from '../Image cat/generator.gif';
-import Fashion from '../Image cat/fashion_300x240.png';
-import Watches from '../Image cat/watches_300x240.png';
+import Countdown from '../Image cat/Artboard_13.png';
+import Phones from '../Image cat/5k_store.png';
+import Groceries from '../Image cat/Smartphone.jpg'
+import Computer from '../Image cat/tv.png';
+import Clearance from '../Image cat/conmputing.png';
+import Television from '../Image cat/Groceries.png';
+import Store from '../Image cat/Artboard_12.png';
+import Refrigerators from '../Image cat/Fridge.png';
+import Earphones from '../Image cat/generators.png';
+import Generator from '../Image cat/mobile_appliances.png';
+import Fashion from '../Image cat/mens_sneakers.png';
+import Watches from '../Image cat/Artboard_14.png';
 
 // Top Sells items imported images
 import Malta from '../Image cat/Malta.jpg';
@@ -63,7 +63,7 @@ import Beauty from '../Image cat/beauty-deals_300x400.png';
 import computer from '../Image cat/computing-deals_300x400.png';
 import Fitness from '../Image cat/fitness-deals_300x400.png';
 import Kids from '../Image cat/kids-corner_300x400.png';
-import Mobile from '../Image cat/mobile-accessories_300x400.png';
+import Mobile from '../Image cat/mobile-accessories_300x400.716c3492a27a894c1d41.png';
 import Power from '../Image cat/power-deals_300x400.png';
 import Game from '../Image cat/gaming-deals.png';
 
@@ -82,38 +82,11 @@ import Fold from '../Image cat/fold-phones_300x400.png';
 
 // Best price imported images
 import Star from '../Image cat/Star.jpg';
-import Freepod from '../Image cat/Oriamo freepod.jpg';
 import Chivas from '../Image cat/Chivas.jpg';
 import FD from '../Image cat/F&D HT.jpg';
 import OppoA18 from '../Image cat/Oppo A18.jpg';
 
 
-// Top Phone Deals imported images
-import XIAOMI_Redmi from '../Image cat/XIAOMI Redmi.jpg';
-import InfinixHot from '../Image cat/Infinix Hot.jpg';
-import FreeYond from '../Image cat/FreeYond.jpg';
-import OppoA78 from '../Image cat/Oppo A78.jpg';
-import Tecno from '../Image cat/Tecno Spark.jpg';
-import Samsung from '../Image cat/Samsung Galaxy.jpg';
-
-
-
-// Appliance Deals imported image
-import AC from '../Image cat/air-conditioners_300x400.png';
-import Fridge from '../Image cat/fridges_300x400.png';
-import Fryer from '../Image cat/air-fryers_300x400.png';
-import Washing from '../Image cat/washing-machines_300x400.png';
-import Freezer from '../Image cat/freezers_300x400.png';
-import Dispenser from '../Image cat/water-dispensers_300x400.png';
-
-
-// Top Appliance Deal imported images
-import Midea from '../Image cat/Midea 173.jpg';
-import Binatone_1 from '../Image cat/Binaton 1.5.jpg';
-import Binatone_2 from '../Image cat/Binaton Table top glass.jpg';
-import Haier from '../Image cat/Thermocool 569.jpg';
-import Nexus from '../Image cat/Nexus 1HP.jpg';
-import Thermocool from '../Image cat/Thermocool 8kg.jpg';
 
 
 // Official Stores imported images
@@ -147,82 +120,25 @@ import Chi from '../Image cat/chivita.jpg';
 
 
 
-// Electronics imported images
-
-import samrt from '../Image cat/smart-tvs_300x400.png';
-import Home from '../Image cat/home-theatres_300x400.png';
-import TV from '../Image cat/23-32-inch-tvs_300x400.png';
-import Bluetooth from '../Image cat/bluetooth-speakers_300x400.png';
-import TVs from '../Image cat/55-75-inch-tvs_300x400.png';
-import Condenser from '../Image cat/condenser-mic_300x400.png';
-
-
-// Xiaomi official store deals imported images
-import H1 from '../Image cat/H1.jpg';
-import H2 from '../Image cat/H2.jpg';
-import H3 from '../Image cat/H3.jpg';
-import H4 from '../Image cat/H4.jpg';
-import H5 from '../Image cat/H5.jpg';
-import H6 from '../Image cat/H6.jpg';
-
-
-// Haier Thermocool Official store deals imported images
-
-import XIAOMI1 from '../Image cat/XIAOMI 1.jpg';
-import XIAOMI2 from '../Image cat/XIAOMI 2.jpg';
-import XIAOMI3 from '../Image cat/XIAOMI 3.jpg';
-import XIAOMI4 from '../Image cat/XIAOMI 4.jpg';
-import XIAOMI5 from '../Image cat/XIAOMI 5.jpg';
-import XIAOMI6 from '../Image cat/XIAOMI 6.jpg';
-
-
-
-// Computing Deals imported images
-import Mac from '../Image cat/lifestyle-images_300x400.jpg';
-import Accessories from '../Image cat/accessories_300x400.png';
-import Game_LP from '../Image cat/gaming-laptop_300x400.png';
-import Device from '../Image cat/storage-devices_300x400.png';
-import Laptop from '../Image cat/hp-laptops_300x400.png';
-import Modem from '../Image cat/mobile-accessories_300x400.png';
-
 
 // Product imported images
 import Goose from '../Image cat/Grey Goose Vodka.jpg';
 import Guinness from '../Image cat/guinness.jpg';
-import Johnnie from '../Image cat/johnnie.jpg';
-import Orijin from '../Image cat/orijin.jpg';
-import Bombay from '../Image cat/bombay.jpg';
-import Gordon from '../Image cat/gordon.jpg';
 import Adidas_core from '../Image cat/adidas core.jpg';
-import Cognac from '../Image cat/cognac.jpg';
-import Bacardi from '../Image cat/Bacardi.jpg';
-import Singleton from '../Image cat/Dufftown.jpg';
-import Bacardi_oro from '../Image cat/Bacardi Carta.jpg';
-import Waste_bin from '../Image cat/industrial waste.jpg';
-import Smirnoff_ice from '../Image cat/smirnoff ice.jpg';
-import Camino from '../Image cat/camino.jpg';
-import Cognac_75 from '../Image cat/cognac (2).jpg';
-import Grey_le from '../Image cat/grey le.jpg';
-import Grey_goose from '../Image cat/grey goose.jpg';
-import Martini from '../Image cat/martini.jpg';
-import Sumec from '../Image cat/sumec 2.5kg.jpg';
+
 
 
 
 
 import port from '../Image Product/product_image1.jpg';
 import port1 from '../Image Product/2 (2).jpg';
-import port2 from '../Image Product/46ab434800d48949c4a51f0540bd8de3.jpg';
 import port3 from '../Image Product/8.jpg';
-import port4 from '../Image Product/7e886b9d1970df49bebc90417691de87.jpg';
 
 
 
 import blue from '../Image Product/1 (6).jpg';
-import blue1 from '../Image Product/6.jpg';
 import blue2 from '../Image Product/stick.jpg';
 import blue3 from '../Image Product/2 (1).jpg';
-import blue4 from '../Image Product/1 (8).jpg';
 
 
 import kid from '../Image Product/kid1.jpg';
@@ -304,6 +220,18 @@ import adidas5 from '../Image Product/Adidas5.jpg';
 
 
 
+import Tecno_Spark from '../Image cat/Tecno Spark.jpg';
+import Samsung_galaxy from '../Image cat/Samsung Galaxy.jpg';
+import Xiaomi_redmi from '../Image cat/XIAOMI Redmi.jpg';
+import Iphone14 from '../Image cat/Apple Iphone.jpg';
+import Oraimo_Tempo from '../Image cat/Oraimo Tempo.jpg';
+import InfinixZero from '../Image cat/InfinixZero.jpg';
+import MobileGame from '../Image cat/Mobile Game.jpg';
+import AGM_Note from '../Image cat/AGM Note.jpg';
+import Samsung_galaxy_A24 from '../Image cat/Samsung Galaxy A24.jpg';
+import XIAOMIRedmi from '../Image cat/Xiaomi redmi 12.jpg';
+import InfinixNote30 from '../Image cat/Infinix Note30.jpg';
+import Wireless_hadeset from '../Image cat/Wireless headset.jpg';
 
 
 
@@ -315,13 +243,119 @@ import adidas5 from '../Image Product/Adidas5.jpg';
 
 // Appliance
 import scanfrost from '../Image cat/Scanfrost burner.jpg';
-import Double from '../Image cat/2L Double.jpg';
+import Nexsu_20 from '../Image cat/Nexus 20.jpg';
+import slice from '../Image cat/Binatone slice.jpg';
+import Double_2l from '../Image cat/2L Double.jpg';
+import Nexus_18 from '../Image cat/Nexus 18.jpg';
+import Saisho from '../Image cat/Saisho.jpg';
+import Binatone_Smoother from '../Image cat/Binatone Smoother.jpg';
+import ml from '../Image cat/300mL Air.jpg';
+import solar from '../Image cat/Solar Talker.jpg';
+import hisense_20 from '../Image cat/Hisense 20 litre.jpg';
+import hisense_5kg from '../Image cat/Hisense 5kg.jpg';
+import midea from '../Image cat/Midea 43.jpg';
 
 
 
-    // string to number
-    let num = 5199;
-    num.toLocaleString();
+
+import Sport from '../Image cat/Sport canvas.jpg';
+import Men_2024 from '../Image cat/2024 mens casual.jpg';
+import Urban from '../Image cat/Urban canvas.jpg';
+import Noo2 from '../Image cat/N002 ladies.jpg';
+import Mejieluo from '../Image cat/Meijielo men.jpg';
+import Mens_casual from '../Image cat/Mens casual.jpg';
+import Fngeen from '../Image cat/Fngeen 03.jpg';
+import VEjaro from '../Image cat/Vejaro T10.jpg';
+import Ashion from '../Image cat/Ashion 2024.jpg';
+import Feng from '../Image cat/Feng Shui.jpg';
+import T_shirt from '../Image cat/T-shirt.jpg';
+import Boot from '../Image cat/Monospec.jpg';
+
+
+
+import Grey_groose from '../Image cat/Grey Goose.jpg'
+import GiLeefiddich from '../Image cat/Glenfiddich.jpg'
+import Sprite from '../Image cat/Spirte.jpg'
+import Ace from '../Image cat/ACE Root.jpg'
+import Hollandia from '../Image cat/Hollandia.jpg'
+import Predator from '../Image cat/Predator.jpg'
+import Solid_balm from '../Image cat/Solid Balm.jpg'
+import Yara from '../Image cat/Yara baby.jpg'
+import Golden from '../Image cat/Golden penny.jpg'
+import Monster from '../Image cat/Monster Energy.jpg'
+
+
+
+
+import Outdoor from '../Image cat/Outdoor.jpg';
+import Weyon from '../Image cat/WEYON.jpg';
+import Nexus_32 from '../Image cat/Nexus 32 inches.jpg';
+import Itel_32 from '../Image cat/itel 32 inches.jpg';
+import Bruhm_32 from '../Image cat/Bruhm 32.jpg';
+import Wireless from '../Image cat/wireless music.jpg';
+import itel_20000 from '../Image cat/itel 20000mAH.jpg';
+import Hiker from '../Image cat/Hikers 32 inch.jpg';
+import Super_X from '../Image cat/Super X Bass.jpg';
+import Wireless_Portable from '../Image cat/Wireless Portable.jpg';
+import Infinity_32 from '../Image cat/Infinity 32.jpg';
+import Weyon_32 from '../Image cat/WEyon 32 inches.jpg';
+
+
+
+import Sacha from '../Image cat/Sacha.jpg';
+import Kiki from '../Image cat/Kiki New Gain.jpg';
+import Darling from '../Image cat/Darling Superstar.jpg';
+import NIVEA_Watimagbo from '../Image cat/NIVEA Watimagbo.jpg';
+import Ombre from '../Image cat/Ombre Straight.jpg';
+import Disaar_Natural from '../Image cat/Disaar Natural.jpg';
+import Disaar_Vitamin from '../Image cat/Dissaar Vitamin.jpg';
+import Closeup from '../Image cat/Closeup.jpg';
+import Mizani from '../Image cat/Mizani Coconut.jpg';
+import Rechargeable from '../Image cat/recharble Metal.jpg';
+import Lee from '../Image cat/Lee Buy.jpg';
+import Salon from '../Image cat/Salon Professional.jpg';
+
+
+import Seagate from '../Image cat/Seagate Backup.jpg';
+import Classic_led from '../Image cat/Classic Led.jpg';
+import Wireless_mouse from '../Image cat/Wireless Mouse.jpg';
+import Bluetooth_charging from '../Image cat/Bluetooth Charging Mouse.jpg';
+import Foldable from '../Image cat/Foldable Beadroom.jpg';
+import hp_stream from '../Image cat/Hp Stream.jpg';
+import Uwy_128GB from '../Image cat/UWY 128GB.jpg';
+import Airtel from '../Image cat/Airtel 4G.jpg';
+import Plastic_foldable from '../Image cat/Plastic Foladble Adjustable.jpg';
+import Steps_laptop from '../Image cat/10 Steps Laptop stand.jpg';
+import Bluetooth_Ultra from '../Image cat/Bluetooth Ultra.jpg';
+import Uwy_64GB from '../Image cat/UWY 64GB.jpg';
+
+
+
+
+// best price cart image
+import Backpack from '../Image Product/Backpack1.jpg';
+import backpack2 from '../Image Product/Backpack2.jpg';
+import backpack3 from '../Image Product/Backpack3.jpg';
+import backpack4 from '../Image Product/Backpack4.jpg';
+import backpack5 from '../Image Product/Backpack5.jpg';
+
+
+
+
+import itelp551 from '../Image Product/itel ps51.jpg';
+import itelp552 from '../Image Product/itel ps52.jpg';
+import itelp553 from '../Image Product/itel ps53.jpg';
+import itelp554 from '../Image Product/itel ps54.jpg';
+
+
+
+import bm1 from '../Image Product/BM8001.jpg';
+import bm2 from '../Image Product/BM8002.jpg';
+import bm3 from '../Image Product/BM8003.jpg';
+import bm4 from '../Image Product/BM8004.jpg';
+
+
+
 
 
 // array of object of categories
@@ -329,64 +363,64 @@ export const category = [
     {
         id: 1,
         image: Countdown,
-        text: 'Black friday',
+        text: 'Clearance Sale',
         link: '/about/mpl-clearance-sale/',
     },
     {
         id: 2,
         image: Phones,
-        text: 'Phones & tablets',
+        text: '₦5,000 Store',
         link: '/about/phone/deals'
     },
     {
         id: 3,
         image: Groceries,
-        text: 'groceries ',
+        text: 'Phones & Tablets ',
     },
     {
         id: 4,
         image: Computer,
-        text: 'computing deals ',
+        text: 'Televisons',
     },
     {
         id: 5,
         image: Store,
-        text: 'store',
+        text: 'Computing Deals',
     },
     {
         id: 6,
         image: Television,
-        text: 'television',
+        text: 'Groceries',
     },
     {
         id: 7,
         image: Clearance,
-        text: 'clearance sale',
+        text: 'Official Stores',
     },
     {
         id: 8,
         image: Refrigerators,
-        text: 'refrigerators',
+        text: 'Refrigerators',
     },
     {
         id: 9,
         image: Earphones,
-        text: 'mobile accessories',
+        text: 'Generators',
     },
     {
         id: 10,
         image: Generator,
-        text: 'generators',
+        text: 'Mobile Accessories',
     },
     {
         id: 11,
         image: Fashion,
-        text: `men's sneakers`
+        text: `Mobile Accessories`
     },
     {
         id: 12,
         image: Watches,
-        text: 'watches',
+        text: 'Global Bestseller',
     },
 ]
 
@@ -396,7 +430,7 @@ export const Sales = [
     {
         id: 1,
         image: Malta,
-        text: 'Malta Guinness Can 330ml...',
+        text: 'Malta Guinness Can 33...',
         price: "₦ 5999",
         discount: '₦ 6,650',
         link: '/malta-guinness-can-330mlx24',
@@ -406,7 +440,7 @@ export const Sales = [
     {
         id: 2,
         image: PowerBank,
-        text: 'Ace elec power bank 2000...',
+        text: 'Ace elec power bank 20...',
         price: "₦ 7,100",
         discount: '₦ 9,000',
         link: '/ace-elec-power-banks-2000-mah-utra-slim-portable-fast-charger-ace-elec',
@@ -416,7 +450,7 @@ export const Sales = [
     {
         id: 3,
         image: Itel,
-        text: 'itel 20000mAh mobile pow...',
+        text: 'itel 20000mAh mobile p...',
         price: "₦ 11,500",
         discount: '₦ 15,000',
         link: '/20000mah-mobile-power-charger-bank-itel',
@@ -426,7 +460,7 @@ export const Sales = [
     {
         id: 4,
         image: PowerBank1,
-        text: 'power banks 20000mAh ul...',
+        text: 'power banks 20000mAh...',
         price: "₦ 7,100",
         discount: '₦ 9,000',
         link: '/ace-elec-power-banks-2000-mah-utra-slim-portable-fast-charger-ace-elec',
@@ -777,16 +811,8 @@ export const PortableImg = [
         value: port1,
     },
     {
-        id:2,
-        value: port2,
-    },
-    {
         id:3,
         value: port3,
-    },
-    {
-        id:4,
-        value: port4,
     },
 ]
 
@@ -798,19 +824,11 @@ export const BluetoothImg = [
     },
     {
         id:1,
-        value: blue1,
-    },
-    {
-        id:2,
         value: blue2,
     },
     {
-        id:3,
+        id:2,
         value: blue3,
-    },
-    {
-        id:4,
-        value: blue4,
     },
 ]
 
@@ -890,7 +908,7 @@ export const blackFriday = [
     {
         id: 4,
         image: Royal,
-        text: 'Royal 32 Inches LED TV (RT...',
+        text: 'Royal 32 Inches LED TV (R...',
         price: '₦ 62,100',
         discount: '₦ 72,000',
         items: '75 units left',
@@ -901,7 +919,7 @@ export const blackFriday = [
     {
         id: 5,
         image: Sony,
-        text: 'Sony PS4 Slim 500GB Cons...',
+        text: 'Sony PS4 Slim 500GB C...',
         price: "₦ 185,500",
         discount: '₦ 185,550',
         link: '/ea-sports-fc-24-playstation',
@@ -1061,7 +1079,7 @@ export const officialStore = [
     {
         id: 1,
         image: NIVEAPerfect,
-        text: 'NIVEA Perfect & Radiant Luminou...',
+        text: 'NIVEA Perfect & Radiant L...',
         price: "₦ 15,345",
         discount: '₦ 19,200',
         link: '/nivea-perfect-radiant-luminous630-anti-marks-day-cream-spf50-40ml',
@@ -1302,29 +1320,35 @@ export const shopCollection = [
     {
         id: 2,
         image: Phone,
-        alt: 'Phone Deals'
+        alt: 'Phone Deals',
+        link: '/phones-tablets/',
     },
     {
         id: 3,
         image: FashionDeals,
-        alt: 'Fashion Deals'
+        alt: 'Fashion Deals',
+        link: '/category-fashion-by-e-shop/',
     },
     {
         id: 4,
         image: Supermarket,
-        alt: 'Supermarket Deals'
+        alt: 'Supermarket Deals',
+        link: '/groceries/',
     },
     {
         id: 5,
         image: Electronics,
-        alt: 'Electronic Deals'
+        alt: 'Electronic Deals',
+        link: '/electronics/',
     },
     {
         id: 6,
         image: Beauty,
-        alt: 'Beauty Deals'
+        alt: 'Beauty Deals',
+        link: '/health-beauty/',
     },
 ]
+
 
 
 
@@ -1334,33 +1358,33 @@ export const shopCollection = [
 export const bestDeal = [
     {
         id: 1,
-        image: Star,
-        text: 'Star RADLER L/BEER&CI..',
-        price: "₦ 8,000",
-        discount: '₦ 8,875',
-        link: '/about/black/friday/deals',
-        percentage: '-10%',
-        alt: 'Star RADLER L/BEER&CITRUS JUICE CAN 33CL X 24'
+        image: Backpack,
+        text: 'product_image_name-F...',
+        price: "₦ 7,900",
+        discount: '₦ 14,900',
+        link: '/fashion-3-in-1-backpack-bags-laptop-backpack-grey',
+        percentage: '-47%',
+        alt: 'product_image_name-Fashion-3 In 1 Backpack Bags Backpack Bags Laptop Backpack-grey-1'
     },
     {
         id: 2,
-        image: Freepod,
-        text: 'Oraimo FreePods 4 Active..',
-        price: "₦ 26,900",
-        discount: '₦ 32,040',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-16%',
-        alt: 'Oraimo FreePods 4 Active Noise Cancellation Earbuds',
+        image: itelp551,
+        text: 'product_image_name-itel...',
+        price: "₦ 126,600",
+        discount: '₦ 159,900',
+        link: '/itel-p55-6.6-hd-punch-hole-display-128gb-rom-8gb-green',
+        percentage: '-21%',
+        alt: 'product_image_name-itel-P55+ 6.6″ HD + Punch Hole Display 128GB ROM + 8GB-GREEN-2',
     },
     {
         id: 3,
-        image: PowerBank,
-        text: 'Ace Elec Power Banks 20..',
-        price: "₦ 7,100",
-        discount: '₦ 9,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-21%',
-        alt: 'Ace Elec Power Banks 20000 MAh Utra Slim Portable Fast Charger (ACE ELEC)',
+        image: bm1,
+        text: 'BM800 Condenser M...',
+        price: "₦ 15,940",
+        discount: '₦ 25,940',
+        link: '/generic-bm800-condenser-microphone-recording-stand-large-diaphragm-live-set-black-silver',
+        percentage: '-39%',
+        alt: 'BM800 Condenser Microphone Recording Stand Large Diaphragm Live Set - Black Silver',
     },
     {
         id: 4,
@@ -1396,6 +1420,118 @@ export const bestDeal = [
 
 
 
+// Best Price cart
+
+export const BackPackPrice = [
+    {
+        id: 102,
+        image: Backpack,
+        text: 'product_image_name-Fashion-3 In 1 Backpack Bags Backpack Bags Laptop Backpack-grey-1',
+        price: (7900),
+        discount: '₦ 14,900',
+        items: 'In stock',
+        percent: '-47%',
+        link: '/fashion-3-in-1-backpack-bags-laptop-backpack-grey',
+        alt: 'product_image_name-Fashion-3 In 1 Backpack Bags Backpack Bags Laptop Backpack-grey-1',
+    },
+]
+
+
+export const ItelP55Hd = [
+    {
+        id: 103,
+        image: itelp551,
+        text: 'product_image_name-itel-P55+ 6.6″ HD + Punch Hole Display 128GB ROM + 8GB-GREEN-2',
+        price: (126600),
+        discount: '₦ 159,900',
+        items: 'Few units left',
+        percent: '-21%',
+        link: '/itel-p55-6.6-hd-punch-hole-display-128gb-rom-8gb-green',
+        alt: 'product_image_name-itel-P55+ 6.6″ HD + Punch Hole Display 128GB ROM + 8GB-GREEN-2',
+    },
+]
+
+
+export const BM800_Microphone = [
+    {
+        id: 104,
+        image: bm1,
+        text: 'BM800 Condenser Microphone Recording Stand Large Diaphragm Live Set - Black Silver',
+        price: (15940),
+        discount: '₦ 25,940',
+        items: 'Few units left',
+        percent: '-39%',
+        link: '/generic-bm800-condenser-microphone-recording-stand-large-diaphragm-live-set-black-silver',
+        alt: 'BM800 Condenser Microphone Recording Stand Large Diaphragm Live Set - Black Silver',
+    },
+]
+
+
+
+
+export const BackpackImg = [
+    {
+        id:0,
+        value: backpack2,
+    },
+    {
+        id:1,
+        value: backpack3,
+    },
+    {
+        id:2,
+        value: backpack4,
+    },
+    {
+        id:3,
+        value: backpack5,
+    },
+
+]
+
+
+
+export const ItelP55Img = [
+    {
+        id:0,
+        value: itelp551,
+    },
+    {
+        id:1,
+        value: itelp552,
+    },
+    {
+        id:2,
+        value: itelp553,
+    },
+    {
+        id:3,
+        value: itelp554,
+    },
+]
+
+
+export const BM800Img = [
+    {
+        id:0,
+        value: bm1,
+    },
+    {
+        id:1,
+        value: bm2,
+    },
+    {
+        id:2,
+        value: bm3,
+    },
+    {
+        id:3,
+        value: bm4,
+    },
+]
+
+
+
 
 
 // More collection
@@ -1404,32 +1540,38 @@ export const moreCollection = [
     {
         id: 1,
         image: computer,
-        alt: 'Computing Deals'
+        alt: 'Computing Deals',
+        link: '/computing'
     },
     {
         id: 2,
         image: Fitness,
-        alt: 'Fitness Deals'
+        alt: 'Fitness Deals',
+        link: '/about/black/friday/deals'
     },
     {
         id: 3,
         image: Kids,
-        alt: 'Kids Deals'
+        alt: 'Kids Deals',
+        link: '/about/black/friday/deals'
     },
     {
         id: 4,
         image: Mobile,
-        alt: 'Mobile Accessories'
+        alt: 'Mobile Accessories',
+        link: '/about/black/friday/deals'
     },
     {
         id: 5,
         image: Power,
-        alt: 'Power Deals'
+        alt: 'Power Deals',
+        link: '/about/black/friday/deals'
     },
     {
         id: 6,
         image: Game,
-        alt: 'Gaming Deals'
+        alt: 'Gaming Deals',
+        link: '/about/black/friday/deals'
     },
 ]
 
@@ -1473,162 +1615,6 @@ export const PhoneDeal = [
 
 
 
-
-// Top Phone Deals
-
-export const topDeal = [
-    {
-        id: 1,
-        image: XIAOMI_Redmi,
-        text: 'XIAOMI Redmi A2+ 6.52 2..',
-        price: "₦ 61,800",
-        discount: '₦ 71,000',
-        link: '/about/black/friday/deals',
-        percentage: '-13%',
-        alt: 'XIAOMI Redmi A2+ 6.52 2GB RAM/32GB ROM Android 12 - Black'
-    },
-    {
-        id: 2,
-        image: InfinixHot,
-        text: `Infinix Hot 30i 6.6'" HD+, 4..`,
-        price: "₦ 97,335",
-        discount: '₦ 120,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-22%',
-        alt: `Infinix Hot 30i 6.6'" HD+, 4+4GB RAM /128GB ROM Android 12 - Black`,
-    },
-    {
-        id: 3,
-        image: FreeYond,
-        text: 'FreeYond F9,2GB+64GB..',
-        price: "₦ 61,946",
-        discount: '₦ 91,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-32%',
-        alt: 'FreeYond F9,2GB+64GB,6.52" Smartphone,4G,5000mAh,Black',
-    },
-    {
-        id: 4,
-        image: OppoA78,
-        text: 'Oppo A78 Mist Black, 6.72..',
-        price: "₦ 253,000",
-        discount: '₦ 263,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-4%',
-        alt: 'Oppo A78 Mist Black, 6.72", 8GB+256GB, 50MP CAMERA',
-    },
-    {
-        id: 5,
-        image: Tecno,
-        text: `Tecno Spark 10c 6.6" 4GB..`,
-        price: "₦ 97,800",
-        discount: '₦ 150,174',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-35%',
-        alt: `Tecno Spark 10c 6.6" 4GB RAM/128GB ROM  Android 13 Blue`,
-    },
-    {
-        id: 6,
-        image: Samsung,
-        text: 'Samsung Galaxy A14 6.6..',
-        price: "₦ 144,950",
-        discount: '₦ 179,900',
-        link: '/about/black/friday/deals',
-        percentage: '-19%',
-        alt: 'Samsung Galaxy A14 6.6" 4GB RAM/64GB ROM Android 13 - Light Green'
-    },
-]
-
-
-
-
-// Appliance Deals
-export const applianceDeal = [
-    {
-        id: 1,
-        image: AC,
-        alt: 'Air Condition Deals'
-    },
-    {
-        id: 2,
-        image: Fridge,
-        alt: 'Fridge Deals'
-    },
-    {
-        id: 3,
-        image: Fryer,
-        alt: 'Air Fryer Deals'
-    },
-    {
-        id: 4,
-        image: Washing,
-        alt: 'Washing Machine Deals'
-    },
-    {
-        id: 5,
-        image: Freezer,
-        alt: 'Freezer Deals'
-    },
-    {
-        id: 6,
-        image: Dispenser,
-        alt: 'Water Dispenser Deals'
-    },
-]
-
-
-
-// Top Appliance Deals
-export const topApplianceDeal = [
-    {
-        id: 1,
-        image: Midea,
-        text: 'Midea 173 Litres Double...',
-        price: "₦ 193,320",
-        link: '/about/black/friday/deals',
-        alt: 'Midea 173 Litres Double Door Refrigerator (HD-216F) -  Jazz Black'
-    },
-    {
-        id: 2,
-        image: Binatone_1,
-        text: `Binatone 1.5 Litres (BLG-...`,
-        price: "₦ 30,000",
-        /* link: '/about/black/friday/deals', */
-        alt: `Binatone 1.5 Litres (BLG-412) Blender With Grinder`,
-    },
-    {
-        id: 3,
-        image: Binatone_2,
-        text: 'Binatone Table Top Glass...',
-        price: "₦ 39,165",
-        /* link: '/about/black/friday/deals', */
-        alt: 'Binatone Table Top Glass Finish Gas Cooker (GGC-0002)',
-    },
-    {
-        id: 4,
-        image: Haier,
-        text: 'Haier Thermocool 569 Li...',
-        price: "₦ 717,984",
-        /* link: '/about/black/friday/deals', */
-        alt: 'Haier Thermocool 569 Litres Side by Side Inverter Refrigerator with Twin Inverter technology and Food sterilizing DEO (HRF-540SG6 R6) - Grey',
-    },
-    {
-        id: 5,
-        image: Nexus,
-        text: `Nexus 1HP Split Air Cond...`,
-        price: "₦ 216,001",
-        /* link: '/about/black/friday/deals', */
-        alt: `Nexus 1HP Split Air Conditioner (NX-MSSH9000SC) - White + Full Installation Kit`,
-    },
-    {
-        id: 6,
-        image: Thermocool,
-        text: 'Haier Thermocool 8kg To...',
-        price: "₦ 169,128",
-        link: '/about/black/friday/deals',
-        alt: 'Haier Thermocool 8kg Top Load Semi Automatic Washing Machine (TLSA08AD) - White'
-    },
-]
 
 
 
@@ -1763,414 +1749,10 @@ export const officialStoresSecond = [
 ]
 
 
-// Xiaomi official store deals
-
-export const xiaomiDeals = [
-    {
-        id: 1,
-        image: XIAOMI1,
-        text: 'XIAOMI Redmi 12C 6.71..',
-        price: "₦ 74,000",
-        discount: '₦ 98,500',
-        link: '/about/black/friday/deals',
-        percentage: '-25%',
-        alt: 'XIAOMI Redmi 12C 6.71" 3GB RAM/64GB ROM Android 12 - Graphite Grey'
-    },
-    {
-        id: 2,
-        image: XIAOMI2,
-        text: 'XIAOMI Redmi A2+ 6.52"...',
-        price: "₦ 61,800",
-        discount: '₦ 71,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-13%',
-        alt: `XIAOMI Redmi A2+ 6.52" 2GB RAM/32GB ROM Android 12 - Blue`,
-    },
-    {
-        id: 3,
-        image: XIAOMI3,
-        text: 'XIAOMI Poco C40 6.71” 4..',
-        price: "₦ 88,895",
-        discount: '₦ 121,910',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-27%',
-        alt: 'XIAOMI Poco C40 6.71” 4GB RAM/64GB ROM Android 11 - Black',
-    },
-    {
-        id: 4,
-        image: XIAOMI4,
-        text: 'XIAOMI Redmi A2+ 6.71"...',
-        price: "₦ 76,800",
-        discount: '₦ 99,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-22%',
-        alt: 'XIAOMI Redmi A2+ 6.71" 3GB RAM/64GB ROM Android 12  - Black',
-    },
-    {
-        id: 5,
-        image: XIAOMI5,
-        text: `XIAOMI Redmi A2+ 6.52"...`,
-        price: "₦ 61,800",
-        discount: '₦ 71,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-13%',
-        alt: `XIAOMI Redmi A2+ 6.52" 2GB RAM/32GB ROM Android 12 - Black`,
-    },
-    {
-        id: 6,
-        image: XIAOMI6,
-        text: 'XIAOMI Redmi A2+ 6.71"...',
-        price: "₦ 66,800",
-        discount: '₦ 99,000',
-        link: '/about/black/friday/deals',
-        percentage: '-33%',
-        alt: 'XIAOMI Redmi A2+ 6.71" 2GB RAM/32GB ROM Android 12  - Black'
-    },
-]
-
-
-// Haier Thermocool Official store deals
-
-
-export const HaierCoolDeals = [
-    {
-        id: 1,
-        image: H1,
-        text: 'Haier Thermocool 146 Lit...',
-        price: "₦ 250,000",
-        link: '/about/black/friday/deals',
-        alt: 'Haier Thermocool 146 Litres Chest Freezer (HTF-150) - Silver + 3 Years Warranty'
-    },
-    {
-        id: 2,
-        image: H2,
-        text: 'Haier Thermocool 1.5HP...',
-        price: "₦ 280,000",
-        discount: '₦ 350,000',
-        /* link: '/about/black/friday/deals', */
-        percentage: '-20%',
-        alt: `Haier Thermocool 1.5HP GenPAL Inverter Air Conditioner (HSU-12LNEB-03) - White + 2 Years Warranty`,
-    },
-    {
-        id: 3,
-        image: H3,
-        text: 'Haier Thermocool 1.5HP...',
-        price: "₦ 254,665",
-        /* link: '/about/black/friday/deals', */
-        alt: 'Haier Thermocool 1.5HP Split Air Conditioner (HSU-12TESN-02) - White + Full Installation Kit + 2 Years Warranty',
-    },
-    {
-        id: 4,
-        image: H4,
-        text: 'Haier Thermocool 1HP Tu...',
-        price: "₦ 290,000",
-        /* link: '/about/black/friday/deals', */
-        alt: 'Haier Thermocool 1HP Tundra Air Conditioner (HSU-09TESN-02) - White + Free Installation Kit + 2 Years Warranty',
-    },
-    {
-        id: 5,
-        image: H5,
-        text: `Haier Thermocool 95 Lit...`,
-        price: "₦ 171,525",
-        /* link: '/about/black/friday/deals', */
-        alt: `Haier Thermocool 95 Litres Double Door Fridge Silver (HRF-95BEX) - Silver  + 2 Years Warranty`,
-    },
-    {
-        id: 6,
-        image: H6,
-        text: 'Haier Thermocool 145 Lit...',
-        price: "₦ 270,000",
-        link: '/about/black/friday/deals',
-        alt: 'Haier Thermocool 145 Litres Double Door Refrigerator (HRF-160BEX R6)- Silver  + 2 Years Warranty'
-    },
-]
 
 
 
-// Eleectronic deals
 
-export const electronicsDeal = [
-    {
-        id: 1,
-        image: samrt,
-        alt: 'Smart TVs'
-    },
-    {
-        id: 2,
-        image: Home,
-        alt: 'Home Theatres'
-    },
-    {
-        id: 3,
-        image: TV,
-        alt: '23 - 32&quot'
-    },
-    {
-        id: 4,
-        image: Bluetooth,
-        alt: 'Bluetooth Speaker'
-    },
-    {
-        id: 5,
-        image: TVs,
-        alt: '55 - 75&quot'
-    },
-    {
-        id: 6,
-        image: Condenser,
-        alt: 'Condenser Microphones'
-    },
-]
-
-
-// Computing deals
-export const ComputDeal = [
-    {
-        id: 1,
-        image: Mac,
-        alt: 'MacBooks'
-    },
-    {
-        id: 2,
-        image: Accessories,
-        alt: 'Accessories'
-    },
-    {
-        id: 3,
-        image: Game_LP,
-        alt: 'Gaming Laptops'
-    },
-    {
-        id: 4,
-        image: Device,
-        alt: 'Flash Drives'
-    },
-    {
-        id: 5,
-        image: Laptop,
-        alt: 'HP Laptops'
-    },
-    {
-        id: 6,
-        image: Modem,
-        alt: 'MOdems'
-    },
-]
-
-
-
-// Product
-const drinks = [
-    {
-        id: 21,
-        image: Goose,
-        text: 'Smirnoff Intense Chocolate Flavored Vodka',
-        price: 2567,
-        items: '100 items left',
-        discount: '₦ 5,000',
-        percent: '-28%',
-        link: '/about/smirnoff-x1-intense-chocolate-flavoured-vodka-750ml-x1-smirnoff-mpg1640024.html',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Smirnoff Intense Chocolate Flavored Vodka 750ml'
-    },
-    {
-        id: 22,
-        image: Guinness,
-        text: 'Guinness Smooth Can 33cl x 24',
-        price: 11770,
-        link: '/about/black/friday/deals',
-        items: '100 items left',
-        discount: '₦ 5,000',
-        percent: '-28%',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Guinness Smooth Can 33cl x 24'
-    },
-    {
-        id: 23,
-        image: Johnnie,
-        text: 'Johnnie Walker Red Label 70cl',
-        price: "₦ 7,935",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Johnnie Walker Red Label 70cl'
-    },
-    {
-        id: 24,
-        image: Orijin,
-        text: 'Orijin Bitters 20cl x24',
-        price: "₦ 13,200",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Orijin Bitters 20cl x24'
-    },
-    {
-        id: 25,
-        image: Bombay,
-        text: 'Bombay Sapphire Gin 75cl',
-        price: "₦ 10,755",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Bombay Sapphire Gin 75cl'
-    },
-    {
-        id: 26,
-        image: Gordon,
-        text: 'Gordon Pink Berry 750ml',
-        price: "₦ 3,208",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Gordon Pink Berry 750ml'
-    },
-    {
-        id: 27,
-        image: Adidas_core,
-        text: 'ADIDAS Core Sneakers Advantage Base',
-        price: "₦ 26,825",
-        link: '/about/black/friday/deals',
-        Black: 'Black Friday deal',
-        official: 'Official store',
-        alt: 'ADIDAS Core Sneakers Advantage Base'
-    },
-    {
-        id: 28,
-        image: Cognac,
-        text: `D'USSE VSOP Cognac 75cl`,
-        price: "₦ 48,385",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: `D'USSE VSOP Cognac 75cl`
-    },
-    {
-        id: 29,
-        image: Bacardi,
-        text: 'Bacardi 8 Years Rum 70cl',
-        price: "₦ 15,535",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Bacardi 8 Years Rum 70cl'
-    },
-    {
-        id: 30,
-        image: Singleton,
-        text: 'Singleton of Dufftown 12 Year Old 70cl',
-        price: "₦ 23,760",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Singleton of Dufftown 12 Year Old 70cl'
-    },
-    {
-        id: 31,
-        image: Bacardi_oro,
-        text: 'Bacardi Carta Oro Golden Rum 75cl',
-        price: "₦ 7,155",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Bacardi Carta Oro Golden Rum 75cl'
-    },
-    {
-        id: 32,
-        image: Waste_bin,
-        text: 'Industrial Waste Bin, Green 240L',
-        price: "₦ 39,999",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Industrial Waste Bin, Green 240L'
-    },
-    {
-        id: 33,
-        image: Adidas_core,
-        text: 'ADIDAS Advantage Lifestyle Court Lace',
-        price: "₦ 22,958",
-        link: '/about/black/friday/deals',
-        Black: 'Black Friday deal',
-        official: 'Official store',
-        alt: 'ADIDAS Advantage Lifestyle Court Lace Shoes'
-    },
-    {
-        id: 34,
-        image: Smirnoff_ice,
-        text: 'Smirnoff Ice Pineapple Punch 33cl x 24',
-        price: "₦ 12,420",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Smirnoff Ice Pineapple Punch 33cl x 24'
-    },
-    {
-        id: 35,
-        image: Camino,
-        text: 'Camino Real Tequila 75cl',
-        price: "₦ 8,065",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: 'Camino Real Tequila 75cl'
-    },
-    {
-        id: 36,
-        image: Cognac_75,
-        text: `D'USSE XO Cognac 75cl`,
-        price: "₦ 113,795",
-        link: '/about/black/friday/deals',
-        percentage: '✆07006000000 to Order',
-        official: 'Official store',
-        alt: `D'USSE XO Cognac 75cl`
-    },
-    {
-        id: 37,
-        image: Grey_le,
-        text: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl',
-        price: "₦ 24,195",
-        link: '/about/black/friday/deals',
-        Black: 'Black Friday Deal',
-        official: 'Official store',
-        alt: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl'
-    },
-    {
-        id: 38,
-        image: Grey_goose,
-        text: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl',
-        price: "₦ 24,195",
-        link: '/about/black/friday/deals',
-        Black: 'Black Friday Deal',
-        official: 'Official store',
-        alt: 'Grey Goose Le Citron Premium Flavoured Vodka 100cl'
-    },
-    {
-        id: 39,
-        image: Martini,
-        text: 'Martini Bianco Vermouth Premium Gin 100cl',
-        price: "₦ 5,645",
-        link: '/about/black/friday/deals',
-        Black: 'Black Friday Deal',
-        official: 'Official store',
-        alt: 'Martini Bianco Vermouth 100cl'
-    },
-    {
-        id: 40,
-        image: Sumec,
-        text: 'Sumec 2.5kva Key start Generator (SPG3000E2)',
-        price: "₦ 257,250",
-        link: '/about/black/friday/deals',
-        Black: 'Black Friday Deal',
-        official: 'Official store',
-        alt: 'Sumec 2.5kva Key start Generator (SPG3000E2)'
-    },
-]
-
-
-export default drinks;
 
 
 export const guinness = [
@@ -2192,51 +1774,907 @@ export const guinness = [
 
 
 
-
 export const LargeAppliance = [
     {
-        id: 41,
+        id: 21,
         image: scanfrost,
         text: 'Scanfrost 4-Burner Gas Cooker 50 X 50cm (CK-5400B) + 2 Years Warranty',
-        price: '₦ 99,360',
-        link: '/about/black/friday/deals',
+        price: (99360),
         official: 'Official store',
         delivery: 'Pay on Delivery',
         alt: 'Scanfrost 4-Burner Gas Cooker 50 X 50cm (CK-5400B) + 2 Years Warranty',
+        figure: '(600)'
     },
 
     {
-        id: 42,
-        image: Goose,
-        text: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty',
-        price: `₦ 89,640`,
-        link: '/about/black/friday/deals',
+        id: 22,
+        image: Nexsu_20,
+        text: 'Nexus 20 Litres Microwave With Grill (NX-9201) - Red',
+        price: (61560),
         delivery: 'Pay on Delivery',
-        alt: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty'
+        official: 'Official store',
+        alt: 'Nexus 20 Litres Microwave With Grill (NX-9201) - Red',
+        figure: '(5)'
     },
 
     {
-        id: 43,
-        image: Goose,
-        text: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty',
-        price: `₦ 11,770`,
-        discount: '₦ 5,000',
-        percent: '-28%',
-        link: '/about/black/friday/deals',
+        id: 23,
+        image: slice,
+        text: 'Binatone 2 Slice Sandwich Maker (ST-801)',
+        price: (25900),
+        percent: '-23%',
+        discount: '₦ 19,943',
         official: 'Official store',
         delivery: 'Pay on Delivery',
-        alt: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty'
+        alt: 'Binatone 2 Slice Sandwich Maker (ST-801)',
+        figure: '(257)'
+    },
+    {
+        id: 24,
+        image: Double_2l,
+        text: '2L Double Spray Humidifier',
+        price: (9690),
+        discount: '₦ 15,510',
+        percent: '-28%',
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: '2L Double Spray Humidifier',
+        figure: '(278)'
+    },
+    {
+        id: 25,
+        image: Nexus_18,
+        text: 'Nexus 18 Inch Standing Fan (NX-SF5400B)',
+        price: (16095),
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Nexus 18 Inch Standing Fan (NX-SF5400B)',
+        figure: '(1154)'
+    },
+    {
+        id: 26,
+        image: Saisho,
+        text: 'Saisho (S-748) 3 In 1 Grinder/Blender',
+        price: (13935),
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Saisho (S-748) 3 In 1 Grinder/Blender',
+        figure: '(1390)'
+    },
+    {
+        id: 27,
+        image: midea,
+        text: 'Midea 43 Litres Refrigerator (HS-65L) - Silver',
+        price: (61560),
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Midea 43 Litres Refrigerator (HS-65L) - Silver',
+        figure: '(35)'
+    },
+    {
+        id: 28,
+        image: hisense_5kg,
+        text: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty',
+        price: (89640),
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Hisense 5kg Top Load Twin Tub Washing Machine (WM503-WSPA) With One Year Warranty',
+        figure: '(503)'
+    },
+    {
+        id: 29,
+        image: hisense_20,
+        text: 'Hisense 20 Litres (H20MOWS10) Microwave - White With 1 Year Warranty',
+        price: (49900),
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Hisense 20 Litres (H20MOWS10) Microwave - White With 1 Year Warranty',
+        figure: '(618)'
+    },
+    {
+        id: 30,
+        image: solar,
+        text: 'Solar Talkers Solar Home Lighting System With FM Radio With 4pcs 2W Super Bright Bulbs',
+        price: (54999),
+        discount: '₦ 65,000',
+        percent: '-15%',
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Solar Talkers Solar Home Lighting System With FM Radio With 4pcs 2W Super Bright Bulbs',
+        figure: '(618)'
+    },
+    {
+        id: 31,
+        image: ml,
+        text: '300mL Air Humidifier USB Air Diffuser Colorful Light Quiet',
+        price: (6360),
+        discount: '₦ 13,990',
+        percent: '-55%',
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: '300mL Air Humidifier USB Air Diffuser Colorful Light Quiet',
+        figure: '(618)'
+    },
+    {
+        id: 32,
+        image: Binatone_Smoother,
+        text: 'Binatone Smoother Gliding Steam Iron (SI-1605) - Blue',
+        price: (9820),
+        official: 'Official store',
+        delivery: 'Pay on Delivery',
+        alt: 'Binatone Smoother Gliding Steam Iron (SI-1605) - Blue',
+        figure: '(618)'
+    },
+]
+
+
+
+
+
+export const PhoneTablets = [
+    {
+        id: 33,
+        image: Tecno_Spark,
+        text: 'Tecno Spark 10c 6.6" 4GB RAM/128GB ROM Android 13 Black',
+        price: (94900),
+        percent: '-33%',
+        discount: '₦ 140,980',
+        official: 'Official store',
+        alt: 'Tecno Spark 10c 6.6" 4GB RAM/128GB ROM Android 13 Black',
+        figure: '(284)'
+    },
+
+    {
+        id: 34,
+        image: Samsung_galaxy,
+        text: 'Samsung Galaxy A04s  6.5" 4GB RAM/64GB ROM Android 12- Black',
+        price: (138580),
+        percent: '-2%',
+        discount: '₦ 140,770',
+        official: 'Official store',
+        alt: 'Samsung Galaxy A04s  6.5" 4GB RAM/64GB ROM Android 12- Black',
+        figure: '(121)'
+    },
+
+    {
+        id: 35,
+        image: Xiaomi_redmi,
+        text: 'XIAOMI Redmi 12 6.79" 4GB RAM/128GB ROM Android 13 - Midnight Black',
+        price: (146170),
+        percent: '-6%',
+        discount: '₦ 155,000',
+        official: 'Official store',
+        alt: 'XIAOMI Redmi 12 6.79" 4GB RAM/128GB ROM Android 13 - Midnight Black',
+        figure: '(29)'
+    },
+    {
+        id: 36,
+        image: Iphone14,
+        text: 'Apple IPhone 14 Pro Max 6.7 6GB RAM 256GB ROM IOS 16 - Space Black',
+        price: (1440999),
+        discount: '₦ 1,369,950',
+        percent: '-5%',
+        official: 'Official store',
+        alt: 'Apple IPhone 14 Pro Max 6.7 6GB RAM 256GB ROM IOS 16 - Space Black',
+        figure: '(156)'
+    },
+    {
+        id: 37,
+        image: Oraimo_Tempo,
+        text: 'Oraimo Tempo-W2 IP67 Waterproof 24 Training Modes Smart Watch',
+        price: (30000),
+        percent: '-44%',
+        discount: '₦ 53,000',
+        official: 'Official store',
+        alt: 'Oraimo Tempo-W2 IP67 Waterproof 24 Training Modes Smart Watch',
+        figure: '(1154)'
+    },
+    {
+        id: 38,
+        image: InfinixZero,
+        text: 'Infinix Zero 30 5G 6.78" 256GB ROM/12GB RAM Android 13 - Gold',
+        price: (410000),
+        percent: '-30%',
+        discount: '₦ 587,800',
+        official: 'Official store',
+        alt: 'Infinix Zero 30 5G 6.78" 256GB ROM/12GB RAM Android 13 - Gold',
+        figure: '(290)'
+    },
+    {
+        id: 39,
+        image: MobileGame,
+        text: 'Mobile Game Controller Finger Sleeve Sets Anti-Sweat',
+        price: (899),
+        percent: '-53%',
+        discount: '₦ 1,899',
+        official: 'Official store',
+        alt: 'Mobile Game Controller Finger Sleeve Sets Anti-Sweat',
+        figure: '(1)'
+    },
+    {
+        id: 40,
+        image: AGM_Note,
+        text: `AGM Note N1 6.52"  8GB Base RAM/8GB Extended RAM/128GB ROM Android 13 - Grey`,
+        price: (105500),
+        percent: '-30%',
+        discount: '₦ 150,000',
+        official: 'Official store',
+        alt: `AGM Note N1 6.52"  8GB Base RAM/8GB Extended RAM/128GB ROM Android 13 - Grey`,
+        figure: '(74)'
+    },
+    {
+        id: 41,
+        image: Samsung_galaxy_A24,
+        text: 'Samsung Galaxy A24 6.5" 6GB RAM/128GB ROM Android 13  - Black',
+        price: (267830),
+        percent: '-8%',
+        discount: '₦ 290,000',
+        official: 'Official store',
+        alt: 'Samsung Galaxy A24 6.5" 6GB RAM/128GB ROM Android 13  - Black',
+        figure: '(12)'
+    },
+    {
+        id: 42,
+        image: XIAOMIRedmi,
+        text: 'XIAOMI Redmi 12 6.79"4GB RAM/128GB ROM Android 13 - Sky Blue',
+        price: (147500),
+        discount: '₦ 199,000',
+        percent: '-26%',
+        official: 'Official store',
+        alt: 'XIAOMI Redmi 12 6.79"4GB RAM/128GB ROM Android 13 - Sky Blue',
+        figure: '(569)'
+    },
+    {
+        id: 43,
+        image: InfinixNote30,
+        text: 'Infinix Note30 6.66" 128GB/8GB RAM Android 13 -Black',
+        price: (162000),
+        discount: '₦ 269,530',
+        percent: '-40%',
+        official: 'Official store',
+        alt: 'Infinix Note30 6.66" 128GB/8GB RAM Android 13 -Black',
+        figure: '(83)'
     },
     {
         id: 44,
-        image: Double,
-        text: '2L Double Spray Humidifier',
-        price: `₦ 9,690`,
-        discount: '₦ 15,510',
-        percent: '-28%',
-        link: '/about/black/friday/deals',
+        image: Wireless_hadeset,
+        text: 'Wireless Headset Bluetooth Earphone',
+        price: (4580),
+        discount: '₦ 4,950',
+        percent: '-7%',
         official: 'Official store',
-        delivery: 'Pay on Delivery',
-        alt: '2L Double Spray Humidifier'
+        alt: 'Wireless Headset Bluetooth Earphone',
+        figure: '(364)'
     },
 ]
+
+export const FashionDeal = [
+    {
+        id: 45,
+        image: Sport,
+        text: 'Sports Canvas Fashion Sneakers - Grey',
+        price: (5900),
+        percent: '-31%',
+        discount: '₦ 7,000',
+        alt: 'Sports Canvas Fashion Sneakers - Grey',
+        figure: '(296)'
+    },
+
+    {
+        id: 46,
+        image: Men_2024,
+        text: '2024 Mens Casual Board Shoes Running Sneakers - White/Black',
+        price: (13250),
+        percent: '-17%',
+        discount: '₦ 15,000',
+        alt: '2024 Mens Casual Board Shoes Running Sneakers - White/Black',
+        figure: '(316)'
+    },
+
+    {
+        id: 47,
+        image: Urban,
+        text: 'UrbanStroll Blue Canvas',
+        price: (9870),
+        percent: '-19%',
+        discount: '₦ 12,250',
+        alt: 'UrbanStroll Blue Canvas',
+        figure: '(2441)'
+    },
+    {
+        id: 48,
+        image: Noo2,
+        text: 'N002 Ladies 2 In 1 Vintage Earrings + Necklace Set-Gold-like',
+        price: (1380),
+        discount: '₦ 1,500',
+        percent: '-8%',
+        alt: 'N002 Ladies 2 In 1 Vintage Earrings + Necklace Set-Gold-like',
+        figure: '(828)'
+    },
+    {
+        id: 49,
+        image: Mejieluo,
+        text: 'MeiJieLuo Men Casual Outdoor Travel Crossbody Bag With USB Port',
+        price: (2900),
+        percent: '-61%',
+        discount: '₦ 7,500',
+        alt: 'MeiJieLuo Men Casual Outdoor Travel Crossbody Bag With USB Port',
+        figure: '(4430)'
+    },
+    {
+        id: 50,
+        image: Mens_casual,
+        text: 'Mens Casual High-Top Shoes Running Sneakers - Beige',
+        price: (13800),
+        percent: '-63%',
+        discount: '₦ 26,888',
+        alt: 'Mens Casual High-Top Shoes Running Sneakers - Beige',
+        figure: '(1798)'
+    },
+    {
+        id: 51,
+        image: Fngeen,
+        text: 'Fngeen 03 Luxury Classy Unisex Watch With Date Week/Coffee',
+        price: (5500),
+        percent: '-75%',
+        discount: '₦ 22,000',
+        alt: 'Fngeen 03 Luxury Classy Unisex Watch With Date Week/Coffee',
+        figure: '(1546)'
+    },
+    {
+        id: 52,
+        image: VEjaro,
+        text: `VEJARO T10  Men's 2 In 1 Short Sleeve T-Shirt & Shorts Set- White`,
+        price: (5380),
+        percent: '-58%',
+        discount: '₦ 12,000',
+        alt: `VEJARO T10  Men's 2 In 1 Short Sleeve T-Shirt & Shorts Set- White`,
+        figure: '(578)'
+    },
+    {
+        id: 53,
+        image: Ashion,
+        text: `ASHION 2024 Men's Casual Shoes Big Size 39-47`,
+        price: (9900),
+        percent: '-41%',
+        discount: '₦ 16,000',
+        alt: `ASHION 2024 Men's Casual Shoes Big Size 39-47`,
+        figure: '(279)'
+    },
+    {
+        id: 54,
+        image: Feng,
+        text: 'Feng Shui Black Obsidian Wealth Bracelet',
+        price: (1200),
+        discount: '₦ 1,500',
+        percent: '-20%',
+        alt: 'Feng Shui Black Obsidian Wealth Bracelet',
+        figure: '(4177)'
+    },
+    {
+        id: 55,
+        image: T_shirt,
+        text: `T-Shirts +Shorts 100% Cotton Men's Short Sleeve Set-White`,
+        price: (6950),
+        discount: '₦ 10,592',
+        percent: '-34%',
+        alt: `T-Shirts +Shorts 100% Cotton Men's Short Sleeve Set-White`,
+        figure: '(583)'
+    },
+    {
+        id: 56,
+        image: Boot,
+        text: `T-Shirts +Shorts 100% Cotton Men's Short Sleeve Set-White`,
+        price: (14890),
+        discount: '₦ 20,795',
+        percent: '-28%',
+        alt: `T-Shirts +Shorts 100% Cotton Men's Short Sleeve Set-White`,
+        figure: '(3347)'
+    },
+]
+
+
+
+
+export const SuperMarketDeal = [
+    {
+        id: 57,
+        image: Grey_groose,
+        text: `Grey Goose L'Orange Premium Flavoured Vodka 100cl`,
+        price: (24195),
+        alt: `Grey Goose L'Orange Premium Flavoured Vodka 100cl`,
+        figure: '(6)'
+    },
+
+    {
+        id: 58,
+        image: GiLeefiddich,
+        text: 'Glenfiddich 15 year old',
+        price: (51840),
+        alt: 'Glenfiddich 15 year old',
+        figure: '(4)'
+    },
+
+    {
+        id: 59,
+        image: Sprite,
+        text: 'Sprite Can 33cl x24',
+        price: (5475),
+        alt: 'Sprite Can 33cl x24',
+        figure: '(22)'
+    },
+    {
+        id: 60,
+        image: Star,
+        text: 'Star RADLER L/BEER&CITRUS JUICE CAN 33CL X 24',
+        price: (8875),
+        alt: 'Star RADLER L/BEER&CITRUS JUICE CAN 33CL X 24',
+        figure: '(15)'
+    },
+    {
+        id: 61,
+        image: Ace,
+        text: 'ACE Root Bitters 20cl x24',
+        price: (11335),
+        alt: 'ACE Root Bitters 20cl x24',
+        figure: '(1)'
+    },
+    {
+        id: 62,
+        image: Fanta,
+        text: 'Fanta Pet 1L x12',
+        price: (3795),
+        alt: 'Fanta Pet 1L x12',
+        figure: '(21)'
+    },
+    {
+        id: 63,
+        image: Hollandia,
+        text: 'Hollandia Yoghurt Plain Sweetened 1L x10',
+        price: (9795),
+        alt: 'Hollandia Yoghurt Plain Sweetened 1L x10',
+        figure: '(9)'
+    },
+    {
+        id: 64,
+        image: Predator,
+        text: `Predator Energy Drink Gold Pet 40cl x12`,
+        price: (5380),
+        alt: `Predator Energy Drink Gold Pet 40cl x12`,
+        figure: '(33)'
+    },
+    {
+        id: 65,
+        image: Solid_balm,
+        text: `Solid Balm Air Freshener For Car And Home Use`,
+        price: (2200),
+        alt: `Solid Balm Air Freshener For Car And Home Use`,
+        figure: '(3)'
+    },
+    {
+        id: 66,
+        image: Yara,
+        text: 'YARA Baby Diaper Size 2 Mini 3-6 Kg, Twin Pack (40 Pcs)',
+        price: (2350),
+        alt: 'YARA Baby Diaper Size 2 Mini 3-6 Kg, Twin Pack (40 Pcs)',
+        figure: '(4177)'
+    },
+    {
+        id: 67,
+        image: Golden,
+        text: `Golden Penny Choco Spread 15g x10`,
+        price: (4750),
+        alt: `Golden Penny Choco Spread 15g x10`,
+        figure: '(6)'
+    },
+    {
+        id: 68,
+        image: Monster,
+        text: `Monster Energy Ultra 44cl X24`,
+        price: (14850),
+        alt: `Monster Energy Ultra 44cl X24`,
+        figure: '(12)'
+    },
+]
+
+
+
+export const ElectronicDeal = [
+    {
+        id: 69,
+        image: Outdoor,
+        text: `Outdoor BT Speaker Waterproof RGB Light Subwoofer Portable`,
+        price: (11500),
+        discount: '₦ 17,412',
+        percent: '-34%',
+        alt: `Outdoor BT Speaker Waterproof RGB Light Subwoofer Portable`,
+        figure: '(247)'
+    },
+
+    {
+        id: 70,
+        image: Weyon,
+        text: 'WEYON 817 3.1ch Blutooth Speaker Home Threater With Micro Function',
+        price: (43690),
+        discount: '₦ 66,039',
+        percent: '-34%',
+        alt: 'WEYON 817 3.1ch Blutooth Speaker Home Threater With Micro Function',
+        figure: '(14)'
+    },
+
+    {
+        id: 71,
+        image: Nexus_32,
+        text: 'Nexus 32" Inches FHD TV (H620B(SA) - Black + 2 Years Warranty',
+        price: (80999),
+        discount: '₦ 61,562 ',
+        percent: '-24%',
+        alt: 'Nexus 32" Inches FHD TV (H620B(SA) - Black + 2 Years Warranty',
+        figure: '(12)'
+    },
+    {
+        id: 72,
+        image: Itel_32,
+        text: 'itel 32 Inches LED TV (A3241) + 1 year Warranty',
+        price: (65000),
+        discount: '₦ 72,0000',
+        percent: '-10%',
+        alt: 'itel 32 Inches LED TV (A3241) + 1 year Warranty',
+        figure: '(115)'
+    },
+    {
+        id: 73,
+        image: Bruhm_32,
+        text: 'Bruhm 32" Inches LED TV (BTF-32AN) + Free Wall Bracket + 12 Months Warranty - Black',
+        price: (97190),
+        discount: '₦ 77,751',
+        percent: '-20%',
+        alt: 'Bruhm 32" Inches LED TV (BTF-32AN) + Free Wall Bracket + 12 Months Warranty - Black',
+        figure: '(109)'
+    },
+    {
+        id: 74,
+        image: Wireless,
+        text: 'Wireless Music EarPhone Bluetooth For Android And Iphone Earphones Earbuds Earpiece Hear Pods Headset 5.0 Airpòds Wireless Earpód Headphones',
+        price: (8550),
+        discount: '₦ 24,500',
+        percent: '-65%',
+        alt: 'Wireless Music EarPhone Bluetooth For Android And Iphone Earphones Earbuds Earpiece Hear Pods Headset 5.0 Airpòds Wireless Earpód Headphones',
+        figure: '(251)'
+    },
+    {
+        id: 75,
+        image: itel_20000,
+        text: 'itel 20000mAh  Mobile Power Charge Bank',
+        price: (12500),
+        discount: '₦ 15,000',
+        percent: '-17%',
+        alt: 'itel 20000mAh  Mobile Power Charge Bank',
+        figure: '(195)'
+    },
+    {
+        id: 76,
+        image: Hiker,
+        text: `Hikers 32'' Inch Frameless Android Smart HD LED TV - Black`,
+        price: (98900),
+        discount: '₦ 159,990',
+        percent: '-38%',
+        alt: `Hikers 32'' Inch Frameless Android Smart HD LED TV - Black`,
+        figure: '(313)'
+    },
+    {
+        id: 77,
+        image: Super_X,
+        text: `Super X Bass Bluetooth Home Theatre System 3.1 Speakers`,
+        price: (32950),
+        discount: '₦ 41,999',
+        percent: '-22%',
+        alt: `Super X Bass Bluetooth Home Theatre System 3.1 Speakers`,
+        figure: '(54)'
+    },
+    {
+        id: 78,
+        image: Wireless_Portable,
+        text: 'Wireless Portable Mini Bluetooth Stereo Speaker Waterproof',
+        price: (5999),
+        discount: '₦ 9,525',
+        percent: '-37%',
+        alt: 'Wireless Portable Mini Bluetooth Stereo Speaker Waterproof',
+        figure: '(93)'
+    },
+    {
+        id: 79,
+        image: Infinity_32,
+        text: `Infinity 32" Smart Frameless TV+Netflix,Youtube APP-1 Yr Warranty`,
+        price: (97780),
+        discount: '₦ 120,000',
+        percent: '-30%',
+        alt: `Infinity 32" Smart Frameless TV+Netflix,Youtube APP-1 Yr Warranty`,
+        figure: '(95)'
+    },
+    {
+        id: 80,
+        image: Weyon_32,
+        text: `WEYON 32" Inches LED TV (32WAN)  - Black +1 Year Warranty`,
+        price: (73890),
+        discount: '₦ 105,888',
+        percent: '-30%',
+        alt: `WEYON 32" Inches LED TV (32WAN)  - Black +1 Year Warranty`,
+        figure: '(1259)'
+    },
+]
+
+
+
+
+
+export const BeautyDeal = [
+    {
+        id: 90,
+        image: Sacha,
+        text: `Sacha Buttercup Setting Powder/Finishing Powder For Every Skin`,
+        price: (1799),
+        discount: '₦ 5,000',
+        percent: '-64%',
+        alt: `Sacha Buttercup Setting Powder/Finishing Powder For Every Skin`,
+        figure: '(115)'
+    },
+
+    {
+        id: 91,
+        image: Kiki,
+        text: 'Kiki New Gain Professional Rechargeable Hair Clipper - NG-777',
+        price: (14400),
+        discount: '₦ 12,240',
+        percent: '-15%',
+        alt: 'Kiki New Gain Professional Rechargeable Hair Clipper - NG-777',
+        figure: '(131)'
+    },
+
+    {
+        id: 92,
+        image: Darling,
+        text: 'Darling Superstar   color - bg900',
+        price: (2030),
+        discount: '₦ 1,929',
+        percent: '-5%',
+        alt: 'Darling Superstar   color - bg900',
+        figure: '(7)'
+    },
+    {
+        id: 93,
+        image: NIVEA_Watimagbo,
+        text: 'NIVEA Watimagbo Pack- Perfect & Radiant Body Lotion - 400ml (Pack of 3)',
+        price: (9600),
+        discount: '₦ 10,160',
+        percent: '-10%',
+        alt: 'NIVEA Watimagbo Pack- Perfect & Radiant Body Lotion - 400ml (Pack of 3)',
+        figure: '(544)'
+    },
+    {
+        id: 94,
+        image: Ombre,
+        text: 'Ombre Straight Blunt Wig With Closure T1/30',
+        price: (12000),
+        discount: '₦ 15,000',
+        percent: '-20%',
+        alt: 'Ombre Straight Blunt Wig With Closure T1/30',
+        figure: '(14)'
+    },
+    {
+        id: 95,
+        image: Disaar_Natural,
+        text: 'Disaar Natural Vitamin E Oil 70000 Iu Facial Serum',
+        price: (4000),
+        discount: '₦ 4,500',
+        percent: '-2%',
+        alt: 'Disaar Natural Vitamin E Oil 70000 Iu Facial Serum',
+        figure: '(18)'
+    },
+    {
+        id: 96,
+        image: Disaar_Vitamin,
+        text: 'Disaar Vitamin C  Face Serum/anti-aging,sunburn & Dark Spots Removal',
+        price: (5000),
+        discount: '₦ 5,000',
+        percent: '-0%',
+        alt: 'Disaar Vitamin C  Face Serum/anti-aging,sunburn & Dark Spots Removal',
+        figure: '(135)'
+    },
+    {
+        id: 97,
+        image: Closeup,
+        text: `Closeup Antibacterial Zinc Triple Fresh For Lasting Freshness 130g Triple Pack`,
+        price: (2170),
+        discount: '₦ 2,213',
+        percent: '-2%',
+        alt: `Closeup Antibacterial Zinc Triple Fresh For Lasting Freshness 130g Triple Pack`,
+        figure: '(313)'
+    },
+    {
+        id: 98,
+        image: Mizani,
+        text: `Mizani Coconut Souffle Light Moisturizing Hairdress`,
+        price: (22550),
+        discount: '₦ 23,000',
+        percent: '-2%',
+        alt: `Mizani Coconut Souffle Light Moisturizing Hairdress`,
+        figure: '(5)'
+    },
+    {
+        id: 99,
+        image: Rechargeable,
+        text: 'Rechargeable Metal Simple Style Hair Clipper Black Gold',
+        price: (4490),
+        discount: '₦ 6,990',
+        percent: '-36%',
+        alt: 'Rechargeable Metal Simple Style Hair Clipper Black Gold',
+        figure: '(761)'
+    },
+    {
+        id: 100,
+        image: Lee,
+        text: `Lee Buy Rechargeable Hair Clipper 2000mAh Cordless Clippers With Luxury Packaging`,
+        price: (11320),
+        discount: '₦ 12,000',
+        percent: '-6%',
+        alt: `Lee Buy Rechargeable Hair Clipper 2000mAh Cordless Clippers With Luxury Packaging`,
+        figure: '(327)'
+    },
+    {
+        id: 101,
+        image: Salon,
+        text: `Salon Professional Spray Bottle`,
+        price: (990),
+        discount: '₦ 5,000',
+        percent: '-30%',
+        alt: `Salon Professional Spray Bottle`,
+        figure: '(261)'
+    },
+]
+
+
+
+
+export const Computing = [
+    {
+        id: 105,
+        image: Seagate,
+        text: `Seagate BackUp Plus Slim 500GB Portable Storage Drive`,
+        price: (15400),
+        discount: '₦ 25,000',
+        percent: '-38%',
+        alt: `Seagate BackUp Plus Slim 500GB Portable Storage Drive`,
+        figure: '(82)'
+    },
+
+    {
+        id: 106,
+        image: Classic_led,
+        text: 'Classic Led Gaming Rechargeable Wireless Mouse- White',
+        price: (3250),
+        discount: '₦ 8,997',
+        percent: '-64%',
+        alt: 'Classic Led Gaming Rechargeable Wireless Mouse- White',
+        figure: '(1)'
+    },
+
+    {
+        id: 107,
+        image: Wireless_mouse,
+        text: 'Wireless Mouse Charging Mute Light 2.4G Mouse',
+        price: (3899),
+        discount: '₦ 5,579',
+        percent: '-30%',
+        alt: 'Wireless Mouse Charging Mute Light 2.4G Mouse',
+        figure: '(211)'
+    },
+    {
+        id: 108,
+        image: Bluetooth_charging,
+        text: 'Bluetooth Wireless Mouse Silent Office Rechargeable Mouse',
+        price: (3900),
+        discount: '₦ 7,030',
+        percent: '-45%',
+        alt: 'Bluetooth Wireless Mouse Silent Office Rechargeable Mouse',
+        figure: '(109)'
+    },
+    {
+        id: 109,
+        image: Foldable,
+        text: 'Foldable Bedroom Laptop Study Table',
+        price: (8300),
+        discount: '₦ 11,000',
+        percent: '-23%',
+        alt: 'Foldable Bedroom Laptop Study Table',
+        figure: '(72)'
+    },
+    {
+        id: 110,
+        image: hp_stream,
+        text: 'Hp Stream 11 Intel Celeron D/C  4GB RAM- 64GB HDD WIN 10+MOUSE',
+        price: (99000),
+        discount: '₦ 4,500',
+        percent: '-2%',
+        alt: 'Hp Stream 11 Intel Celeron D/C  4GB RAM- 64GB HDD WIN 10+MOUSE',
+        figure: '(16)'
+    },
+    {
+        id: 111,
+        image: Uwy_128GB,
+        text: 'UWY 128GB Pendrive Flash  Metal High Speed For PC',
+        price: (4360),
+        discount: '₦ 6,000',
+        percent: '-27%',
+        alt: 'UWY 128GB Pendrive Flash  Metal High Speed For PC',
+        figure: '(67)'
+    },
+    {
+        id: 112,
+        image: Airtel,
+        text: `Airtel 4G LTE Universal Mobile MiFi WiFi Internet HotSpot Plus Lan Port & Data Bonus`,
+        price: (12500),
+        discount: '₦ 15,000',
+        percent: '-17%',
+        alt: `Airtel 4G LTE Universal Mobile MiFi WiFi Internet HotSpot Plus Lan Port & Data Bonus`,
+        figure: '(83)'
+    },
+    {
+        id: 113,
+        image: Plastic_foldable,
+        text: `Plastic Foldable Adjustable Stand Holder For Laptop Black`,
+        price: (3250),
+        discount: '₦ 5,599',
+        percent: '-42%',
+        alt: `Plastic Foldable Adjustable Stand Holder For Laptop Black`,
+        figure: '(661)'
+    },
+    {
+        id: 114,
+        image: Steps_laptop,
+        text: '10 Steps Laptop Stand Desktop Stand Can Be Adjusted In',
+        price: (3299),
+        discount: '₦ 5,000',
+        percent: '-34%',
+        alt: '10 Steps Laptop Stand Desktop Stand Can Be Adjusted In',
+        figure: '(404)'
+    },
+    {
+        id: 115,
+        image: Bluetooth_Ultra,
+        text: `Bluetooth Ultra Thin Wireless Mouse 2.4G Charging Black`,
+        price: (3299),
+        discount: '₦ 4,356',
+        percent: '-24%',
+        alt: `Bluetooth Ultra Thin Wireless Mouse 2.4G Charging Black`,
+        figure: '(387)'
+    },
+    {
+        id: 116,
+        image: Uwy_64GB,
+        text: `UWY 64G OTG Multi-function USB Flash Drive Android`,
+        price: (3990),
+        discount: '₦ 4,800',
+        percent: '-17%',
+        alt: `UWY 64G OTG Multi-function USB Flash Drive Android`,
+        figure: '(99)'
+    },
+]
+
+// dummy request
+
+export const fetchData = () =>{
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({allEvent: Computing});
+
+        // request failed
+
+        /* reject({message: "Request Failed"})  */
+      }, 3500);
+    })
+
+  }
+
+
+

@@ -178,3 +178,10 @@
 .store-shop .store-img img{
     border-radius: 5px;
 }
+
+
+@media screen and (max-width:480px){
+    .store-shop {
+        display: none;
+    }
+}

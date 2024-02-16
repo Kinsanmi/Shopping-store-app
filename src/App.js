@@ -1,14 +1,38 @@
 import './App.css';
 import {Routers} from './Router/Routers';
 import { useState, useEffect, useTransition } from 'react';
-import drinks from './Data/Products/Product';
+import { BeautyDeal, Computing, ElectronicDeal, FashionDeal, LargeAppliance, PhoneTablets, SuperMarketDeal, fetchData } from './Data/Products/Product';
 
 import { Loading } from './Components/Loading/Loading';
 
 function App() {
 
   // import array of images to be added to cart
-  const productItems = drinks;
+  const productItems = LargeAppliance;
+  const productItem = PhoneTablets;
+  const product_Item = FashionDeal;
+  const product_Item_Market = SuperMarketDeal;
+  const product_Item_Electronic = ElectronicDeal;
+  const product_Item_Beauty = BeautyDeal;
+  const product_Item_Computing = Computing;
+
+
+  // text search
+
+  const [search, setSearch] = useState(ElectronicDeal);
+
+  const [names, setNames] = useState("");
+
+  const [err, setErr] = useState("")
+
+  const searchInput = () =>{
+    const results = ElectronicDeal.filter((item) => item.text.toLocaleLowerCase().includes(names.toLocaleLowerCase()));
+    setSearch(results);
+  }
+
+  useEffect(()=>{
+    searchInput()
+  },[names])
 
 
   // Notification
@@ -105,24 +129,32 @@ function App() {
     setShowConfirmation(true);
   }
 
-
-
   const [isPending, startTransition ] = useTransition()
 
 
   // Perform loading when window load
-  const [isLoading, setIsLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleClick = () =>{
+  /* const handleClick = () =>{
     window.addEventListener('load', ()=>{
-      setIsLoading(true);
+      setLoading(true);
       // Once the window is loaded
     setTimeout(() => {
-      setIsLoading(false);
+      setLoading(false);
     }, 3500);
     })
+  } */
 
-    
+  const handleClick = async() =>{
+    setLoading(true)
+    try {
+      const res = await fetchData()
+      setSearch(res.allEvent)
+    } catch (error) {
+      setErr(error.message)
+    }finally {
+      setLoading(false)
+    }
   }
 
   useEffect(()=>{
@@ -133,19 +165,35 @@ function App() {
   // perform loading when page is requested
 
   const handlePage = ()=>{
-    setIsLoading(true);
+    setLoading(true);
 
     // Once the window is loaded
     setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
+      setLoading(false);
+    }, 3500);
   }
 
-  
-  return isLoading ? <Loading /> : (
-    <>
+
+  const loadingData = () =>{
+    if(loading) {
+      return <div><Loading /></div>
+    }
+
+    if(err){
+      return <div style={{display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height:"100vh"}}>404 Request Failed</div>
+    }
+
+
+    return (
     <Routers
     productItems={productItems}
+    productItem={productItem}
+    product_Item={product_Item}
+    product_Item_Market={product_Item_Market}
+    product_Item_Electronic={product_Item_Electronic}
+    product_Item_Beauty={product_Item_Beauty}
+    product_Item_Computing={product_Item_Computing}
+    loading={loading}
     handleClick={handleClick}
     handlePage={handlePage}
     cartItems={cartItems}
@@ -155,7 +203,18 @@ function App() {
     removeItem={removeItem}
     setShowConfirmation={showConfirmation}
     deleteNotificationMessage={deleteNotificationMessage}
+    setNames={setNames}
+    search={search}
+    err={err}
     />
+    )
+
+    
+  }
+  
+  return  (
+    <>
+    {loadingData()}
     </>
   );
 }

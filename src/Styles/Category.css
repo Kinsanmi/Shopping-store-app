@@ -13,7 +13,6 @@
 .cat-detail{
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    align-items: center;
     gap: 0.5rem;
 }
 
@@ -25,22 +24,22 @@
 }
 
 .cat-image:hover{
-    transition: 0.2s ease;
+    transition: 0.15s ease;
 }
 
 .cat-image:hover{
     transform: scale(1.01);
     box-shadow: 0px 0px 10px #ccc;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .cat-image p{
     text-align: center;
     font-size: 15px;
-    font-weight: 500;
-    color: #75757a;
+    font-weight: 400;
+    color: #313133;
     text-transform: capitalize;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 
@@ -70,7 +69,6 @@
 .sale-detail{
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    align-items: center;
     gap: 0.5rem;
     padding: 8px 0 0 0 ;
     margin-top: 10px;
@@ -167,6 +165,13 @@
 }
 
 .flash-text .sell .left-arrow{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+
+.black-text .sell .left-arrow{
     font-size: 16px;
     color: #fff;
     margin-left: 5px;
@@ -298,7 +303,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 12px 5% 12px 2%;
-    background-color: #000;
+    background-color: #ffc108;
     border-radius: 5px 5px 0 0;
 }
 
@@ -401,4 +406,188 @@
     font-size: 16px;
     font-weight: 600;
     margin-left: 3px;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .cat-type {
+        background-color: #fff;
+        padding: 6px 5px;
+        border-radius: 5px;
+    }
+
+    .category {
+        padding: 0px 2%;
+        margin-bottom: 10px;
+    }
+
+    .cat-detail {
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .cat-image img {
+        width: 120px;
+        border-radius: 3px;
+        height: auto;
+    }
+
+    .cat-image p {
+        font-size: 13px;
+        padding: 4px 0;
+    }
+
+    .sales {
+        padding: 0px 2%;
+        margin-bottom: 10px;
+    }
+
+    .sale-type {
+        padding: 5px;
+    }
+
+    .sale-detail {
+        grid-template-columns: repeat(3,1fr);
+        gap: 0.2rem;
+        padding: 6px 0 0 0;
+        margin-top: 8px;
+    }
+
+    .sales .sale-type .sale-text {
+        color: #313133;
+        font-size: 1em;
+    }
+
+    .sale-image .name {
+        color: #313133;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 3px;
+    }
+
+    .sale-image .price {
+        color: #313133;
+        font-size: 13px;
+    }
+
+    .sale-image .price {
+        color: #313133;
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 2px;
+        margin-top: 0;
+    }
+
+    .sale-image .dst {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .sale-image .percent {
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .flash {
+        padding: 0px 2%;
+        margin-top: 10px;
+    }
+
+    .flash-detail {
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.2rem;
+        margin-top: 2px;
+    }
+
+    .sale-image .items {
+        color: #313133;
+        font-size: 10px;
+        line-height: 1.1;
+        margin-top: 4px;
+    }
+
+
+    .flash .flash-type .flash-text {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 5%;
+        background-color: #e61601;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .flash-text .f {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 0.85;
+    }
+
+    .timer-start {
+        font-size: 13px;
+    }
+
+    .timer-start .countdown p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .flash-text .sell {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .flash-text .sell .left-arrow {
+        display: none;
+    }
+
+
+    .black-text .sell .left-arrow{
+        display: none;
+    }
+    
+
+    .black {
+        padding: 0px 2%;
+        margin-top: 5px;
+    }
+
+    .black-text .f {
+        font-size: 16px;
+    }
+
+    .black-text .sell {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
+    .black .name {
+        color: #313133;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+
+    .black .black-type .black-text {
+        padding: 6px 2%;
+    }
+
+
+    .black .price {
+        color: #000;
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    .black .dst {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .black .percent {
+        padding: 2px;
+        font-size: 12px;
+    }
+
 }

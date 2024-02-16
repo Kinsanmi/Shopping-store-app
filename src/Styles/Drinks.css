@@ -64,7 +64,7 @@
 
 
 .drink{
-    border-bottom: 1px solid #cccccc;
+    /* border-bottom: 1px solid #cccccc; */
     width: 100%;
 }
 
@@ -144,7 +144,15 @@
 
 .add_item{
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
 }
+
+.add_item .call{
+    display: none;
+}
+
 
 
 .add_item .cart_item{
@@ -260,4 +268,34 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 1.2;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    .add_item .btn-add {
+        position: sticky;
+        font-size: 15px;
+    }
+
+
+    .add_item .call{
+        display: block;
+        color: #f68b1e;
+        padding: 12px;
+        border: 1px solid #f68b1e;
+        border-radius: 4px;
+    }
+
+
+    .add_item .call .ring{
+        font-size: 24px;
+    }
+    
+    .drink-can .heart {
+        display: none;
+    }
+
+    
 }

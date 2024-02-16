@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import {Header} from '../Components/common/Header/Header';
-import { About } from '../Pages/About';
 import { Home } from '../Pages/Home';
 import { Cart } from '../Pages/Cart';
 import {Smirnoff} from '../Smirnoff/Smirnoff';
@@ -26,17 +25,26 @@ import { NiveaPerfect } from '../Smirnoff/NiveaPerfect';
 import { Thermocool } from '../Smirnoff/Thermocool';
 import { Fanta } from '../Smirnoff/Fanta';
 import { Appliance } from '../Collection/Appliance';
+import { PhoneDeals } from '../Collection/PhoneDeals';
+import { FashionDeals } from '../Collection/FashionDeals';
+import { SuperMarket } from '../Collection/SuperMarket';
+import { Electronics } from '../Collection/Electronics';
+import { BeautyDeals } from '../Collection/BeautyDeals';
+import { BackPack } from '../Smirnoff/BackPack';
+import { ItelP55 } from '../Smirnoff/ItelP55';
+import { BM800 } from '../Smirnoff/BM800';
+import { Computing } from '../More Collection/Computing';
+import { Fitness } from '../More Collection/Fitness';
 
 
-export const Routers = ({ productItems, cartItems, handleAddProduct, handleRemoveProduct, removeItem, notificationMessage, handleClick, handlePage, deleteNotificationMessage, showConfirmation }) => {
+export const Routers = ({ productItems, cartItems, handleAddProduct, handleRemoveProduct, removeItem, notificationMessage, handleClick, handlePage, productItem, deleteNotificationMessage, product_Item, product_Item_Market, product_Item_Electronic, product_Item_Beauty, product_Item_Computing, loading, setNames, search }) => {
   return (
     <>
     <Router>
-      <Header cartItems={cartItems.length} handlePage={handlePage} />
+      <Header cartItems={cartItems.length} handlePage={handlePage} setNames={setNames} />
         <Routes>
             <Route path='/' element={ <Navigate to='/store' />} />
-            <Route path='/store' element={ < Home handleClick={handleClick} />} />
-            <Route path='/about/mpl-clearance-sale/' element={ <About productItems={productItems}  handleAddProduct={handleAddProduct}  notificationMessage={notificationMessage} /> } /> 
+            <Route path='/store' element={ < Home handleClick={handleClick} search={search} />} />
             <Route path='/about/smirnoff-x1-intense-chocolate-flavoured-vodka-750ml-x1-smirnoff-mpg1640024.html' element={ <Smirnoff handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/fashion-portable-digital-travel-luggage-weighing-scale' element={ <Portable handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/generic-bluetooth-selfie-stick-tripod-fill-light-shutter-remote' element={ <Bluetooth handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
@@ -57,9 +65,19 @@ export const Routers = ({ productItems, cartItems, handleAddProduct, handleRemov
             <Route path='/guinness-smooth-can-33cl-x-24' element={ <Guinness handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/nivea-perfect-radiant-luminous630-anti-marks-day-cream-spf50-40ml' element={ <NiveaPerfect handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/haier-thermocool-146-liters-chest-freezer-htf-150-siver-3-years-warranty' element={ <Thermocool handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
-            <Route path='/mlp-apploiances' element={ <Appliance handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
+            <Route path='/fashion-3-in-1-backpack-bags-laptop-backpack-grey' element={ <BackPack handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
+            <Route path='/generic-bm800-condenser-microphone-recording-stand-large-diaphragm-live-set-black-silver' element={ <BM800 handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
+            <Route path='/itel-p55-6.6-hd-punch-hole-display-128gb-rom-8gb-green' element={ <ItelP55   handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
+            <Route path='/mlp-apploiances' element={ <Appliance handleAddProduct={handleAddProduct} productItems={productItems} notificationMessage={notificationMessage} /> } />
+            <Route path='/phones-tablets/' element={ <PhoneDeals handleAddProduct={handleAddProduct} productItem={productItem} notificationMessage={notificationMessage} /> } />
+            <Route path='/category-fashion-by-e-shop/' element={ <FashionDeals handleAddProduct={handleAddProduct} product_Item={product_Item} notificationMessage={notificationMessage} /> } />
+            <Route path='/groceries/' element={ <SuperMarket handleAddProduct={handleAddProduct} product_Item_Market={product_Item_Market} notificationMessage={notificationMessage} /> } />
+            <Route path='/electronics/' element={ <Electronics handleAddProduct={handleAddProduct} product_Item_Electronic={product_Item_Electronic} notificationMessage={notificationMessage} /> } />
+            <Route path='/health-beauty/' element={ <BeautyDeals handleAddProduct={handleAddProduct} product_Item_Beauty={product_Item_Beauty} notificationMessage={notificationMessage} /> } />
+            <Route path='/computing' element={ <Computing handleAddProduct={handleAddProduct} product_Item_Computing={product_Item_Computing} notificationMessage={notificationMessage} loading={loading} /> } />
+            <Route path='/computing' element={ <Fitness handleAddProduct={handleAddProduct} product_Item_Computing={product_Item_Computing} notificationMessage={notificationMessage} /> } />
             <Route path='/fanta-drink-50cl-pet-x-12-81076434' element={ <Fanta handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
-            <Route path='/cart' element={ <Cart cartItems={cartItems} removeItem={removeItem} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handlePage={handlePage} /> } />      
+            <Route path='/cart' element={ <Cart cartItems={cartItems} removeItem={removeItem} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handlePage={handlePage}  deleteNotificationMessage={deleteNotificationMessage}/>  } />      
         </Routes>
     </Router>
     </>

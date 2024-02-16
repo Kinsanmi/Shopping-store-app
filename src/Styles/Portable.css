@@ -1,3 +1,27 @@
+.clear-page{
+    background-color: #f1f1f2;
+}
+
+.link_page{
+    padding: 10px 12%;
+    display: flex;
+    align-items: center;
+ }
+
+.link_page a{
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+    font-size: 13.5px;
+    font-weight: 400;
+}
+
+.link_page span{
+    color: #828282;
+    text-transform: capitalize;
+    font-size: 13.5px;
+}
+
 .portable{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -26,7 +50,7 @@
 
 
 .portable .portable-content .portable-img .port-context .port-img img{
-    width: 380px;  
+    width: auto;  
     transition: 0.2s ease; 
 }
 
@@ -121,13 +145,35 @@
 }
 
 
+.portable-detail .detail-img img{
+    width: 100%;
+}
+
+
 .portable-detail .detail{
     font-size: 15px;
     color: rgb(49, 49, 51);
     letter-spacing: 0.4px;
     line-height: 1.5;
     font-weight: 200;
+    transition: 0.4s ease-in-out;
+    max-height: 100%;
 }
+
+
+.portable-detail .detail a{
+    color: #4159ae;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.portable-detail .detail a:hover{
+    text-decoration: underline;
+}
+
+
 
 .portable-detail .detail .kid-img{
     display: flex;
@@ -150,6 +196,9 @@
     font-weight: 200;
     letter-spacing: 0.3px;
 }
+
+
+
 
 .portable-detail .detail .more-detail-pen{
     margin-top: 12px;
@@ -915,3 +964,220 @@
 /* .sell-detail .delivery-detail .product-detail .active{
     background-color: red;
 } */
+
+
+
+@media screen and (max-width: 480px){
+    .link_page {
+        display: none;
+    }
+
+    .portable {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0px 1%;
+    }
+
+    .portable .portable-content .portable-img .port-context {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 0.2rem;
+        width: 100%;
+    }
+
+    .portable .portable-content .portable-img {
+        background-color: #fff;
+        border-radius: 3px;
+        padding: 10px;
+        height: auto;
+        margin: 8px 0;
+    }
+
+    .port-context .port-img .product-share {
+        display: none;
+    }
+
+    .flash-sales .sales-info {
+        padding: 7px ;
+    }
+
+    .variation {
+        margin-bottom: 15px;
+    }
+
+    .report a {
+        display: none;
+    }
+
+    .size {
+        margin-left: 0;
+    }
+
+    .shield .extra {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .promote {
+        color: #75757a;
+        font-size: 16px;
+        background-color: #f1f1f2;
+        padding: 8px 0;
+        border-top: none;
+    }
+
+
+    .shipping {
+        border-bottom: none;
+    }
+
+
+    .drink-can .drink-text {
+        border-bottom:none;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+
+    .portable-detail .detail-img img{
+        display: none;
+    }
+
+    .drink-can .heart-icon {
+        display: none;
+    }
+
+    .portable-detail .port-detail {
+        font-size: 16px;
+        color: #75757a;
+        background-color: #f1f1f2;
+        font-weight: 500;
+        line-height: 1;
+        border-bottom: none;
+        margin-bottom: 10px;
+        padding: 8px 0;
+        text-transform: uppercase;
+    }
+
+    .delivery-context .delivery-content .delivery-text h2 {
+        font-size: 16px;
+        background: #f1f1f2;
+        color: #75757a;
+        border-bottom: none;
+        padding: 8px 15px;
+    }
+
+
+    .delivery-context .delivery-content .delivery-text .free-delivery p {
+        font-size: 15px;
+        color: #313133;
+        padding: 8px 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+    .delivery-context .delivery-content .delivery-text .delivery-location .delivery-place h3 {
+        padding: 8px 15px;
+    }
+
+    .sell-detail .delivery-detail .product-detail {
+        border-bottom: 1px solid #ccc;
+        display: none;
+    }
+
+    .delivery-context .delivery-content .delivery-text .delivery-location .delivery-place .site {
+        padding: 5px 15px;
+    }
+
+    .door-delivery .door-detail .delivery-amount .amt-ready {
+        font-weight: 400;
+    }
+
+    .door-delivery .door-detail .delivery-amount .amt {
+        font-weight: 400;
+    }
+
+    .door-delivery .door-detail .door-list a {
+        color: #3151c3;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .door-delivery {
+        padding: 8px 15px;
+    }
+
+    .portable-detail .detail .kid-img {
+        display: none;
+    }
+
+
+    .portable-detail .detail {
+        color: #000;
+    }
+
+    .portable-detail .detail .more-detail {
+        color: #000;
+
+    }
+
+    .portable-spec .spec-info {
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        padding: 8px 10px;
+        margin-bottom: 10px;
+    }
+
+    .flash-sales .sales-amount .progress-icon .sales-item {
+        font-size: 10px;
+        width: 25%;
+    }
+
+    .flash-sales .sales-amount .progress-icon {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .timer {
+        font-size: 13px;
+    }
+
+    .timer .countdown p {
+        font-size: 13px;
+    }
+
+    .size-adidas {
+        padding: 8px;
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 380px) {
+    .portable .portable-content .portable-img .port-context .port-img img {
+        width: 100%;
+    }
+
+    .portable {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .portable .portable-content .portable-img {
+        padding: 0px;
+    }
+
+    .drink-can .drink-text {
+        font-size: 16px;
+    }
+
+
+    
+}
+

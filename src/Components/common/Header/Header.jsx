@@ -1,6 +1,7 @@
 // React-router-link
 import { Link } from "react-router-dom";
 
+
 // Use state hooks
 import { useState, useEffect } from "react";
 
@@ -32,7 +33,13 @@ import { IoSearchSharp } from "react-icons/io5";
 
 
 
-export const Header = ({cartItems, handlePage}) => {
+export const Header = ({cartItems, handlePage, setNames}) => {
+
+  // scroll to top of page
+  const scrollToTop = ()=>{
+    window.scrollTo(0,0);
+   };
+
 
 
   const [open, setOpen] = useState(false);
@@ -60,6 +67,7 @@ export const Header = ({cartItems, handlePage}) => {
         window.removeEventListener('scroll', changeColor)
       }
     },[])
+
 
   return (
     <>
@@ -93,7 +101,7 @@ export const Header = ({cartItems, handlePage}) => {
         <form action="" id="search" method="get" data-tract-onsubmit="search">
           <div className="find">
             <IoSearchSharp className="search-col"/>
-            <input type="text" placeholder="Search fo products, brands and categories" name="search" aria-label="search" autoComplete="off" required />
+            <input type="text" placeholder="Search fo products, brands and categories" name="name" aria-label="search" autoComplete="off" required onChange={(e)=> {setNames(e.target.value)}}/>
           </div>
           <button className="btn">Search</button>
         </form>
@@ -117,9 +125,8 @@ export const Header = ({cartItems, handlePage}) => {
             </div>
 
             <div className="cart-product">
-              <Link to='/cart'><span><MdOutlineShoppingCart className="cart" /></span>
-              Cart {/* If cart length is greater than zero, show the number of items in cart*/}
-              {/* <span className='cart-length'>{cartItems.length === 0 ? "" : cartItems.length}</span> */}
+              <Link to='/cart' onClick={scrollToTop}><span><MdOutlineShoppingCart className="cart" /></span>
+              Cart
               {cartItems ? <p className="cart-length">{cartItems}</p> : "" }
               </Link>
             </div>

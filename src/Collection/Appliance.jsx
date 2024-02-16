@@ -8,11 +8,12 @@ import { IoMdStar } from "react-icons/io";
 
 import { IoMdStarOutline } from "react-icons/io";
 
+import {Notification} from '../Components/Loading/Notification';
+
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { LargeAppliance } from '../Data/Products/Product';
 
-export const Appliance = () => {
+export const Appliance = ({productItems,handleAddProduct,notificationMessage}) => {
   return (
     <>
     <main className="clear-page">
@@ -34,11 +35,65 @@ export const Appliance = () => {
                             <h3>SHIPPED FORM</h3>
                             <div className="shipped-text">
                                 <input type="checkbox" name="shipping" id="delivery" />
-                                <label htmlFor="delivery">Shipped from abroad</label>
+                                <label className='ship' htmlFor="delivery">Shipped from abroad</label>
                             </div>
                             <div className="shipped-text">
                                 <input type="checkbox" name="shipping" id="delivery" />
                                 <label htmlFor="delivery">Shipped from Nigeria</label>
+                            </div>
+                        </div>
+                        <div className="shipped">
+                            <h3>BRAND</h3>
+                            <div className="shipped-text">
+                                <input type="checkbox" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">915 Generation</label>
+                            </div>
+                            <div className="shipped-text">
+                                <input type="checkbox" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">A4 Fashion</label>
+                            </div>
+                            <div className="shipped-text">
+                                <input type="checkbox" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">AA Fashion</label>
+                            </div>
+                            <div className="shipped-text">
+                                <input type="checkbox" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">ALICE</label>
+                            </div>
+                            <div className="shipped-text">
+                                <input type="checkbox" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">ANENG</label>
+                            </div>
+                        </div>
+                        <div className="shipped">
+                            <h3>PRICE (₦)</h3>
+                            <div className="price-range">
+                                <div className="shipped-text">
+                                    <input type="number" placeholder='Min' min={480} max={919080}/>
+                                </div>
+                                -
+                                <div className="shipped-text">
+                                    <input type="number" placeholder='Min' max={919080} min={480} />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="shipped">
+                            <h3>SELLER SCORE</h3>
+                            <div className="shipped-text">
+                                <input type="radio" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">80% or more</label>
+                            </div>
+                            <div className="shipped-text">
+                                <input type="radio" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">60% or more</label>
+                            </div>
+                            <div className="shipped-text">
+                                <input type="radio" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">40% or more</label>
+                            </div>
+                            <div className="shipped-text">
+                                <input type="radio" name="shipping" id="delivery" />
+                                <label htmlFor="delivery">20% or more</label>
                             </div>
                         </div>
                     </div>
@@ -52,10 +107,10 @@ export const Appliance = () => {
                     </div>
 
                     <div className="appliance-product">
-                        <article className="product-type">
-                            {LargeAppliance.map((product, index)=>{
+                        <div className="product-type">
+                            {productItems.map((product, index)=>{
                                 return (
-                                    <>
+                                    <div className='sort-type'>
                                     <Link key={index} to={product.link}>
                                         <div className="img-c">
                                             <img src={product.image} alt={product.alt} />
@@ -65,7 +120,7 @@ export const Appliance = () => {
                                         <div className="info">
                                             <span className="info-mall">{product.official}</span>
                                             <h3>{product.text}</h3>
-                                            <div className="prc-amount">{product.price}</div>
+                                            <div className="prc-amount">₦ {product.price}</div>
 
                                             <div className="prc-discount">
                                                 <div className="old">{product.discount}</div>
@@ -76,20 +131,23 @@ export const Appliance = () => {
 
                                             <div className="review">
                                                 <div className="stars-review"><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStarOutline className='star-bdg' /><IoMdStarOutline  className='star-bdg'/></div>
-                                                (250)
+                                                {product.figure}
                                             </div>
                                         </div>
                                     </Link>
-                                    <button>Add to cart</button>
-                                    </>
+                                    <div className="product-btn">
+                                        <button className='btn' onClick={()=>{handleAddProduct(product)}}>Add to cart</button>
+                                    </div>
+                                    </div>
                                 )
                             })}
-                        </article>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    {notificationMessage && <Notification />}
     </>
   )
 }
