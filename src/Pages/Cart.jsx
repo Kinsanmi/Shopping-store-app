@@ -134,28 +134,7 @@ export const Cart = ({
         </div>
 
         {deleteNotificationMessage && <DeleteProduct />}
-      </main>
-
-      {cartItems.length !== 0 && (
-        <>
-          <div>
-            <div>Sub total price</div>
-            <div>₦{itemPrice.toFixed(2)}</div>
-          </div>
-          <div>
-            <div>Tax Price</div>
-            <div>₦{taxPrice.toFixed(2)}</div>
-          </div>
-          <div>
-            <div>Shipping Price</div>
-            <div>₦{shippingPrice.toFixed(2)}</div>
-          </div>
-          <div>
-            <div>Total Price</div>
-            <div>₦{totalPrice.toFixed(2)}</div>
-          </div>
-        </>
-      )}
+      </main>  
     </>
   );
 };

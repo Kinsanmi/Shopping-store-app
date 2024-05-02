@@ -78,7 +78,7 @@ export const AmazingOffer = () => {
           <div className="black-type">
             <div className="official-text">
               <div className="official">Official store deal</div>
-              <Link to="/about/sellAll" className="sell">
+              <Link className="sell">
                 See All <IoIosArrowForward className="left-arrow" />
               </Link>
             </div>
@@ -133,14 +133,16 @@ export const AmazingOffer = () => {
           <div className="black-type">
             <div className="best-text">
               <div className="best">Best price</div>
-              <Link to="/about/sellAll" className="sell">
+              <Link className="sell">
                 See All <IoIosArrowForward className="left-arrow" />
               </Link>
             </div>
             <div className="flash-detail">
               {bestDeal.map((sale, index) => {
                 return (
-                  <Link to={sale.link} className="black-image" key={index}>
+                  <Link to={sale.link}
+                   onClick={scrollToTop}
+                   className="black-image" key={index}>
                     <img src={sale.image} alt={sale.alt} />
                     <div className="name">{sale.text}</div>
                     <div className="price">{sale.price}</div>
@@ -162,7 +164,9 @@ export const AmazingOffer = () => {
             <div className="shop-detail">
               {moreCollection.map((shop, index) => {
                 return (
-                  <Link to={shop.link} className="shop-image" key={index}>
+                  <Link to={shop.link} 
+                  onClick={scrollToTop}
+                  className="shop-image" key={index}>
                     <img src={shop.image} alt={shop.alt} />
                   </Link>
                 );
@@ -234,7 +238,7 @@ export const AmazingOffer = () => {
 
             <div className="col_1">
               <div className="col-flex">
-                <div className="svg">Svg icons</div>
+                {/* <div className="svg">Svg</div> */}
 
                 <div className="app">
                   <div className="app-text">DOWNLOAD E-Shop FREE APP</div>
@@ -245,8 +249,8 @@ export const AmazingOffer = () => {
               </div>
 
               <div className="download">
-                <Link>App store</Link>
-                <Link>Google App</Link>
+                <Link className="apps">App store</Link>
+                <Link className="apps">Google App</Link>
               </div>
             </div>
           </div>

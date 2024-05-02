@@ -39,8 +39,26 @@ import { CgSmartHomeRefrigerator } from "react-icons/cg";
 import { GiCookingPot } from "react-icons/gi";
 
 import { AiOutlineMessage } from "react-icons/ai";
+import { useEffect, useState } from "react";
+
+import { images } from "./images";
 
 export const MegaMenu = () => {
+  const [currentView, setCurrentView] = useState(0);
+
+
+
+  useEffect(() => {
+
+    const interval = setInterval(() => {
+      setCurrentView((prevView) => (prevView + 1) % images.length);
+    }, 3000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [images.length]);
+
   return (
     <>
       {/* Mega Navigation menu */}
@@ -1521,7 +1539,16 @@ export const MegaMenu = () => {
 
         {/* swiper */}
         <div className="slide-show">
-          <div className="img">Swiper slide</div>
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className={`slide ${index === currentView ? "active" : ""}`}
+              style={{
+              transform: `translateX(${(index-currentView) *100}% )`,
+             }}
+             
+            ><img src={image.image} alt="" /></div>
+          ))}
         </div>
 
         <div className="store-shop">

@@ -33,7 +33,7 @@ export const Categories = ({ handleClick }) => {
   let interval;
 
   const Timer = () => {
-    const nextDay = new Date("January 12, 2024, 10:00:48").getTime();
+    const nextDay = new Date("March 1, 2024, 10:00:48").getTime();
 
     interval = setInterval(() => {
       const date = new Date().getTime();
@@ -78,8 +78,8 @@ export const Categories = ({ handleClick }) => {
               {category.map((categories, index) => {
                 return (
                   <Link
-                    onClick={handleClick}
-                    to={categories.link}
+                    // onClick={handleClick}
+                    // to={categories.link}
                     className="cat-image"
                     key={index}
                   >
@@ -141,7 +141,7 @@ export const Categories = ({ handleClick }) => {
                   <p>{timerSeconds}s</p>
                 </div>
               </div>
-              <Link to="/about/sellAll" className="sell">
+              <Link className="sell">
                 See All <IoIosArrowForward className="left-arrow" />
               </Link>
             </div>
@@ -175,7 +175,7 @@ export const Categories = ({ handleClick }) => {
           <div className="black-type">
             <div className="black-text">
               <div className="f">Limited Stock deals</div>
-              <Link to="/about/sellAll" className="sell">
+              <Link className="sell">
                 See All <IoIosArrowForward className="left-arrow" />
               </Link>
             </div>

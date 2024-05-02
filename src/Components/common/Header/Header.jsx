@@ -109,15 +109,6 @@ export const Header = ({cartItems, handlePage, setNames}) => {
         <div className="account">
             <div className="acct-setup">          
               <Link className="active" onClick={()=> {openAccount(true)}}><MdSupervisorAccount className="acct" />Account <MdOutlineKeyboardArrowDown /></Link>
-              {open && (
-                <ul className="acct-nav">
-                  <li><Link className="sign-up">Sign up</Link></li>
-                  <li><Link>My Account</Link></li>
-                  <li><Link>Orders</Link></li>
-                  <li><Link>Saved items</Link></li>
-                </ul>
-              )}
-
             </div>
 
             <div className="sing-up">

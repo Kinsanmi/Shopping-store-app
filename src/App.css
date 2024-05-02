@@ -11,7 +11,7 @@
 
 
 body{
-  background: #f1f1f2; 
+  /* background: #000;  */
   
 }
 
@@ -24,6 +24,13 @@ body{
   height: 220vh;
   background-position: center;
   background-repeat: no-repeat;
+  
+}
+
+section{
+  max-width: 1280px;
+  margin-inline: auto;
+  width: 100%;
 }
 
 

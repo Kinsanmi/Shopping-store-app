@@ -364,13 +364,11 @@ export const category = [
         id: 1,
         image: Countdown,
         text: 'Clearance Sale',
-        link: '/about/mpl-clearance-sale/',
     },
     {
         id: 2,
         image: Phones,
         text: '₦5,000 Store',
-        link: '/about/phone/deals'
     },
     {
         id: 3,
