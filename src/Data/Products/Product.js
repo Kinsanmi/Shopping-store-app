@@ -273,7 +273,7 @@ import Boot from '../Image cat/Monospec.jpg';
 
 
 
-import Grey_groose from '../Image cat/Grey Goose.jpg'
+import Grey_goose from '../Image cat/Grey Goose.jpg'
 import GiLeefiddich from '../Image cat/Glenfiddich.jpg'
 import Sprite from '../Image cat/Spirte.jpg'
 import Ace from '../Image cat/ACE Root.jpg'
@@ -2177,7 +2177,7 @@ export const FashionDeal = [
 export const SuperMarketDeal = [
     {
         id: 57,
-        image: Grey_groose,
+        image: Grey_goose,
         text: `Grey Goose L'Orange Premium Flavoured Vodka 100cl`,
         price: (24195),
         alt: `Grey Goose L'Orange Premium Flavoured Vodka 100cl`,
