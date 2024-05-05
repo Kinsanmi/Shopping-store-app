@@ -90,7 +90,7 @@ export const Itel = ({ handleAddProduct, to, label, notificationMessage }) => {
   let interval;
 
   const Timer = () => {
-    const nextDay = new Date("December 28, 2023, 10:00:48").getTime();
+    const nextDay = new Date("May 12, 2023, 10:00:48").getTime();
 
     interval = setInterval(() => {
       const date = new Date().getTime();

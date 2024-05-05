@@ -236,9 +236,68 @@ form .btn:active{
     background-color: #f68b1e;
 }
 
+/* @media screen and (max-width:600px){
+    .container {
+        padding: 0 2%;
+        max-width: 100%;
+        height: 60px;
+    }
+    form .find input {
+        padding: 14px 0;
+        width: 200px;
+        outline: none;
+        border: none;
+    }
+    .contain-img img {
+        width: 100px;
+        margin-right: 80px;
+    }
+    .sing-up{
+        display: none;
+    }
+}
+ */
+
+ @media screen and (min-width: 2500px){
+    .slide-img img {
+        display: block;
+    }
+    .brands {
+        display: block;
+    }
+    .container{
+        padding: 0 0%;
+        max-width: 1400px;
+
+    }
+}
 
 
-@media screen and (max-width: 480px) {
+ @media screen and (max-width:1030px){
+
+    .container {
+        gap: 0.5rem;
+        z-index: 200;
+        padding: 0 3%;
+        max-width: 100%;
+    }
+    form .find input {
+        padding: 14px 0;
+        width: 250px;
+        outline: none;
+        border: none;
+    }
+    
+ }
+
+
+ @media screen and (max-width:800px){
+    .acct-setup .active {
+        display: none;
+    }
+ }
+
+@media screen and (max-width: 520px) {
     .slide-img img {
         display: none;
     }
@@ -261,7 +320,7 @@ form .btn:active{
         display: none;
     }
     .contain-img img {
-        width: 120px;
+        width: 100px;
         margin-right: 0px;
     }
 
@@ -279,18 +338,9 @@ form .btn:active{
 
 
 
-@media screen and (min-width: 2500px){
-    .slide-img img {
-        display: block;
-    }
-    .brands {
-        display: block;
-    }
-    .container{
-        padding: 0 0%;
-        max-width: 1400px;
 
-    }
-}
+
+
+
 
 

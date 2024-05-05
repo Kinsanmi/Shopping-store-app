@@ -567,11 +567,18 @@
 
 
 
+@media screen and (max-width: 1030px){
+    .home-text {
+        padding: 0 4%;
+    }
+    .appliance {
+        padding: 0px 4%;
+    }
+}
 
 
 
-
-@media screen and (max-width:480px){
+@media screen and (max-width:520px){
     .appliance {
         grid-template-columns: 1fr;
         gap: .5rem;

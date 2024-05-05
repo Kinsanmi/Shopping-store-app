@@ -409,9 +409,30 @@
 }
 
 
+/* @media screen and (max-width:600px){
+    .cat-detail {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .flash-detail {
+        grid-template-columns: repeat(4,1fr);
+        gap: 0.2rem;
+        margin-top: 2px;
+    }
+    .sale-detail {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 0.5rem;
+        padding: 8px 0 0 0;
+        margin-top: 10px;
+    }
+} */
+
+@media screen and (max-width:1030px){
+
+}
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:520px) {
     .cat-type {
         background-color: #fff;
         padding: 6px 5px;
@@ -512,7 +533,7 @@
     .flash .flash-type .flash-text {
         display: flex;
         justify-content: space-between;
-        padding: 6px 5%;
+        padding: 12px 5%;
         background-color: #e61601;
         border-radius: 5px 5px 0 0;
     }
@@ -524,7 +545,7 @@
     }
 
     .timer-start {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .timer-start .countdown p {

@@ -60,9 +60,6 @@ function App() {
       localStorage.setItem('cartItems', JSON.stringify(newCartItem));
 
       } else{
-        
-        /* cartItems.push({...product, quantity: 1})
-        setCartItems({cartItems: cartItems}) */
         const newCartItem = [...cartItems, {...product, quantity: 1}]
         setCartItems(newCartItem);
         localStorage.setItem('cartItems', JSON.stringify(newCartItem));
@@ -176,7 +173,7 @@ function App() {
 
   const loadingData = () =>{
     if(loading) {
-      return <div><Loading /></div>
+      return <div className='loads'><Loading /></div>
     }
 
     if(err){

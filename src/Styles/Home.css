@@ -135,9 +135,12 @@
 }
 
 
+@media screen and (max-width:1030px){
+
+}
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:520px) {
   .slides {
     padding: 0px 2%;
     margin-top: 5px;

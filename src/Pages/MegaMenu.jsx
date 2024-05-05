@@ -39,25 +39,11 @@ import { CgSmartHomeRefrigerator } from "react-icons/cg";
 import { GiCookingPot } from "react-icons/gi";
 
 import { AiOutlineMessage } from "react-icons/ai";
-import { useEffect, useState } from "react";
 
-import { images } from "./images";
+import { ImageSlider } from "./ImageSlider";
 
 export const MegaMenu = () => {
-  const [currentView, setCurrentView] = useState(0);
-
-
-
-  useEffect(() => {
-
-    const interval = setInterval(() => {
-      setCurrentView((prevView) => (prevView + 1) % images.length);
-    }, 3000);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, [images.length]);
+  
 
   return (
     <>
@@ -116,9 +102,6 @@ export const MegaMenu = () => {
                               </li>
                               <li>
                                 <Link>canned & packaged foods </Link>
-                              </li>
-                              <li>
-                                <Link>candy & chocolate</Link>
                               </li>
                             </ul>
                           </div>
@@ -254,9 +237,6 @@ export const MegaMenu = () => {
                               <li>
                                 <Link>contraceptive & lubricants</Link>
                               </li>
-                              <li>
-                                <Link>piercing & tattoo supplies</Link>
-                              </li>
                             </ul>
                           </div>
                         </div>
@@ -301,12 +281,6 @@ export const MegaMenu = () => {
                             <ul>
                               <li>
                                 <Link>teeth whitening</Link>
-                              </li>
-                              <li>
-                                <Link>toothbrushes </Link>
-                              </li>
-                              <li>
-                                <Link>toothpaste</Link>
                               </li>
                             </ul>
                           </div>
@@ -627,9 +601,6 @@ export const MegaMenu = () => {
                               <li>
                                 <Link>selfie sticks & tripods</Link>
                               </li>
-                              <li>
-                                <Link>smart watches</Link>
-                              </li>
                             </ul>
                           </div>
                         </div>
@@ -676,9 +647,6 @@ export const MegaMenu = () => {
                               </li>
                               <li>
                                 <Link>nokia</Link>
-                              </li>
-                              <li>
-                                <Link>xiaomi</Link>
                               </li>
                             </ul>
                           </div>
@@ -944,16 +912,6 @@ export const MegaMenu = () => {
                               </li>
                             </ul>
                           </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>kid's fashion</Link>
-                            </h4>
-                            <ul>
-                              <li>
-                                <Link>boy's fashion</Link>
-                              </li>
-                            </ul>
-                          </div>
                         </div>
 
                         <div className="flex-col">
@@ -996,12 +954,6 @@ export const MegaMenu = () => {
                                 <Link>jerseys</Link>
                               </li>
                             </ul>
-                          </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>All fashion</Link>
-                            </h4>
-                            <ul></ul>
                           </div>
                         </div>
 
@@ -1099,9 +1051,6 @@ export const MegaMenu = () => {
                               <li>
                                 <Link>music & sound</Link>
                               </li>
-                              <li>
-                                <Link>bath toys</Link>
-                              </li>
                             </ul>
                           </div>
                         </div>
@@ -1148,9 +1097,6 @@ export const MegaMenu = () => {
                               </li>
                               <li>
                                 <Link>food storage</Link>
-                              </li>
-                              <li>
-                                <Link>highchairs & booster seats</Link>
                               </li>
                             </ul>
                           </div>
@@ -1339,12 +1285,6 @@ export const MegaMenu = () => {
                               <li>
                                 <Link>exercise bands</Link>
                               </li>
-                              <li>
-                                <Link>exercise mats</Link>
-                              </li>
-                              <li>
-                                <Link>jump ropes</Link>
-                              </li>
                             </ul>
                           </div>
                         </div>
@@ -1389,147 +1329,6 @@ export const MegaMenu = () => {
                         </div>
                       </div>
                     </li>
-
-                    <li className="has-child home-kit">
-                      <Link className="kit">
-                        <AiOutlineMessage className="home" />
-                        <div className="icon-large">Other categories</div>
-                      </Link>
-                      <div className="mega">
-                        <div className="flex-col">
-                          <div className="row">
-                            <h4>
-                              <Link>toys & games</Link>
-                            </h4>
-                            <ul>
-                              <li>
-                                <Link>games</Link>
-                              </li>
-                              <li>
-                                <Link>dress uo & pretend paly</Link>
-                              </li>
-                              <li>
-                                <Link>sports & outdoor play</Link>
-                              </li>
-                              <li>
-                                <Link>top toys & games</Link>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>miscellaneous</Link>
-                            </h4>
-                            <ul></ul>
-                          </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>books, movies and music</Link>
-                            </h4>
-                            <ul></ul>
-                          </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>musical instrument</Link>
-                            </h4>
-                            <ul></ul>
-                          </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>pet supplies</Link>
-                            </h4>
-                            <ul></ul>
-                          </div>
-                        </div>
-
-                        <div className="flex-col">
-                          <div className="row">
-                            <h4>
-                              <Link>official stores</Link>
-                            </h4>
-                            <ul>
-                              <li>
-                                <Link>adidas</Link>
-                              </li>
-                              <li>
-                                <Link>nestle</Link>
-                              </li>
-                              <li>
-                                <Link>xiaomi</Link>
-                              </li>
-                              <li>
-                                <Link>huawei</Link>
-                              </li>
-                              <li>
-                                <Link>apple</Link>
-                              </li>
-                              <li>
-                                <Link>intel</Link>
-                              </li>
-                              <li>
-                                <Link>reckitt benckiser</Link>
-                              </li>
-                              <li>
-                                <Link>binatone</Link>
-                              </li>
-                              <li>
-                                <Link>nexus</Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-
-                        <div className="flex-col">
-                          <div className="row ">
-                            <h4>
-                              <Link>grocery</Link>
-                            </h4>
-                            <ul>
-                              <li>
-                                <Link>food cupboards</Link>
-                              </li>
-                              <li>
-                                <Link>baby products</Link>
-                              </li>
-                              <li>
-                                <Link>plastic & paper products</Link>
-                              </li>
-                              <li>
-                                <Link>drinks</Link>
-                              </li>
-                              <li>
-                                <Link>hygiene</Link>
-                              </li>
-                              <li>
-                                <Link>household clothing</Link>
-                              </li>
-                              <li>
-                                <Link>beer, wine & spirits</Link>
-                              </li>
-                            </ul>
-                          </div>
-
-                          <div className="row col">
-                            <h4>
-                              <Link>garden & outdoor</Link>
-                            </h4>
-                            <ul></ul>
-                          </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>industrial & scientific</Link>
-                            </h4>
-                            <ul></ul>
-                          </div>
-                          <div className="row col">
-                            <h4>
-                              <Link>services</Link>
-                            </h4>
-                            <ul></ul>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -1537,19 +1336,7 @@ export const MegaMenu = () => {
           </div>
         </div>
 
-        {/* swiper */}
-        <div className="slide-show">
-          {images.map((image, index) => (
-            <div
-              key={index}
-              className={`slide ${index === currentView ? "active" : ""}`}
-              style={{
-              transform: `translateX(${(index-currentView) *100}% )`,
-             }}
-             
-            ><img src={image.image} alt="" /></div>
-          ))}
-        </div>
+        <ImageSlider/>
 
         <div className="store-shop">
           <div className="store-img">

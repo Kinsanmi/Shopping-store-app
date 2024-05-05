@@ -63,6 +63,7 @@ import { LiaDhl } from "react-icons/lia";
 // Official store imported
 import { Slides } from "../Swiper/Slides";
 
+
 export const AmazingOffer = () => {
   const year = new Date().getFullYear();
 
@@ -103,6 +104,8 @@ export const AmazingOffer = () => {
           </div>
         </div>
       </section>
+
+
 
       {/* Shop collection section */}
       <section>
@@ -238,8 +241,7 @@ export const AmazingOffer = () => {
 
             <div className="col_1">
               <div className="col-flex">
-                {/* <div className="svg">Svg</div> */}
-
+              
                 <div className="app">
                   <div className="app-text">DOWNLOAD E-Shop FREE APP</div>
                   <div className="app-access">

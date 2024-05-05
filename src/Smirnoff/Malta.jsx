@@ -92,7 +92,7 @@ export const Malta = ({ handleAddProduct, to, label, notificationMessage }) => {
   let interval;
 
   const Timer = () => {
-    const nextDay = new Date("January 20, 2024, 10:00:48").getTime();
+    const nextDay = new Date("May 12, 2024, 10:00:48").getTime();
 
     interval = setInterval(() => {
       const date = new Date().getTime();

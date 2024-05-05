@@ -273,7 +273,18 @@
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width:1030px){
+    .row_footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 4% 20px 4%;
+        background-color: #313133;
+        margin-bottom: 25px;
+    }
+}
+
+
+@media screen and (max-width: 520px){
     .add_item .btn-add {
         position: sticky;
         font-size: 15px;

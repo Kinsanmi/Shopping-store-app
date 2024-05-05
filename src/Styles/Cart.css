@@ -314,8 +314,17 @@
 
 
 
+@media screen and (max-width:1030px){
+    .cart-text {
+        height: 100vh;
+        padding: 20px 4%;
+    }
+}
 
-@media screen and (max-width:480px){
+
+
+
+@media screen and (max-width:520px){
     .cart-text {
         padding: 2px 1%;
     }
