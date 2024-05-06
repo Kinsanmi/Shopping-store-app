@@ -8,7 +8,7 @@ export const Loading = () => {
   return (
     <>
       <div className="preloader">
-        <MdStars className='star-icon' />
+        <MdStars className='star-icon'/>
       </div> 
     </>
   )
