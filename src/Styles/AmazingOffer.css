@@ -470,4 +470,7 @@
   .col_1 {
     display: none;
   }
+  .find_type .gender {
+    display: none;
+}
 }
