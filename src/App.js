@@ -21,18 +21,9 @@ function App() {
 
   const [search, setSearch] = useState(ElectronicDeal);
 
-  const [names, setNames] = useState("");
 
   const [err, setErr] = useState("")
 
-  const searchInput = () =>{
-    const results = ElectronicDeal.filter((item) => item.text.toLocaleLowerCase().includes(names.toLocaleLowerCase()));
-    setSearch(results);
-  }
-
-  useEffect(()=>{
-    searchInput()
-  },[names])
 
 
   // Notification
@@ -132,15 +123,6 @@ function App() {
   // Perform loading when window load
   const [loading, setLoading] = useState(false);
 
-  /* const handleClick = () =>{
-    window.addEventListener('load', ()=>{
-      setLoading(true);
-      // Once the window is loaded
-    setTimeout(() => {
-      setLoading(false);
-    }, 3500);
-    })
-  } */
 
   const handleClick = async() =>{
     setLoading(true)

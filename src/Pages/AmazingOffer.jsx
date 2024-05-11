@@ -9,17 +9,8 @@ import "../Styles/AmazingOffer.css";
 import { IoIosArrowForward } from "react-icons/io";
 
 // official store deals imported
-import {
-  ComputDeal,
-  HaierCoolDeals,
-  officialStore,
-  officialStores,
-  officialStoresSecond,
-  xiaomiDeals,
-} from "../Data/Products/Product";
+import {officialStore} from "../Data/Products/Product";
 
-// Electronic deals imported
-import { electronicsDeal } from "../Data/Products/Product";
 
 // SHOP COLLECTION IMPORTED
 import { shopCollection } from "../Data/Products/Product";
@@ -30,17 +21,10 @@ import { moreCollection } from "../Data/Products/Product";
 // Best Price imported
 import { bestDeal } from "../Data/Products/Product";
 
-// Top Phone Deals imported
-import { topDeal } from "../Data/Products/Product";
 
 // Phone Deals imported
 import { PhoneDeal } from "../Data/Products/Product";
 
-// Appliance Deals imported
-import { applianceDeal } from "../Data/Products/Product";
-
-// Top Appliance Deals imported
-import { topApplianceDeal } from "../Data/Products/Product";
 
 // Mail icon
 import { MdEmail } from "react-icons/md";

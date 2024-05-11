@@ -22,9 +22,9 @@ export const Cart = ({
     0
   );
 
-  const taxPrice = itemPrice * 0.14;
+  /* const taxPrice = itemPrice * 0.14;
   const shippingPrice = itemPrice > 30000 ? 0 : 20;
-  const totalPrice = itemPrice + taxPrice + shippingPrice;
+  const totalPrice = itemPrice + taxPrice + shippingPrice; */
 
   /* let num = 11770;
 
