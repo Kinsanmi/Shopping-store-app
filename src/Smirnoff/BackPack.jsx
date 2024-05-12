@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -37,9 +37,6 @@ import { IoMdStar, IoMdStarHalf } from "react-icons/io";
 import { Notification } from "../Components/Loading/Notification";
 
 import { MdCall } from "react-icons/md";
-
-// Mark icon
-import { IoIosCheckmarkCircle } from "react-icons/io";
 
 // Warning icon
 import { PiWarningCircleLight } from "react-icons/pi";

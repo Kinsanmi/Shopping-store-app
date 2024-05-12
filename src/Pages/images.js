@@ -25,14 +25,3 @@ export const images = [
   },
 ];
 
-const slides = document.querySelectorAll(".slide");
-let currentSlide = 1;
-
-const manualNav = function (manual) {
-  slides.forEach((slide) => {
-    slide.classList.remove("active");
-  });
-
-  slides[manual].classList.add('.active');
-  
-};

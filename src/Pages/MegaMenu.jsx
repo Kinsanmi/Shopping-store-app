@@ -38,7 +38,6 @@ import { CgSmartHomeRefrigerator } from "react-icons/cg";
 // Appliance icon
 import { GiCookingPot } from "react-icons/gi";
 
-import { AiOutlineMessage } from "react-icons/ai";
 
 import { ImageSlider } from "./ImageSlider";
 

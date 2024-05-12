@@ -31,7 +31,7 @@ export const ImageSlider = () => {
             key={index}
             className={`slide ${index === slide ? "active" : ""}`}
           >
-            <img src={slider.image} alt="slide-Image" />
+            <img src={slider.image} alt="slide-show" />
             <div className="manual-nav">
               {images.map((_, index) => (
                 <button

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -82,7 +82,6 @@ export const Itel = ({ handleAddProduct, to, label, notificationMessage }) => {
 
   // Countdown timer
 
-  const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
   const [timerSeconds, setTimerSeconds] = useState();
@@ -109,7 +108,6 @@ export const Itel = ({ handleAddProduct, to, label, notificationMessage }) => {
       if (timeRemaining <= 0) {
         clearInterval(interval.current);
       } else {
-        setTimerDays(days);
         setTimerHours(hours);
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);

@@ -2,7 +2,7 @@ import React from "react";
 
 import { useState, useEffect } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -32,8 +32,6 @@ import { FaRegHeart } from "react-icons/fa";
 
 import { IoMdStar, IoMdStarHalf } from "react-icons/io";
 
-// Mark icon
-import { IoIosCheckmarkCircle } from "react-icons/io";
 
 // Warning icon
 import { PiWarningCircleLight } from "react-icons/pi";

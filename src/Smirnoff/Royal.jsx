@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link} from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -75,7 +75,6 @@ export const Royal = ({ handleAddProduct, to, label, notificationMessage }) => {
   };
 
   // Countdown timer
-
   const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
@@ -84,7 +83,7 @@ export const Royal = ({ handleAddProduct, to, label, notificationMessage }) => {
   let interval;
 
   const Timer = () => {
-    const nextDay = new Date("May 12, 2024, 10:00:48").getTime();
+    const nextDay = new Date("May 20, 2024, 10:00:48").getTime();
 
     interval = setInterval(() => {
       const date = new Date().getTime();
@@ -103,7 +102,7 @@ export const Royal = ({ handleAddProduct, to, label, notificationMessage }) => {
       if (timeRemaining <= 0) {
         clearInterval(interval.current);
       } else {
-        setTimerDays(days);
+        setTimerDays(days)
         setTimerHours(hours);
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);
@@ -206,6 +205,9 @@ export const Royal = ({ handleAddProduct, to, label, notificationMessage }) => {
                           <div className="sales-flash">Flash sales</div>
                           <div className="timer">
                             Time Left:
+                            <div className="countdown">
+                              <p>{timerDays}d:</p>
+                            </div>
                             <div className="countdown">
                               <p>{timerHours}h:</p>
                             </div>

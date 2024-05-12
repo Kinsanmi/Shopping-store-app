@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -81,49 +81,7 @@ export const Adidas = ({
     setIsActive(true);
   };
 
-  // Countdown timer
-
-  const [timerDays, setTimerDays] = useState();
-  const [timerHours, setTimerHours] = useState();
-  const [timerMinutes, setTimerMinutes] = useState();
-  const [timerSeconds, setTimerSeconds] = useState();
-
-  let interval;
-
-  const Timer = () => {
-    const nextDay = new Date("May 12, 2024, 10:00:48").getTime();
-
-    interval = setInterval(() => {
-      const date = new Date().getTime();
-      const timeRemaining = nextDay - date;
-
-      const second = 1000;
-      const minute = second * 60;
-      const hour = minute * 60;
-      const day = hour * 24;
-
-      const days = Math.floor(timeRemaining / day);
-      const hours = Math.floor((timeRemaining % day) / hour);
-      const minutes = Math.floor((timeRemaining % hour) / minute);
-      const seconds = Math.floor((timeRemaining % minute) / second);
-
-      if (timeRemaining <= 0) {
-        clearInterval(interval.current);
-      } else {
-        setTimerDays(days);
-        setTimerHours(hours);
-        setTimerMinutes(minutes);
-        setTimerSeconds(seconds);
-      }
-    });
-  };
-
-  useEffect(() => {
-    Timer();
-  });
-
   // image function
-
   const [sliderData, setSliderData] = useState(AdidasImg[0]);
 
   const handleImage = (index) => {
@@ -209,21 +167,6 @@ export const Adidas = ({
                       </div>
 
                       <div className="flash-sales-item">
-                        {/* <div className="sales-info">
-                                    <div className="sales-flash">Flash sales</div>
-                                    <div className="timer">
-                                        Starts on:
-                                        <div className="countdown">
-                                            <p>{timerHours}31</p>
-                                        </div>
-                                        <div className="countdown">
-                                            <p>{timerMinutes}Dec</p>
-                                        </div>
-                                        <div className="countdown">
-                                            <p>{timerSeconds}10:00am</p>
-                                        </div>
-                                    </div>
-                                </div> */}
                         <div className="sales-amount">
                           <div className="discount">
                             <h2>₦ 22,958</h2>

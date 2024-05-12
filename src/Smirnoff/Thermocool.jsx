@@ -1,7 +1,7 @@
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";

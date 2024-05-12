@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -34,19 +34,11 @@ import { FaRegHeart } from "react-icons/fa";
 
 import { IoMdStar, IoMdStarHalf } from "react-icons/io";
 
-// Mark icon
-import { IoIosCheckmarkCircle } from "react-icons/io";
-
-// Warning icon
-import { PiWarningCircleLight } from "react-icons/pi";
-
 // cart icon
 import { MdOutlineShoppingCart } from "react-icons/md";
 
 import {
-  FantaDrink,
-  GuinnessSmooth,
-  PortableImg,
+  FantaDrink
 } from "../Data/Products/Product";
 
 // truck icon
@@ -86,55 +78,7 @@ export const Fanta = ({ handleAddProduct, to, label, notificationMessage }) => {
     setIsActive(true);
   };
 
-  // Countdown timer
 
-  const [timerDays, setTimerDays] = useState();
-  const [timerHours, setTimerHours] = useState();
-  const [timerMinutes, setTimerMinutes] = useState();
-  const [timerSeconds, setTimerSeconds] = useState();
-
-  let interval;
-
-  const Timer = () => {
-    const nextDay = new Date("May 12, 2024, 10:00:48").getTime();
-
-    interval = setInterval(() => {
-      const date = new Date().getTime();
-      const timeRemaining = nextDay - date;
-
-      const second = 1000;
-      const minute = second * 60;
-      const hour = minute * 60;
-      const day = hour * 24;
-
-      const days = Math.floor(timeRemaining / day);
-      const hours = Math.floor((timeRemaining % day) / hour);
-      const minutes = Math.floor((timeRemaining % hour) / minute);
-      const seconds = Math.floor((timeRemaining % minute) / second);
-
-      if (timeRemaining <= 0) {
-        clearInterval(interval.current);
-      } else {
-        setTimerDays(days);
-        setTimerHours(hours);
-        setTimerMinutes(minutes);
-        setTimerSeconds(seconds);
-      }
-    });
-  };
-
-  useEffect(() => {
-    Timer();
-  });
-
-  // image function
-
-  const [sliderData, setSliderData] = useState(PortableImg[0]);
-
-  const handleImage = (index) => {
-    const slider = PortableImg[index];
-    setSliderData(slider);
-  };
 
   return (
     <>
@@ -175,14 +119,6 @@ export const Fanta = ({ handleAddProduct, to, label, notificationMessage }) => {
                         alt="product_image_name-Fanta-Drink 50cl Pet x 12-1"
                       />
 
-                      {/* <div className="port-image">
-                                {PortableImg.map((item, i)=>{
-                                    return (
-                                        <img className={sliderData.id===i ? 'border' : ''} key={item.id} src={item.value} alt='product_image_name-Fashion-Portable Digital  Travel Luggage Weighing Scale-1' onClick={()=> handleImage(i)} />
-                                    )
-                                })}
-                            </div> */}
-
                       <div className="product-share">
                         SHARE THIS PRODUCT
                         <div className="product-icon">
@@ -208,21 +144,7 @@ export const Fanta = ({ handleAddProduct, to, label, notificationMessage }) => {
                       </div>
 
                       <div className="flash-sales-item">
-                        {/* <div className="sales-info">
-                                    <div className="sales-flash">Flash sales</div>
-                                    <div className="timer">
-                                        Time Left:
-                                        <div className="countdown">
-                                            <p>{timerHours}h:</p>
-                                        </div>
-                                        <div className="countdown">
-                                            <p>{timerMinutes}m:</p>
-                                        </div>
-                                        <div className="countdown">
-                                            <p>{timerSeconds}s</p>
-                                        </div>
-                                    </div>
-                                </div> */}
+
                         <div className="sales-amount">
                           <div className="discount">
                             <h2>₦ 2,585</h2>

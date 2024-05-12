@@ -182,7 +182,6 @@ function App() {
     removeItem={removeItem}
     setShowConfirmation={showConfirmation}
     deleteNotificationMessage={deleteNotificationMessage}
-    setNames={setNames}
     search={search}
     err={err}
     />

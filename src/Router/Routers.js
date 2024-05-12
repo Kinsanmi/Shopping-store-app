@@ -51,7 +51,7 @@ export const Routers = ({ productItems, cartItems, handleAddProduct, handleRemov
             <Route path='/nova-2in-1-hair-straightener-and-curler' element={ <Nova handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/malta-guinness-can-330mlx24' element={ <Malta handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/ace-elec-power-banks-2000-mah-utra-slim-portable-fast-charger-ace-elec' element={ <PowerBank handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
-            <Route path='/fashion-kids-leather-martin-boots-girls-boys-sneaker-shoes-brown' element={ <KidLeather handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />/*
+            <Route path='/fashion-kids-leather-martin-boots-girls-boys-sneaker-shoes-brown' element={ <KidLeather handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/20000mah-mobile-power-charger-bank-itel' element={ <Itel handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/dry-comfort-roll-on-for-women-48h-50ml-pack-of-3-nivea' element={ <Nivea handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />
             <Route path='/ace-elec-f9-wireless-fingerprint-touch-bluetooth-headset' element={ <AceElec handleAddProduct={handleAddProduct} notificationMessage={notificationMessage} /> } />

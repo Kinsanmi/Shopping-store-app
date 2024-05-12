@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -32,7 +32,7 @@ import { LiaDhl } from "react-icons/lia";
 // Heart icon
 import { FaRegHeart } from "react-icons/fa";
 
-import { IoMdStar, IoMdStarHalf } from "react-icons/io";
+import { IoMdStar } from "react-icons/io";
 
 import { Notification } from "../Components/Loading/Notification";
 
@@ -70,8 +70,6 @@ import { RiTwitterXLine } from "react-icons/ri";
 
 import { BiMessageError } from "react-icons/bi";
 
-import max from "../Data/Image Product/maxresdefault.jpg";
-
 export const PowerBank = ({
   handleAddProduct,
   to,
@@ -88,7 +86,6 @@ export const PowerBank = ({
   };
 
   // Countdown timer
-
   const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
@@ -116,7 +113,7 @@ export const PowerBank = ({
       if (timeRemaining <= 0) {
         clearInterval(interval.current);
       } else {
-        setTimerDays(days);
+        setTimerDays(days)
         setTimerHours(hours);
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);
@@ -222,6 +219,9 @@ export const PowerBank = ({
                           <div className="sales-flash">Flash sales</div>
                           <div className="timer">
                             Time Left:
+                            <div className="countdown">
+                              <p>{timerDays}d:</p>
+                            </div>
                             <div className="countdown">
                               <p>{timerHours}h:</p>
                             </div>

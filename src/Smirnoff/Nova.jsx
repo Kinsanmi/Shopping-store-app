@@ -2,7 +2,7 @@ import React from "react";
 
 import { useState, useEffect } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -32,8 +32,6 @@ import { FaRegHeart } from "react-icons/fa";
 
 import { IoMdStar, IoMdStarHalf } from "react-icons/io";
 
-// Mark icon
-import { IoIosCheckmarkCircle } from "react-icons/io";
 
 // Warning icon
 import { PiWarningCircleLight } from "react-icons/pi";
@@ -80,7 +78,6 @@ export const Nova = ({ handleAddProduct, to, label, notificationMessage }) => {
 
   // Countdown timer
 
-  const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
   const [timerSeconds, setTimerSeconds] = useState();
@@ -107,7 +104,6 @@ export const Nova = ({ handleAddProduct, to, label, notificationMessage }) => {
       if (timeRemaining <= 0) {
         clearInterval(interval.current);
       } else {
-        setTimerDays(days);
         setTimerHours(hours);
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);

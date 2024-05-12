@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 /* import { Link } from 'react-router-dom'; */
 import { useState } from "react";
 
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 // Arrow icon
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -47,9 +47,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 import {
   KidImg,
-  KidLeather1,
-  MaltaGuinness,
-  MaltaImg,
+  KidLeather1
 } from "../Data/Products/Product";
 
 // truck icon
@@ -96,7 +94,6 @@ export const KidLeather = ({
 
   // Countdown timer
 
-  const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
   const [timerSeconds, setTimerSeconds] = useState();
@@ -123,7 +120,6 @@ export const KidLeather = ({
       if (timeRemaining <= 0) {
         clearInterval(interval.current);
       } else {
-        setTimerDays(days);
         setTimerHours(hours);
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);
